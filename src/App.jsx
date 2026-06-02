@@ -1,5 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 
+// ── EMAILJS (chargé depuis CDN) ───────────────────────────────────────────────
+const EMAILJS_SERVICE  = "service_1nptrap";
+const EMAILJS_TEMPLATE = "template_itawhcd";
+const EMAILJS_KEY      = "RIR2Ybm-QbFnwJtMP";
+
 const IC="#1B2F6E", IC2="#CC1B2A";
 const RC={
   faible:{label:"Faible", bg:"#EAF3DE",color:"#3B6D11",border:"#97C459",dot:"#639922"},
@@ -115,6 +120,14 @@ const FICHE_CM={
 function fmtRef(c,v){return `FRP-${String(c.seq).padStart(3,"0")}-${c.id}-V${v}`;}
 function genCode(){return String(Math.floor(100000+Math.random()*900000));}
 
+// Chargement EmailJS depuis CDN
+if(typeof window!=="undefined"&&!window.emailjs){
+  const s=document.createElement("script");
+  s.src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+  s.onload=()=>window.emailjs.init(EMAILJS_KEY);
+  document.head.appendChild(s);
+}
+
 const IDEALogo=({h=34,white=false})=>{
   const c=white?"#fff":IC, r=white?"#ff7070":IC2;
   return(<svg height={h} viewBox="0 0 420 155" xmlns="http://www.w3.org/2000/svg">
@@ -213,8 +226,26 @@ function LoginPage({onLogin}){
   const sendCode=()=>{
     if(!email.endsWith("@ideaconsult.com.tn")){setErr("Seules les adresses @ideaconsult.com.tn sont autorisées.");return;}
     setLoading(true);setErr("");
-    const c=genCode();setSent(c);setShown(c);
-    setTimeout(()=>{setLoading(false);setStep("code");},1200);
+    const c=genCode();setSent(c);
+    if(typeof window.emailjs!=="undefined"){
+      window.emailjs.send(
+        EMAILJS_SERVICE,
+        EMAILJS_TEMPLATE,
+        {to_email:email, code:c},
+        EMAILJS_KEY
+      ).then(()=>{
+        setShown(""); // email réel envoyé, on n'affiche plus le code
+        setLoading(false);setStep("code");
+      }).catch(()=>{
+        // fallback démo si echec
+        setShown(c);
+        setLoading(false);setStep("code");
+      });
+    } else {
+      // fallback démo (EmailJS non chargé)
+      setShown(c);
+      setTimeout(()=>{setLoading(false);setStep("code");},1200);
+    }
   };
   const verify=()=>{ code===sent?onLogin(email):setErr("Code incorrect."); };
 
@@ -243,10 +274,18 @@ function LoginPage({onLogin}){
             <button onClick={()=>{setStep("email");setCode("");setErr("");}} style={{background:"none",border:"none",cursor:"pointer",color:"#bbb",fontSize:12,padding:"0 0 1rem"}}>← Modifier l'email</button>
             <p style={{fontWeight:700,fontSize:17,color:IC,margin:"0 0 6px"}}>Code de vérification</p>
             <p style={{fontSize:13,color:"#777",margin:"0 0 1rem"}}>Envoyé à <strong style={{color:IC}}>{email}</strong></p>
-            <div style={{background:"#EAF3DE",border:"1px solid #97C459",borderRadius:8,padding:"10px 14px",marginBottom:"1rem",textAlign:"center"}}>
-              <p style={{margin:0,fontSize:10,color:"#3B6D11",marginBottom:4,textTransform:"uppercase",letterSpacing:1}}>Démo — code simulé</p>
-              <p style={{margin:0,fontSize:28,fontWeight:800,letterSpacing:8,color:IC,fontFamily:"monospace"}}>{shown}</p>
-            </div>
+            {shown&&(
+              <div style={{background:"#EAF3DE",border:"1px solid #97C459",borderRadius:8,padding:"10px 14px",marginBottom:"1rem",textAlign:"center"}}>
+                <p style={{margin:0,fontSize:10,color:"#3B6D11",marginBottom:4,textTransform:"uppercase",letterSpacing:1}}>Démo — code simulé (EmailJS non actif ici)</p>
+                <p style={{margin:0,fontSize:28,fontWeight:800,letterSpacing:8,color:IC,fontFamily:"monospace"}}>{shown}</p>
+              </div>
+            )}
+            {!shown&&step==="code"&&(
+              <div style={{background:"#F0F3FA",border:"1px solid #d0d8ef",borderRadius:8,padding:"10px 14px",marginBottom:"1rem",textAlign:"center"}}>
+                <p style={{margin:0,fontSize:12,color:IC}}>✉️ Code envoyé sur <strong>{email}</strong></p>
+                <p style={{margin:0,fontSize:11,color:"#888",marginTop:4}}>Vérifiez votre boîte de réception.</p>
+              </div>
+            )}
             <input type="text" maxLength={6} placeholder="·  ·  ·  ·  ·  ·" value={code}
               onChange={e=>{setCode(e.target.value.replace(/\D/g,""));setErr("");}} onKeyDown={e=>e.key==="Enter"&&verify()}
               style={{width:"100%",padding:"13px",borderRadius:8,border:`1.5px solid ${err?"#E24B4A":"#e0e0e0"}`,fontSize:24,textAlign:"center",letterSpacing:8,boxSizing:"border-box",outline:"none",color:"#111",fontWeight:800,fontFamily:"monospace"}}/>
