@@ -601,8 +601,10 @@ export default function App(){
     if(!live) return c;
     return {
       ...c,
-      risk: live.risk || c.risk,
-      lastUpdate: live.lastUpdate || c.lastUpdate,
+      risk          : live.risk           || c.risk,
+      sourceDateStr : live.sourceDateStr  || null,   // date sur diplomatie.gouv.fr
+      dateMAJInterne: live.dateMAJInterne || null,   // date du dernier vrai changement
+      liveVersion   : live.version        || 1,
       derniereMinute: live.derniereMinute || [],
     };
   });
@@ -618,9 +620,10 @@ export default function App(){
   );
 
   const doUpdate=id=>{
+    // L'actualisation ne fait que relancer le scraper (simulé ici)
+    // La version ne s'incrémente QUE si le scraper détecte un vrai changement
     setUpdating(true);
     setTimeout(()=>{
-      setVersions(v=>({...v,[id]:(v[id]||1)+1}));
       setUpdated(id);setUpdating(false);
       setTimeout(()=>setUpdated(null),3000);
     },1600);
@@ -629,7 +632,20 @@ export default function App(){
   const openFiche=c=>{setSel(c);setView("fiche");setTab("securite");setImgErr(false);};
 
   if(view==="fiche"&&sel){
-    const fiche=sel.id==="CM"?FICHE_CM:null;
+    // Priorité : données scrappées > données statiques (FICHE_CM pour démo)
+    const live = liveData[sel.id];
+    const fiche = live && live.securite && live.securite.length > 0 ? {
+      version      : live.version       || 1,
+      lastUpdate   : live.sourceDateStr || "—",
+      validUntil   : live.dateMAJInterne|| "—",
+      derniereMinute: live.derniereMinute|| [],
+      securite     : live.securite      || [],
+      zonesVigilance: live.zonesVigilance|| [],
+      sante        : live.sante         || {vaccins:[], risques:[]},
+      visa         : live.visa          || "—",
+      contacts     : live.contacts      || [],
+      sources      : [{label:"France Diplomatie", url: live.source||"https://www.diplomatie.gouv.fr"}],
+    } : sel.id==="CM" ? FICHE_CM : null;
     const rc=RC[sel.risk];
     const v=versions[sel.id]||1;
     const ref=fmtRef(sel,v);
@@ -659,7 +675,12 @@ export default function App(){
         <div style={{maxWidth:740,margin:"0 auto",padding:"1.5rem 1rem"}}>
           <div style={{background:"white",border:"1px solid #e8e8e8",borderLeft:`4px solid ${IC}`,borderRadius:10,padding:"10px 16px",marginBottom:"1rem",display:"flex",gap:20,flexWrap:"wrap",alignItems:"center",justifyContent:"space-between"}}>
             <div style={{display:"flex",gap:20,flexWrap:"wrap"}}>
-              {[["Référence",ref,true],["Mise à jour",fiche?.lastUpdate||"—",false],["Valide jusqu'au",fiche?.validUntil||"—",false],["Version",`V${v}`,true]].map(([l,val,mono],i)=>(
+              {[
+              ["Référence",fmtRef(sel, sel.liveVersion||v),true],
+              ["Mis à jour (source)",sel.sourceDateStr||fiche?.lastUpdate||"—",false],
+              ["Mis à jour (interne)",sel.dateMAJInterne||fiche?.lastUpdate||"—",false],
+              ["Version",`V${sel.liveVersion||v}`,true]
+            ].map(([l,val,mono],i)=>(
                 <div key={i}><p style={{margin:0,fontSize:9,color:"#bbb",textTransform:"uppercase",letterSpacing:1}}>{l}</p><p style={{margin:0,fontWeight:700,fontSize:12,color:IC,fontFamily:mono?"monospace":"inherit"}}>{val}</p></div>
               ))}
             </div>
