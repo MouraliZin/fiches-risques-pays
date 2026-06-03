@@ -22,6 +22,20 @@ PAYS = {
     "ZM":"zambie","ZW":"zimbabwe",
 }
 
+NAMES = {
+    "DZ":"Algérie","AO":"Angola","BJ":"Bénin","BW":"Botswana","BF":"Burkina Faso",
+    "BI":"Burundi","CM":"Cameroun","CV":"Cap-Vert","CF":"Centrafrique","KM":"Comores",
+    "CG":"Congo","CD":"Congo RDC","CI":"Côte d'Ivoire","DJ":"Djibouti","EG":"Égypte",
+    "ER":"Érythrée","SZ":"Eswatini","ET":"Éthiopie","GA":"Gabon","GM":"Gambie",
+    "GH":"Ghana","GN":"Guinée","GQ":"Guinée Éq.","GW":"Guinée-Bissau","KE":"Kenya",
+    "LS":"Lesotho","LR":"Libéria","LY":"Libye","MG":"Madagascar","MW":"Malawi",
+    "ML":"Mali","MA":"Maroc","MR":"Mauritanie","MU":"Maurice","MZ":"Mozambique",
+    "NA":"Namibie","NE":"Niger","NG":"Nigéria","UG":"Ouganda","RW":"Rwanda",
+    "ST":"São Tomé","SN":"Sénégal","SL":"Sierra Leone","SO":"Somalie","SD":"Soudan",
+    "SS":"Soudan du Sud","TZ":"Tanzanie","TD":"Tchad","TG":"Togo","TN":"Tunisie",
+    "ZA":"Afrique du Sud","ZM":"Zambie","ZW":"Zimbabwe",
+}
+
 RISK_DEFAULT = {
     "DZ":"modere","AO":"modere","BJ":"modere","BW":"faible","BF":"eleve",
     "BI":"eleve","CM":"modere","CV":"faible","CF":"eleve","KM":"modere",
@@ -36,67 +50,66 @@ RISK_DEFAULT = {
     "ZA":"modere","ZM":"faible","ZW":"modere",
 }
 
-BASE_RSS  = "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/{slug}/?xtor=RSS-2"
-BASE_PAGE = "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/{slug}/"
+# URLs par section (nouvelle structure du site)
+def urls(slug):
+    base = f"https://www.diplomatie.gouv.fr/fr/information-par-pays/{slug}"
+    return {
+        "securite" : f"{base}/conseils-aux-voyageurs-securite",
+        "sante"    : f"{base}/conseils-aux-voyageurs-sante",
+        "visa"     : f"{base}/conseils-aux-voyageurs-entree-sejour",
+        "contacts" : f"{base}/conseils-aux-voyageurs-contacts-utiles",
+        "rss"      : f"https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/{slug}/?xtor=RSS-2",
+        "main"     : f"https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/{slug}/",
+    }
 
-# ── Utilitaires ───────────────────────────────────────────────────────────────
+# ── Fetch ─────────────────────────────────────────────────────────────────────
 def fetch(url, timeout=15):
     try:
-        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "fr-FR,fr;q=0.9",
+        })
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return r.read().decode("utf-8", errors="replace")
     except Exception as e:
-        print(f"    ⚠ fetch error: {e}")
+        print(f"    ⚠ {url[-50:]} → {e}")
         return None
 
-def clean(text):
-    """Nettoie le HTML : supprime balises, normalise espaces."""
-    text = re.sub(r"<[^>]+>", " ", text or "")
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+# ── Nettoyage ─────────────────────────────────────────────────────────────────
+def clean(t):
+    t = re.sub(r"<[^>]+>", " ", t or "")
+    t = re.sub(r"&amp;","&", t)
+    t = re.sub(r"&nbsp;"," ", t)
+    t = re.sub(r"&[a-z]+;","", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
 
-def extract_between(html, start_marker, end_marker):
-    """Extrait le texte HTML entre deux marqueurs."""
-    try:
-        i = html.lower().find(start_marker.lower())
-        if i == -1: return ""
-        j = html.lower().find(end_marker.lower(), i + len(start_marker))
-        if j == -1: return html[i:]
-        return html[i:j]
-    except:
-        return ""
+def sentences(html, min_len=40, max_len=400):
+    """Extrait les phrases significatives d'un bloc HTML."""
+    paras = re.findall(r'<(?:p|li)[^>]*>(.*?)</(?:p|li)>', html, re.DOTALL|re.IGNORECASE)
+    result = []
+    for p in paras:
+        c = clean(p)
+        if min_len <= len(c) <= max_len:
+            result.append(c)
+    return result
 
-def extract_section(html, section_id):
-    """Extrait une section par son id ou titre h2/h3."""
-    pattern = rf'id="{section_id}"[^>]*>(.*?)(?=<h[23]|<section|$)'
-    m = re.search(pattern, html, re.DOTALL | re.IGNORECASE)
-    return m.group(1) if m else ""
-
-def list_items(html_block):
-    """Extrait les items d'une liste <li> sous forme de texte."""
-    items = re.findall(r"<li[^>]*>(.*?)</li>", html_block, re.DOTALL | re.IGNORECASE)
-    return [clean(i) for i in items if clean(i)]
-
-def para_items(html_block):
-    """Extrait les paragraphes <p> sous forme de texte."""
-    items = re.findall(r"<p[^>]*>(.*?)</p>", html_block, re.DOTALL | re.IGNORECASE)
-    return [clean(i) for i in items if len(clean(i)) > 20]
-
-# ── RSS : date source + alertes ───────────────────────────────────────────────
-def parse_rss(slug):
-    xml = fetch(BASE_RSS.format(slug=slug))
+# ── RSS : date + alertes ──────────────────────────────────────────────────────
+def parse_rss(rss_url):
+    xml = fetch(rss_url)
     if not xml:
         return None, []
     try:
         root = ET.fromstring(xml)
-        updated = root.find(".//lastBuildDate") or root.find(".//pubDate")
+        upd = root.find(".//lastBuildDate") or root.find(".//pubDate")
         source_date = None
-        if updated is not None and updated.text:
+        if upd is not None and upd.text:
             try:
-                dt = datetime.strptime(updated.text.strip()[:25], "%a, %d %b %Y %H:%M:%S")
+                dt = datetime.strptime(upd.text.strip()[:25], "%a, %d %b %Y %H:%M:%S")
                 source_date = dt.strftime("%d %b %Y")
             except:
-                source_date = updated.text.strip()[:20]
+                source_date = upd.text.strip()[:20]
         alerts = []
         for item in root.findall(".//item")[:3]:
             t = item.find("title")
@@ -110,260 +123,290 @@ def parse_rss(slug):
     except:
         return None, []
 
-# ── Scraping HTML complet ─────────────────────────────────────────────────────
-def scrape_securite(html):
-    """Extrait les risques sécuritaires."""
-    securite = []
-    # Cherche la section sécurité
-    sec_block = extract_between(html, 'class="fr-accordion__title">Sécurité', '</section>')
-    if not sec_block:
-        sec_block = extract_between(html, '>Sécurité<', '</section>')
-
-    # Risques courants avec leurs niveaux
-    risk_patterns = [
-        (r'terroris\w+', "eleve"),
-        (r'enl[èe]vement', "eleve"),
-        (r'piraterie', "eleve"),
-        (r'criminalit[eé]', "modere"),
-        (r'risque routier', "modere"),
-        (r'manifestation', "faible"),
-        (r'risque naturel', "faible"),
-        (r'trouble[s]? socio', "faible"),
+# ── Date sur la page principale ───────────────────────────────────────────────
+def parse_main_date(html):
+    """Extrait 'Date de mise à jour le : JJ mois AAAA' depuis la page principale."""
+    if not html:
+        return None
+    patterns = [
+        r'mise à jour le\s*[:\s]*(\d{1,2}[/\s]\w+[/\s]\d{4})',
+        r'mise à jour le\s*[:\s]*(\d{2}/\d{2}/\d{4})',
+        r'actualis[ée] le\s*[:\s]*(\d{2}/\d{2}/\d{4})',
+        r'(\d{2}/\d{2}/\d{4})',
     ]
+    for pat in patterns:
+        m = re.search(pat, html, re.IGNORECASE)
+        if m:
+            raw = m.group(1).strip()
+            # Convertit DD/MM/YYYY → DD Mon YYYY
+            try:
+                dt = datetime.strptime(raw, "%d/%m/%Y")
+                return dt.strftime("%d %b %Y")
+            except:
+                return raw
+    return None
 
-    # Cherche les h3/h4 dans la section sécurité pour extraire chaque sous-thème
-    themes = re.findall(
-        r'<h[34][^>]*>(.*?)</h[34]>(.*?)(?=<h[34]|</section|</div>\s*</div>)',
-        sec_block or html[html.lower().find('écurité'):html.lower().find('écurité')+8000],
-        re.DOTALL | re.IGNORECASE
+# ── SÉCURITÉ ──────────────────────────────────────────────────────────────────
+def scrape_securite(html):
+    if not html:
+        return []
+    securite = []
+
+    # Cherche les blocs h2/h3 + contenu
+    blocks = re.findall(
+        r'<h[23][^>]*>(.*?)</h[23]>(.*?)(?=<h[23]|<footer|<aside)',
+        html, re.DOTALL|re.IGNORECASE
     )
 
+    NIVEAU_KEYS = {
+        "eleve" : ["terroris","enlèvement","piraterie","élevé","rouge","interdit","formellement"],
+        "modere": ["criminalité","routier","moderé","modéré","prudence","vigilance","vol","agression"],
+        "faible": ["faible","normal","réduit","stable","calme"],
+    }
+
     seen = set()
-    for title_html, body_html in themes[:10]:
+    for title_html, body_html in blocks:
         title = clean(title_html)
-        body  = clean(body_html)
-        if not title or len(title) > 80 or title in seen:
+        if not title or len(title) > 100 or title in seen:
+            continue
+        # Filtre les titres non pertinents
+        if any(k in title.lower() for k in ["menu","navigation","pied","header","footer","recherche","inscription"]):
             continue
         seen.add(title)
+        body_text = " ".join(sentences(body_html, min_len=20))[:400]
+        if not body_text:
+            body_text = clean(body_html)[:400]
+        if len(body_text) < 20:
+            continue
         # Détermine le niveau
+        combined = (title + body_text).lower()
         niveau = "modere"
-        title_low = title.lower()
-        body_low  = body.lower()
-        if any(k in title_low or k in body_low for k in ["terroris","enlèvement","piraterie","élevé","rouge"]):
-            niveau = "eleve"
-        elif any(k in title_low or k in body_low for k in ["faible","normal","bas","réduit"]):
-            niveau = "faible"
-        if body:
-            securite.append({"label": title, "niveau": niveau, "texte": body[:300]})
+        for niv, keys in NIVEAU_KEYS.items():
+            if any(k in combined for k in keys):
+                niveau = niv
+                break
+        securite.append({"label": title, "niveau": niveau, "texte": body_text})
 
-    # Fallback si rien trouvé
+    # Fallback : extrait des paragraphes significatifs
     if not securite:
-        for keyword, niveau in risk_patterns:
-            m = re.search(rf'(.{{0,30}}{keyword}.{{0,200}})', html, re.IGNORECASE | re.DOTALL)
-            if m:
-                texte = clean(m.group(1))
-                if len(texte) > 30:
-                    securite.append({"label": keyword.capitalize(), "niveau": niveau, "texte": texte[:250]})
+        paras = sentences(html, min_len=60)
+        for p in paras[:6]:
+            niveau = "modere"
+            pl = p.lower()
+            if any(k in pl for k in ["formellement","terroris","enlèvement","interdit"]):
+                niveau = "eleve"
+            elif any(k in pl for k in ["faible","stable"]):
+                niveau = "faible"
+            securite.append({"label": "Information sécurité", "niveau": niveau, "texte": p})
 
     return securite[:8]
 
+# ── ZONES DE VIGILANCE ────────────────────────────────────────────────────────
 def scrape_zones(html):
-    """Extrait les zones de vigilance (rouge/orange/jaune)."""
+    if not html:
+        return []
     zones = []
-    couleurs = {
-        "rouge":  {"mots": ["formellement déconseillé","zone rouge","interdit"], "nom": "Formellement déconseillées"},
-        "orange": {"mots": ["déconseillé sauf","zone orange","impérative"],      "nom": "Déconseillées sauf raison impérative"},
-        "jaune":  {"mots": ["vigilance renforcée","zone jaune","particulière"],   "nom": "Vigilance renforcée"},
-    }
-    for couleur, cfg in couleurs.items():
-        for mot in cfg["mots"]:
-            idx = html.lower().find(mot.lower())
+    configs = [
+        ("rouge",  "Formellement déconseillées",        ["formellement déconseillé","zone rouge"]),
+        ("orange", "Déconseillées sauf raison impérative",["déconseillé sauf","zone orange","raison impérative"]),
+        ("jaune",  "Vigilance renforcée",                ["vigilance renforcée","zone jaune","particulière attention"]),
+    ]
+    html_low = html.lower()
+    for couleur, nom, markers in configs:
+        for marker in markers:
+            idx = html_low.find(marker)
             if idx == -1:
                 continue
-            # Remonte pour trouver le bloc parent
-            block_start = max(0, idx - 200)
-            block_end   = min(len(html), idx + 1500)
-            block = html[block_start:block_end]
-            items = list_items(block)
+            # Extrait le bloc autour du marqueur
+            block = html[max(0, idx-100):min(len(html), idx+2000)]
+            # Cherche les listes dans ce bloc
+            items = []
+            li_items = re.findall(r'<li[^>]*>(.*?)</li>', block, re.DOTALL|re.IGNORECASE)
+            for li in li_items[:8]:
+                c = clean(li)
+                if 10 < len(c) < 200:
+                    items.append(c)
+            # Si pas de liste, prend les phrases du bloc
             if not items:
-                # Essaye avec les paragraphes
-                items = para_items(block)
-            items = [i for i in items if 10 < len(i) < 200][:6]
+                for s in sentences(block, min_len=20, max_len=200):
+                    items.append(s)
+                    if len(items) >= 5:
+                        break
             if items:
-                zones.append({"couleur": couleur, "nom": cfg["nom"], "zones": items})
-                break  # une seule fois par couleur
+                zones.append({"couleur": couleur, "nom": nom, "zones": items[:6]})
+                break
     return zones
 
-def scrape_vaccins(html):
-    """Extrait le tableau des vaccinations."""
+# ── SANTÉ ─────────────────────────────────────────────────────────────────────
+def scrape_sante(html):
+    if not html:
+        return {"vaccins": [], "risques": []}
+
+    # ── Vaccins ──
     vaccins = []
-    # Cherche la section vaccinations
-    vacc_block = extract_between(html, 'accination', '</table>')
-    if not vacc_block:
-        vacc_block = extract_between(html, 'Vaccin', '</table>')
+    VACC_LIST = [
+        ("Fièvre jaune",    ["fièvre jaune","yellow fever"]),
+        ("Hépatite A",      ["hépatite a"]),
+        ("Hépatite B",      ["hépatite b"]),
+        ("Typhoïde",        ["typhoïde","typhoid"]),
+        ("Méningite",       ["méningite"]),
+        ("Rage",            ["rage","rabies"]),
+        ("DTP",             ["diphtérie","tétanos","poliomyélite","dtp"]),
+        ("Paludisme",       ["paludisme","malaria"]),
+        ("Rougeole",        ["rougeole"]),
+        ("Choléra",         ["choléra"]),
+        ("Mpox",            ["mpox","monkeypox"]),
+    ]
+    html_low = html.lower()
+    for nom, keys in VACC_LIST:
+        for key in keys:
+            if key in html_low:
+                idx = html_low.find(key)
+                snippet = html[max(0,idx-50):min(len(html),idx+300)]
+                snippet_low = snippet.lower()
+                if any(k in snippet_low for k in ["obligatoire","exigé","requis","centre agréé"]):
+                    statut = "Obligatoire"
+                elif any(k in snippet_low for k in ["rappel"]):
+                    statut = "Rappel obligatoire"
+                else:
+                    statut = "Recommandé"
+                vaccins.append({"nom": nom, "validite": "Voir médecin", "statut": statut})
+                break
 
-    # Cherche les lignes du tableau
-    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', vacc_block or html, re.DOTALL | re.IGNORECASE)
-    for row in rows[:15]:
-        cells = re.findall(r'<t[dh][^>]*>(.*?)</t[dh]>', row, re.DOTALL | re.IGNORECASE)
-        cells = [clean(c) for c in cells if clean(c)]
-        if len(cells) >= 2 and len(cells[0]) > 2 and len(cells[0]) < 60:
-            nom     = cells[0]
-            validite= cells[1] if len(cells) > 1 else "—"
-            statut  = cells[2] if len(cells) > 2 else "Recommandé"
-            # Détermine le statut
-            if any(k in (nom+statut).lower() for k in ["obligatoire","exigé","requis"]):
-                statut_norm = "Obligatoire"
-            elif any(k in statut.lower() for k in ["rappel"]):
-                statut_norm = "Rappel obligatoire"
-            else:
-                statut_norm = "Recommandé"
-            vaccins.append({"nom": nom, "validite": validite[:60], "statut": statut_norm})
-
-    # Fallback : cherche les vaccins mentionnés dans le texte
-    if not vaccins:
-        vacc_names = ["Fièvre jaune","Hépatite A","Hépatite B","Typhoïde",
-                      "Méningite","Rage","DTP","Paludisme","Poliomyélite"]
-        for nom in vacc_names:
-            if nom.lower() in html.lower():
-                obligatoire = "obligatoire" in html[html.lower().find(nom.lower()):html.lower().find(nom.lower())+200].lower()
-                vaccins.append({
-                    "nom": nom,
-                    "validite": "Voir médecin",
-                    "statut": "Obligatoire" if obligatoire else "Recommandé"
-                })
-    return vaccins[:10]
-
-def scrape_risques_sante(html):
-    """Extrait les risques sanitaires."""
+    # ── Risques sanitaires ──
     risques = []
-    maladies = [
+    MALADIES = [
         "choléra","paludisme","dengue","fièvre jaune","typhoïde","méningite",
         "hépatite","rage","mpox","monkeypox","chikungunya","fièvre de marburg",
         "ébola","poliomyélite","rougeole","hiv","sida","grippe aviaire",
-        "leishmaniose","bilharziose","trypanosomiase"
+        "leishmaniose","bilharziose","trypanosomiase","fièvre typhoïde"
     ]
-    for m in maladies:
-        if m in html.lower():
-            # Cherche une phrase de contexte
-            idx = html.lower().find(m)
-            snippet = clean(html[max(0,idx-30):idx+200])
+    for maladie in MALADIES:
+        if maladie in html_low:
+            idx = html_low.find(maladie)
+            snippet = clean(html[max(0,idx):min(len(html),idx+250)])
             if len(snippet) > 20:
                 risques.append(snippet[:200])
             else:
-                risques.append(m.capitalize())
-    return risques[:10]
+                risques.append(maladie.capitalize())
 
+    return {"vaccins": vaccins[:10], "risques": list(dict.fromkeys(risques))[:10]}
+
+# ── VISA ──────────────────────────────────────────────────────────────────────
 def scrape_visa(html):
-    """Extrait les informations visa/entrée."""
-    # Cherche la section visa
-    visa_block = extract_between(html, '>Entrée / Séjour<', '</section>')
-    if not visa_block:
-        visa_block = extract_between(html, '>Visa<', '</section>')
-    if not visa_block:
-        visa_block = extract_between(html, 'visa', '</section>')
+    if not html:
+        return "Consulter l'ambassade pour les conditions d'entrée en vigueur."
+    relevant = []
+    for s in sentences(html, min_len=40, max_len=500):
+        if any(k in s.lower() for k in ["visa","passeport","entrée","séjour","vaccin","frontière","ambassade","ressortissant"]):
+            relevant.append(s)
+        if len(relevant) >= 4:
+            break
+    return " ".join(relevant)[:700] if relevant else "Consulter l'ambassade pour les conditions d'entrée en vigueur."
 
-    paras = para_items(visa_block or html)
-    visa_paras = [p for p in paras if any(k in p.lower() for k in
-        ["visa","passeport","entrée","séjour","vaccin","frontière","ambassade"])]
-
-    if visa_paras:
-        return " ".join(visa_paras[:3])[:600]
-
-    # Fallback : recherche directe
-    m = re.search(r'(visa[^.]{20,300}\.)', html, re.IGNORECASE | re.DOTALL)
-    if m:
-        return clean(m.group(1))[:400]
-    return "Consulter l'ambassade pour les conditions d'entrée en vigueur."
-
+# ── CONTACTS ─────────────────────────────────────────────────────────────────
 def scrape_contacts(html, country_name):
-    """Extrait les contacts utiles : urgences et hôpitaux."""
+    if not html:
+        return [{"label": f"Ambassade de Tunisie — {country_name}", "valeur": "Consulter le MAE Tunisien"}]
     contacts = []
-    # Cherche la section contacts/urgences
-    cont_block = extract_between(html, '>Contacts<', '</section>')
-    if not cont_block:
-        cont_block = extract_between(html, '>Urgence<', '</section>')
-
-    # Cherche les numéros de téléphone
-    phones = re.findall(
-        r'([A-Za-zÀ-ÿ\s\-/]{5,50})[:\s]+(\+?[\d\s\-\.]{6,20})',
-        cont_block or html
+    # Cherche les patterns "Libellé : +XXX XX XX XX"
+    patterns = [
+        r'([A-Za-zÀ-ÿ\s\(\)\-/\.]{5,60})[:\s]+(\+?[\d\s\.\-]{7,20})',
+        r'(?:Tél|Tel|Téléphone)[.\s:]*(\+?[\d\s\.\-]{7,20})',
+    ]
+    seen_nums = set()
+    # Cherche aussi les labels avant les numéros
+    blocks = re.findall(
+        r'([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s\(\)\-/\.]{4,58})\s*[:\–\-]\s*(\+?[\d][\d\s\.\-]{6,18})',
+        html
     )
-    seen = set()
-    for label, number in phones[:8]:
-        label = label.strip().strip(':').strip()
-        number = number.strip()
-        if label and number and label not in seen and len(label) < 60:
-            contacts.append({"label": label, "valeur": number})
-            seen.add(label)
+    for label, num in blocks[:10]:
+        label = label.strip().rstrip(':–- ')
+        num   = num.strip()
+        # Filtre les faux positifs
+        if len(label) < 4 or any(k in label.lower() for k in ["http","www","@","class","style","div"]):
+            continue
+        if num not in seen_nums and len(num) >= 6:
+            contacts.append({"label": label, "valeur": num})
+            seen_nums.add(num)
 
-    # Toujours ajouter l'ambassade de Tunisie si pas présente
-    if not any("tunisie" in c["label"].lower() or "ambassade" in c["label"].lower() for c in contacts):
-        contacts.append({
-            "label": f"Ambassade de Tunisie — {country_name}",
-            "valeur": "Consulter le MAE Tunisien"
-        })
+    # Ambassade de Tunisie toujours présente
+    if not any("tunisie" in c["label"].lower() for c in contacts):
+        contacts.append({"label": f"Ambassade de Tunisie — {country_name}", "valeur": "Consulter diplomatie.gov.tn"})
+
     return contacts[:8]
 
-def detect_risk(html):
-    """Détecte le niveau de risque global."""
-    t = html.lower()
-    rouge  = t.count("formellement déconseillé") + t.count("zone rouge")
-    orange = t.count("déconseillé sauf")          + t.count("zone orange")
-    if rouge >= 2:             return "eleve"
-    if rouge >= 1 or orange >= 2: return "modere"
-    return "faible"
+# ── VERSIONNEMENT ─────────────────────────────────────────────────────────────
+def compute_version(source_date, existing):
+    prev_source = existing.get("sourceDateStr")
+    prev_ver    = existing.get("version", 1)
+    prev_int    = existing.get("dateMAJInterne")
+    if source_date and source_date != prev_source:
+        return prev_ver + 1, datetime.now().strftime("%d %b %Y"), True
+    return prev_ver, prev_int or datetime.now().strftime("%d %b %Y"), False
 
-# ── Scraping complet d'un pays ────────────────────────────────────────────────
-def scrape_country(iso, slug, existing, country_name):
-    print(f"  [{iso}] {slug}...")
+# ── SCRAPING COMPLET D'UN PAYS ────────────────────────────────────────────────
+def scrape_country(iso, slug, existing):
+    u = urls(slug)
+    name = NAMES.get(iso, iso)
+    print(f"  [{iso}] {name}...")
 
-    source_date, alerts = parse_rss(slug)
-    html = fetch(BASE_PAGE.format(slug=slug)) or ""
+    # 1. RSS → date source + alertes
+    source_date, alerts = parse_rss(u["rss"])
 
-    risk     = detect_risk(html) if html else RISK_DEFAULT.get(iso, "modere")
-    securite = scrape_securite(html)   if html else []
-    zones    = scrape_zones(html)      if html else []
-    vaccins  = scrape_vaccins(html)    if html else []
-    risques  = scrape_risques_sante(html) if html else []
-    visa     = scrape_visa(html)       if html else "—"
-    contacts = scrape_contacts(html, country_name) if html else []
+    # 2. Page principale → date si RSS vide
+    if not source_date:
+        main_html   = fetch(u["main"])
+        source_date = parse_main_date(main_html)
 
-    # ── Logique versionnement ─────────────────────────────────────────────────
-    prev_source_date   = existing.get("sourceDateStr")
-    prev_version       = existing.get("version", 1)
-    prev_internal_date = existing.get("dateMAJInterne")
+    # 3. Pages spécialisées
+    html_sec  = fetch(u["securite"])
+    html_san  = fetch(u["sante"])
+    html_visa = fetch(u["visa"])
+    html_con  = fetch(u["contacts"])
 
-    if source_date and source_date != prev_source_date:
-        changed           = True
-        new_version       = prev_version + 1
-        new_internal_date = datetime.now().strftime("%d %b %Y")
-        print(f"    ✅ Changement : {prev_source_date} → {source_date} (V{prev_version}→V{new_version})")
+    # 4. Contenu
+    risk     = RISK_DEFAULT.get(iso, "modere")
+    if html_sec:
+        t = html_sec.lower()
+        rouge  = t.count("formellement déconseillé") + t.count("zone rouge")
+        orange = t.count("déconseillé sauf")          + t.count("zone orange")
+        if rouge >= 2:               risk = "eleve"
+        elif rouge >= 1 or orange >= 2: risk = "modere"
+        else:                           risk = "faible"
+
+    securite = scrape_securite(html_sec)
+    zones    = scrape_zones(html_sec)
+    sante    = scrape_sante(html_san)
+    visa     = scrape_visa(html_visa)
+    contacts = scrape_contacts(html_con, name)
+
+    # 5. Versionnement
+    new_ver, new_int_date, changed = compute_version(source_date, existing)
+    if changed:
+        print(f"    ✅ Changement : {existing.get('sourceDateStr')} → {source_date} (V{existing.get('version',1)}→V{new_ver})")
     else:
-        changed           = False
-        new_version       = prev_version
-        new_internal_date = prev_internal_date or datetime.now().strftime("%d %b %Y")
-        print(f"    ⏸  Inchangé (V{new_version})")
+        print(f"    ⏸  Inchangé (V{new_ver})")
 
     return {
         "iso"            : iso,
-        "sourceDateStr"  : source_date or prev_source_date or "—",
-        "dateMAJInterne" : new_internal_date,
+        "sourceDateStr"  : source_date or existing.get("sourceDateStr","—"),
+        "dateMAJInterne" : new_int_date,
         "risk"           : risk,
-        "version"        : new_version,
+        "version"        : new_ver,
         "derniereMinute" : alerts,
         "securite"       : securite,
         "zonesVigilance" : zones,
-        "sante"          : {"vaccins": vaccins, "risques": risques},
+        "sante"          : sante,
         "visa"           : visa,
         "contacts"       : contacts,
-        "source"         : BASE_PAGE.format(slug=slug),
+        "source"         : u["main"],
         "scrapedAt"      : datetime.now().isoformat(),
     }, changed
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
-    print(f"\n🚀 Scraping complet démarré — {datetime.now().strftime('%d/%m/%Y %H:%M')}\n")
+    print(f"\n🚀 Scraping démarré — {datetime.now().strftime('%d/%m/%Y %H:%M')}\n")
 
     data_path = Path("public/data.json")
     existing_data = {}
@@ -374,46 +417,24 @@ def main():
         except:
             pass
 
-    # Noms français pour les contacts
-    NAMES = {
-        "DZ":"Algérie","AO":"Angola","BJ":"Bénin","BW":"Botswana","BF":"Burkina Faso",
-        "BI":"Burundi","CM":"Cameroun","CV":"Cap-Vert","CF":"Centrafrique","KM":"Comores",
-        "CG":"Congo","CD":"Congo RDC","CI":"Côte d'Ivoire","DJ":"Djibouti","EG":"Égypte",
-        "ER":"Érythrée","SZ":"Eswatini","ET":"Éthiopie","GA":"Gabon","GM":"Gambie",
-        "GH":"Ghana","GN":"Guinée","GQ":"Guinée Éq.","GW":"Guinée-Bissau","KE":"Kenya",
-        "LS":"Lesotho","LR":"Libéria","LY":"Libye","MG":"Madagascar","MW":"Malawi",
-        "ML":"Mali","MA":"Maroc","MR":"Mauritanie","MU":"Maurice","MZ":"Mozambique",
-        "NA":"Namibie","NE":"Niger","NG":"Nigéria","UG":"Ouganda","RW":"Rwanda",
-        "ST":"São Tomé","SN":"Sénégal","SL":"Sierra Leone","SO":"Somalie","SD":"Soudan",
-        "SS":"Soudan du Sud","TZ":"Tanzanie","TD":"Tchad","TG":"Togo","TN":"Tunisie",
-        "ZA":"Afrique du Sud","ZM":"Zambie","ZW":"Zimbabwe",
-    }
-
-    results      = {}
-    changed_count = 0
-
+    results, changed_count = {}, 0
     for iso, slug in PAYS.items():
         try:
-            data, changed = scrape_country(iso, slug, existing_data.get(iso, {}), NAMES.get(iso, iso))
+            data, changed = scrape_country(iso, slug, existing_data.get(iso, {}))
             results[iso]  = data
-            if changed:
-                changed_count += 1
+            if changed: changed_count += 1
         except Exception as e:
             print(f"    ❌ Erreur {iso}: {e}")
-            results[iso] = existing_data.get(iso, {"iso": iso, "risk": RISK_DEFAULT.get(iso,"modere"), "version":1})
-
-    output = {
-        "generatedAt" : datetime.now().isoformat(),
-        "totalChanged": changed_count,
-        "countries"   : results,
-    }
+            results[iso] = existing_data.get(iso, {
+                "iso": iso, "risk": RISK_DEFAULT.get(iso,"modere"), "version": 1
+            })
 
     data_path.parent.mkdir(parents=True, exist_ok=True)
     with open(data_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump({"generatedAt": datetime.now().isoformat(), "totalChanged": changed_count, "countries": results},
+                  f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Terminé — {len(results)} pays · {changed_count} mis à jour")
-    print(f"📁 public/data.json sauvegardé\n")
+    print(f"\n✅ Terminé — {len(results)} pays · {changed_count} changements détectés")
 
 if __name__ == "__main__":
     main()
