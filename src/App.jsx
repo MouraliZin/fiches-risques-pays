@@ -300,7 +300,7 @@ function LoginPage({onLogin}){
 }
 
 // ── CARTE AFRIQUE ─────────────────────────────────────────────────────────────
-function AfricaMap({onSelect}){
+function AfricaMap({onSelect, countries}){
   const [hov,setHov]=useState(null);
   const [tip,setTip]=useState(null);
   const [search,setSearch]=useState("");
@@ -581,8 +581,41 @@ export default function App(){
   const [updating,setUpdating]=useState(false);
   const [updated,setUpdated]=useState(null);
   const [imgErr,setImgErr]=useState(false);
+  const [liveData,setLiveData]=useState({});
+  const [dataLoaded,setDataLoaded]=useState(false);
+
+  // Chargement de public/data.json au démarrage
+  useEffect(()=>{
+    fetch("/data.json")
+      .then(r=>r.json())
+      .then(json=>{
+        if(json.countries) setLiveData(json.countries);
+        setDataLoaded(true);
+      })
+      .catch(()=>setDataLoaded(true)); // fallback silencieux si fichier absent
+  },[]);
+
+  // Fusionne les données statiques avec les données scrappées
+  const countries = ALL_AFRICA.map(c=>{
+    const live = liveData[c.id];
+    if(!live) return c;
+    return {
+      ...c,
+      risk: live.risk || c.risk,
+      lastUpdate: live.lastUpdate || c.lastUpdate,
+      derniereMinute: live.derniereMinute || [],
+    };
+  });
 
   if(!auth)return <LoginPage onLogin={e=>setAuth(e)}/>;
+
+  // Indicateur chargement données
+  if(!dataLoaded) return(
+    <div style={{minHeight:"100vh",background:IC,display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column",gap:16}}>
+      <IDEALogo h={48} white/>
+      <p style={{color:"rgba(255,255,255,0.6)",fontSize:13}}>Chargement des données en cours…</p>
+    </div>
+  );
 
   const doUpdate=id=>{
     setUpdating(true);
@@ -674,7 +707,7 @@ export default function App(){
         </div>
       </header>
       <div style={{flex:1,overflow:"hidden"}}>
-        <AfricaMap onSelect={openFiche}/>
+        <AfricaMap onSelect={openFiche} countries={countries}/>
       </div>
     </div>
   );
