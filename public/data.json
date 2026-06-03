@@ -1,4 +1,429 @@
 {
-  "generatedAt": "2026-06-02T00:00:00",
-  "countries": {}
+  "generatedAt": "2026-06-03T09:02:04.902864",
+  "countries": {
+    "DZ": {
+      "iso": "DZ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/algerie/",
+      "scrapedAt": "2026-06-03T09:01:04.043553"
+    },
+    "AO": {
+      "iso": "AO",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/angola/",
+      "scrapedAt": "2026-06-03T09:01:05.391390"
+    },
+    "BJ": {
+      "iso": "BJ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/benin/",
+      "scrapedAt": "2026-06-03T09:01:06.561678"
+    },
+    "BW": {
+      "iso": "BW",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/botswana/",
+      "scrapedAt": "2026-06-03T09:01:08.209839"
+    },
+    "BF": {
+      "iso": "BF",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burkina-faso/",
+      "scrapedAt": "2026-06-03T09:01:10.132125"
+    },
+    "BI": {
+      "iso": "BI",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burundi/",
+      "scrapedAt": "2026-06-03T09:01:11.393880"
+    },
+    "CM": {
+      "iso": "CM",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cameroun/",
+      "scrapedAt": "2026-06-03T09:01:12.773575"
+    },
+    "CV": {
+      "iso": "CV",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cap-vert/",
+      "scrapedAt": "2026-06-03T09:01:13.945298"
+    },
+    "CF": {
+      "iso": "CF",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-centrafricaine/",
+      "scrapedAt": "2026-06-03T09:01:15.049056"
+    },
+    "KM": {
+      "iso": "KM",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/comores/",
+      "scrapedAt": "2026-06-03T09:01:16.150906"
+    },
+    "CG": {
+      "iso": "CG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/congo/",
+      "scrapedAt": "2026-06-03T09:01:17.533627"
+    },
+    "CD": {
+      "iso": "CD",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-democratique-du-congo/",
+      "scrapedAt": "2026-06-03T09:01:18.703839"
+    },
+    "CI": {
+      "iso": "CI",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/",
+      "scrapedAt": "2026-06-03T09:01:19.281404"
+    },
+    "DJ": {
+      "iso": "DJ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/djibouti/",
+      "scrapedAt": "2026-06-03T09:01:20.832710"
+    },
+    "EG": {
+      "iso": "EG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/egypte/",
+      "scrapedAt": "2026-06-03T09:01:21.921372"
+    },
+    "ER": {
+      "iso": "ER",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/erythree/",
+      "scrapedAt": "2026-06-03T09:01:22.942213"
+    },
+    "SZ": {
+      "iso": "SZ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/eswatini/",
+      "scrapedAt": "2026-06-03T09:01:24.209055"
+    },
+    "ET": {
+      "iso": "ET",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ethiopie/",
+      "scrapedAt": "2026-06-03T09:01:25.405491"
+    },
+    "GA": {
+      "iso": "GA",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gabon/",
+      "scrapedAt": "2026-06-03T09:01:26.494131"
+    },
+    "GM": {
+      "iso": "GM",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gambie/",
+      "scrapedAt": "2026-06-03T09:01:27.594239"
+    },
+    "GH": {
+      "iso": "GH",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ghana/",
+      "scrapedAt": "2026-06-03T09:01:28.596407"
+    },
+    "GN": {
+      "iso": "GN",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee/",
+      "scrapedAt": "2026-06-03T09:01:30.025032"
+    },
+    "GQ": {
+      "iso": "GQ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-equatoriale/",
+      "scrapedAt": "2026-06-03T09:01:31.042841"
+    },
+    "GW": {
+      "iso": "GW",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-bissau/",
+      "scrapedAt": "2026-06-03T09:01:31.668379"
+    },
+    "KE": {
+      "iso": "KE",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
+      "scrapedAt": "2026-06-03T09:01:32.837188"
+    },
+    "LS": {
+      "iso": "LS",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/lesotho/",
+      "scrapedAt": "2026-06-03T09:01:34.088132"
+    },
+    "LR": {
+      "iso": "LR",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/liberia/",
+      "scrapedAt": "2026-06-03T09:01:35.574451"
+    },
+    "LY": {
+      "iso": "LY",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/libye/",
+      "scrapedAt": "2026-06-03T09:01:36.667118"
+    },
+    "MG": {
+      "iso": "MG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/madagascar/",
+      "scrapedAt": "2026-06-03T09:01:37.855655"
+    },
+    "MW": {
+      "iso": "MW",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/malawi/",
+      "scrapedAt": "2026-06-03T09:01:38.903935"
+    },
+    "ML": {
+      "iso": "ML",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mali/",
+      "scrapedAt": "2026-06-03T09:01:39.913389"
+    },
+    "MA": {
+      "iso": "MA",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/",
+      "scrapedAt": "2026-06-03T09:01:41.005223"
+    },
+    "MR": {
+      "iso": "MR",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mauritanie/",
+      "scrapedAt": "2026-06-03T09:01:42.087527"
+    },
+    "MU": {
+      "iso": "MU",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maurice/",
+      "scrapedAt": "2026-06-03T09:01:43.175433"
+    },
+    "MZ": {
+      "iso": "MZ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mozambique/",
+      "scrapedAt": "2026-06-03T09:01:44.272566"
+    },
+    "NA": {
+      "iso": "NA",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/namibie/",
+      "scrapedAt": "2026-06-03T09:01:45.278543"
+    },
+    "NE": {
+      "iso": "NE",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/niger/",
+      "scrapedAt": "2026-06-03T09:01:46.388116"
+    },
+    "NG": {
+      "iso": "NG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/nigeria/",
+      "scrapedAt": "2026-06-03T09:01:47.499052"
+    },
+    "UG": {
+      "iso": "UG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ouganda/",
+      "scrapedAt": "2026-06-03T09:01:48.514493"
+    },
+    "RW": {
+      "iso": "RW",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/rwanda/",
+      "scrapedAt": "2026-06-03T09:01:49.755791"
+    },
+    "ST": {
+      "iso": "ST",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sao-tome-et-principe/",
+      "scrapedAt": "2026-06-03T09:01:51.102435"
+    },
+    "SN": {
+      "iso": "SN",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/",
+      "scrapedAt": "2026-06-03T09:01:52.261260"
+    },
+    "SL": {
+      "iso": "SL",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sierra-leone/",
+      "scrapedAt": "2026-06-03T09:01:53.528972"
+    },
+    "SO": {
+      "iso": "SO",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/somalie/",
+      "scrapedAt": "2026-06-03T09:01:54.806559"
+    },
+    "SD": {
+      "iso": "SD",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan/",
+      "scrapedAt": "2026-06-03T09:01:56.157191"
+    },
+    "SS": {
+      "iso": "SS",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "eleve",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan-du-sud/",
+      "scrapedAt": "2026-06-03T09:01:57.241302"
+    },
+    "TZ": {
+      "iso": "TZ",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "modere",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
+      "scrapedAt": "2026-06-03T09:01:58.358113"
+    },
+    "TD": {
+      "iso": "TD",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tchad/",
+      "scrapedAt": "2026-06-03T09:01:59.453092"
+    },
+    "TG": {
+      "iso": "TG",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/togo/",
+      "scrapedAt": "2026-06-03T09:02:00.541429"
+    },
+    "TN": {
+      "iso": "TN",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/",
+      "scrapedAt": "2026-06-03T09:02:01.558179"
+    },
+    "ZA": {
+      "iso": "ZA",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/afrique-du-sud/",
+      "scrapedAt": "2026-06-03T09:02:02.590046"
+    },
+    "ZM": {
+      "iso": "ZM",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zambie/",
+      "scrapedAt": "2026-06-03T09:02:03.593876"
+    },
+    "ZW": {
+      "iso": "ZW",
+      "lastUpdate": "03 Jun 2026",
+      "risk": "faible",
+      "derniereMinute": [],
+      "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zimbabwe/",
+      "scrapedAt": "2026-06-03T09:02:04.902853"
+    }
+  }
 }
