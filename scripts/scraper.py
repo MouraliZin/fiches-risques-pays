@@ -1,4 +1,4 @@
-import json, re, urllib.request
+import json, re, urllib.request, urllib.parse
 from xml.etree import ElementTree as ET
 from datetime import datetime
 from pathlib import Path
@@ -49,6 +49,54 @@ RISK_DEFAULT = {
     "SS":"eleve","TZ":"faible","TD":"eleve","TG":"modere","TN":"modere",
     "ZA":"modere","ZM":"faible","ZW":"modere",
 }
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RÉSEAU DIPLOMATIQUE TUNISIEN — ambassade/consulat de rattachement par pays
+# ─────────────────────────────────────────────────────────────────────────────
+# Codé en dur (et non scrappé) car le réseau diplomatique tunisien évolue très
+# lentement et aucune source ne l'expose dans un format stable et fiable à
+# scrapper pour les 54 pays. À vérifier 1-2x/an sur econsulat.tn.
+# Quand un pays n'a pas de mission sur place, il est rattaché à l'ambassade
+# régionale compétente (champ "couvre").
+MISSIONS_TN = {
+    "MA": {"ville":"Rabat","pays":"Maroc","tel":"+212 5 37 73 06 36","email":"at.rabat@diplomatie.gov.tn","couvre":["MA","MR"]},
+    "DZ": {"ville":"Alger","pays":"Algérie","tel":"+213 21 60 13 88","email":"at.alger@diplomatie.gov.tn","couvre":["DZ"]},
+    "LY": {"ville":"Tripoli","pays":"Libye","tel":"+218 21 333 33 92","email":"at.tripoli@diplomatie.gov.tn","couvre":["LY"]},
+    "EG": {"ville":"Le Caire","pays":"Égypte","tel":"+20 2 2736 8962","email":"at.lecaire@diplomatie.gov.tn","couvre":["EG","SD","SS"]},
+    "SN": {"ville":"Dakar","pays":"Sénégal","tel":"+221 33 823 47 47","email":"at.dakar@diplomatie.gov.tn","couvre":["SN","GM","GN","GW","CV","SL"]},
+    "ML": {"ville":"Bamako","pays":"Mali","tel":"+223 20 22 60 50","email":"at.bamako@diplomatie.gov.tn","couvre":["ML","BF","NE"]},
+    "CI": {"ville":"Abidjan","pays":"Côte d'Ivoire","tel":"+225 27 22 44 12 22","email":"at.abidjan@diplomatie.gov.tn","couvre":["CI","LR","TG"]},
+    "NG": {"ville":"Abuja","pays":"Nigéria","tel":"+234 9 461 2000","email":"at.abuja@diplomatie.gov.tn","couvre":["NG","GH","BJ"]},
+    "CM": {"ville":"Yaoundé","pays":"Cameroun","tel":"+237 222 21 03 31","email":"at.yaounde@diplomatie.gov.tn","couvre":["CM","GA","CG","CF","GQ","TD","CD","ST"]},
+    "ET": {"ville":"Addis-Abeba","pays":"Éthiopie","tel":"+251 11 372 30 90","email":"at.addisabeba@diplomatie.gov.tn","couvre":["ET","DJ","MG","SC","KM","SO","ER","MU"]},
+    "KE": {"ville":"Nairobi","pays":"Kenya","tel":"+254 20 271 00 67","email":"at.nairobi@diplomatie.gov.tn","couvre":["KE","UG","TZ","RW","BI"]},
+    "ZA": {"ville":"Pretoria","pays":"Afrique du Sud","tel":"+27 12 342 6282","email":"at.pretoria@diplomatie.gov.tn","couvre":["ZA","NA","BW","ZW","MZ","ZM","LS","SZ","MW","AO"]},
+}
+
+# Table de rattachement pays → mission (dérivée des champs "couvre" ci-dessus).
+RATTACHEMENT_TN = {}
+for _mkey, _mval in MISSIONS_TN.items():
+    for _c in _mval["couvre"]:
+        RATTACHEMENT_TN[_c] = _mkey
+
+# Cellule de crise / contact central du MAE tunisien (toujours utile).
+MAE_TUNISIE = {
+    "label"  : "MAE Tunisie — cellule de crise",
+    "tel"    : "+216 71 847 500",
+    "urgence": "+216 98 317 530 / +216 92 998 087",
+    "email"  : "email.dct@diplomatie.gov.tn",
+    "site"   : "https://www.diplomatie.gov.tn",
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VISA — dataset open-source passport-index (passeport tunisien TN → pays)
+# ─────────────────────────────────────────────────────────────────────────────
+# Source : https://github.com/ilyankou/passport-index-dataset (licence MIT)
+# Donne, pour le passeport TN, le statut d'entrée vers chaque pays.
+VISA_CSV_URL = (
+    "https://raw.githubusercontent.com/ilyankou/"
+    "passport-index-dataset/master/passport-index-tidy-iso2.csv"
+)
 
 # URLs par section (nouvelle structure du site)
 def urls(slug):
@@ -292,6 +340,109 @@ def scrape_sante(html):
 
     return {"vaccins": vaccins[:10], "risques": list(dict.fromkeys(risques))[:10]}
 
+# ── VISA : dataset passeport tunisien (chargé 1x) ──────────────────────────────
+def load_visas_tn(timeout=30):
+    """Télécharge le dataset passport-index et renvoie {ISO2_dest: {...}} pour TN.
+    Renvoie {} si échec → le scraper conservera alors l'ancienne valeur visa."""
+    try:
+        req = urllib.request.Request(VISA_CSV_URL, headers={
+            "User-Agent": "Mozilla/5.0 (IDEA Consult Fiches Risques)"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            contenu = r.read().decode("utf-8")
+    except Exception as e:
+        print(f"  ⚠ Dataset visa indisponible → {e}")
+        return {}
+
+    import csv, io
+    out = {}
+    for row in csv.DictReader(io.StringIO(contenu)):
+        if (row.get("Passport","").strip().upper() != "TN"):
+            continue
+        dest = row.get("Destination","").strip().upper()
+        code = (row.get("Code","") or "").strip()
+        info = _interpret_visa_code(code)
+        if info and dest:
+            out[dest] = info
+    print(f"  ✓ Visa passeport TN : {len(out)} destinations chargées")
+    return out
+
+def _interpret_visa_code(code):
+    """Traduit un code du dataset en {statut, categorie, duree, texte} (FR)."""
+    if code in ("-1", ""):
+        return None
+    if code.isdigit():
+        j = int(code)
+        return {"statut":"Sans visa","categorie":"exempte","duree":f"{j} jours",
+                "texte":(f"Ressortissants tunisiens : séjour sans visa jusqu'à {j} jours. "
+                         f"Passeport en cours de validité requis.")}
+    table = {
+        "visa free":{"statut":"Sans visa","categorie":"exempte","duree":"Non précisée",
+            "texte":"Ressortissants tunisiens exemptés de visa. Vérifier la durée autorisée auprès de la représentation du pays."},
+        "VOA":{"statut":"Visa à l'arrivée","categorie":"arrivee","duree":"Variable",
+            "texte":"Visa délivré à l'arrivée (frontière/aéroport) pour les ressortissants tunisiens. Prévoir frais en espèces et photos d'identité."},
+        "ETA":{"statut":"e-Visa / autorisation en ligne","categorie":"evisa","duree":"Variable",
+            "texte":"Autorisation électronique ou e-visa à obtenir EN LIGNE avant le départ. Anticiper le délai de traitement."},
+        "VR":{"statut":"Visa obligatoire","categorie":"obligatoire","duree":"Selon visa",
+            "texte":"Visa obligatoire à obtenir AVANT le départ auprès de l'ambassade/consulat du pays de destination. Délai à anticiper."},
+    }
+    return table.get(code, {"statut":code,"categorie":"inconnu","duree":"",
+            "texte":f"Condition d'entrée : {code}. Vérifier auprès de la représentation du pays."})
+
+# ── AMBASSADE DE TUNISIE de rattachement ───────────────────────────────────────
+def ambassade_tn(iso):
+    """Renvoie la représentation tunisienne compétente pour `iso`
+    (sur place ou de rattachement), avec un libellé prêt pour App.jsx."""
+    iso = (iso or "").upper()
+    mkey = RATTACHEMENT_TN.get(iso)
+    if mkey and mkey in MISSIONS_TN:
+        m = MISSIONS_TN[mkey]
+        sur_place = (mkey == iso)
+        if sur_place:
+            label = f"Ambassade de Tunisie — {m['ville']}"
+        else:
+            label = f"Ambassade de Tunisie — {m['ville']} ({m['pays']}, rattachement)"
+        return {"label": label, "valeur": m["tel"], "email": m["email"],
+                "ville": m["ville"], "pays_mission": m["pays"], "sur_place": sur_place}
+    # repli : MAE à Tunis
+    return {"label":"MAE Tunisie (aucune mission régionale)","valeur":MAE_TUNISIE["tel"],
+            "email":MAE_TUNISIE["email"],"ville":"Tunis","pays_mission":"Tunisie","sur_place":False}
+
+# ── CARTE des zones de vigilance : téléchargement local (contourne le CORS) ─────
+def download_carte(iso, html_securite, base_url, timeout=15):
+    """Repère l'image carte dans la page sécurité, la télécharge dans
+    public/maps/{ISO}.jpg et renvoie '/maps/{ISO}.jpg'. None si échec."""
+    if not iso or not html_securite:
+        return None
+    indices = ("carte","vigilance","zones","conseille","deconseille","map","_cle","/img/")
+    cands = []
+    for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']', html_securite, re.I):
+        src = m.group(1)
+        score = sum(1 for ind in indices if ind in src.lower())
+        if score == 0 and not re.search(r'\.(jpg|jpeg|png)(\?|$)', src, re.I):
+            continue
+        cands.append((score, urllib.parse.urljoin(base_url, src)))
+    cands.sort(key=lambda t: t[0], reverse=True)
+    if not cands:
+        return None
+
+    Path("public/maps").mkdir(parents=True, exist_ok=True)
+    dest = Path("public/maps") / f"{iso}.jpg"
+    for _, url in cands[:5]:
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": base_url})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = r.read()
+            if len(data) < 5000:   # rejette icônes/puces
+                continue
+            dest.write_bytes(data)
+            print(f"    🗺  carte {iso} enregistrée ({len(data)} o)")
+            return f"/maps/{iso}.jpg"
+        except Exception:
+            continue
+    return None
+
 # ── VISA ──────────────────────────────────────────────────────────────────────
 def scrape_visa(html):
     if not html:
@@ -305,36 +456,32 @@ def scrape_visa(html):
     return " ".join(relevant)[:700] if relevant else "Consulter l'ambassade pour les conditions d'entrée en vigueur."
 
 # ── CONTACTS ─────────────────────────────────────────────────────────────────
-def scrape_contacts(html, country_name):
-    if not html:
-        return [{"label": f"Ambassade de Tunisie — {country_name}", "valeur": "Consulter le MAE Tunisien"}]
+def scrape_contacts(html, country_name, iso):
+    """Contacts locaux génériques (police, SAMU, pompiers…) scrappés,
+    PUIS ambassade de Tunisie de rattachement + cellule de crise MAE."""
     contacts = []
-    # Cherche les patterns "Libellé : +XXX XX XX XX"
-    patterns = [
-        r'([A-Za-zÀ-ÿ\s\(\)\-/\.]{5,60})[:\s]+(\+?[\d\s\.\-]{7,20})',
-        r'(?:Tél|Tel|Téléphone)[.\s:]*(\+?[\d\s\.\-]{7,20})',
-    ]
-    seen_nums = set()
-    # Cherche aussi les labels avant les numéros
-    blocks = re.findall(
-        r'([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s\(\)\-/\.]{4,58})\s*[:\–\-]\s*(\+?[\d][\d\s\.\-]{6,18})',
-        html
-    )
-    for label, num in blocks[:10]:
-        label = label.strip().rstrip(':–- ')
-        num   = num.strip()
-        # Filtre les faux positifs
-        if len(label) < 4 or any(k in label.lower() for k in ["http","www","@","class","style","div"]):
-            continue
-        if num not in seen_nums and len(num) >= 6:
-            contacts.append({"label": label, "valeur": num})
-            seen_nums.add(num)
+    if html:
+        blocks = re.findall(
+            r'([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s\(\)\-/\.]{4,58})\s*[:\–\-]\s*(\+?[\d][\d\s\.\-]{6,18})',
+            html
+        )
+        seen_nums = set()
+        for label, num in blocks[:10]:
+            label = label.strip().rstrip(':–- ')
+            num   = num.strip()
+            if len(label) < 4 or any(k in label.lower() for k in ["http","www","@","class","style","div"]):
+                continue
+            if num not in seen_nums and len(num) >= 6:
+                contacts.append({"label": label, "valeur": num})
+                seen_nums.add(num)
 
-    # Ambassade de Tunisie toujours présente
-    if not any("tunisie" in c["label"].lower() for c in contacts):
-        contacts.append({"label": f"Ambassade de Tunisie — {country_name}", "valeur": "Consulter diplomatie.gov.tn"})
+    # Ambassade de Tunisie compétente (sur place ou rattachement régional)
+    amb = ambassade_tn(iso)
+    contacts.append({"label": amb["label"], "valeur": amb["valeur"]})
+    # Cellule de crise du MAE tunisien (numéro d'urgence)
+    contacts.append({"label": MAE_TUNISIE["label"], "valeur": MAE_TUNISIE["urgence"]})
 
-    return contacts[:8]
+    return contacts[:10]
 
 # ── VERSIONNEMENT ─────────────────────────────────────────────────────────────
 def compute_version(source_date, existing):
@@ -346,7 +493,7 @@ def compute_version(source_date, existing):
     return prev_ver, prev_int or datetime.now().strftime("%d %b %Y"), False
 
 # ── SCRAPING COMPLET D'UN PAYS ────────────────────────────────────────────────
-def scrape_country(iso, slug, existing):
+def scrape_country(iso, slug, existing, visas_tn):
     u = urls(slug)
     name = NAMES.get(iso, iso)
     print(f"  [{iso}] {name}...")
@@ -378,8 +525,24 @@ def scrape_country(iso, slug, existing):
     securite = scrape_securite(html_sec)
     zones    = scrape_zones(html_sec)
     sante    = scrape_sante(html_san)
-    visa     = scrape_visa(html_visa)
-    contacts = scrape_contacts(html_con, name)
+    contacts = scrape_contacts(html_con, name, iso)
+
+    # 4b. VISA — perspective ressortissant tunisien (dataset) + détail FD.
+    #     visaDetail : statut structuré (passeport TN). visa : texte affiché.
+    detail = visas_tn.get(iso)
+    contexte_fd = scrape_visa(html_visa)   # complément documentaire France Diplomatie
+    if detail:
+        visa = detail["texte"]
+        if contexte_fd and "Consulter l'ambassade" not in contexte_fd:
+            visa = f"{detail['texte']}\n\nContexte (France Diplomatie) : {contexte_fd}"
+        visa_detail = detail
+    else:
+        # pas de donnée dataset → on garde l'ancienne valeur si elle existe
+        visa = existing.get("visa") or contexte_fd
+        visa_detail = existing.get("visaDetail")
+
+    # 4c. CARTE zones de vigilance — téléchargée localement (contourne CORS)
+    carte = download_carte(iso, html_sec, u["securite"]) or existing.get("carteVigilance")
 
     # 5. Versionnement
     new_ver, new_int_date, changed = compute_version(source_date, existing)
@@ -399,7 +562,9 @@ def scrape_country(iso, slug, existing):
         "zonesVigilance" : zones,
         "sante"          : sante,
         "visa"           : visa,
+        "visaDetail"     : visa_detail,
         "contacts"       : contacts,
+        "carteVigilance" : carte,
         "source"         : u["main"],
         "scrapedAt"      : datetime.now().isoformat(),
     }, changed
@@ -418,9 +583,10 @@ def main():
             pass
 
     results, changed_count = {}, 0
+    visas_tn = load_visas_tn()   # dataset passeport TN, chargé une seule fois
     for iso, slug in PAYS.items():
         try:
-            data, changed = scrape_country(iso, slug, existing_data.get(iso, {}))
+            data, changed = scrape_country(iso, slug, existing_data.get(iso, {}), visas_tn)
             results[iso]  = data
             if changed: changed_count += 1
         except Exception as e:
