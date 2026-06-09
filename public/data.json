@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T05:57:14.604656",
-  "totalChanged": 0,
+  "generatedAt": "2026-06-09T05:15:28.908930",
+  "totalChanged": 1,
   "countries": {
     "DZ": {
       "iso": "DZ",
@@ -158,7 +158,7 @@
       ],
       "carteVigilance": "/maps/DZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/algerie/",
-      "scrapedAt": "2026-06-08T05:53:44.076839"
+      "scrapedAt": "2026-06-09T05:09:49.948304"
     },
     "AO": {
       "iso": "AO",
@@ -172,6 +172,11 @@
           "label": "Angola",
           "niveau": "modere",
           "texte": "Présentation de l&#039;Angola Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations d&#039;Angola en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -202,11 +207,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -305,7 +305,7 @@
       ],
       "carteVigilance": "/maps/AO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/angola/",
-      "scrapedAt": "2026-06-08T05:53:48.788365"
+      "scrapedAt": "2026-06-09T05:09:56.976994"
     },
     "BJ": {
       "iso": "BJ",
@@ -468,7 +468,7 @@
       ],
       "carteVigilance": "/maps/BJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/benin/",
-      "scrapedAt": "2026-06-08T05:53:54.108450"
+      "scrapedAt": "2026-06-09T05:10:04.788407"
     },
     "BW": {
       "iso": "BW",
@@ -482,6 +482,11 @@
           "label": "Botswana",
           "niveau": "modere",
           "texte": "Présentation du Botswana Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Botswana en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -512,11 +517,6 @@
           "label": "Ambassade de France au Botswana",
           "niveau": "modere",
           "texte": "761, Robinson Road PO Box 1424 Gaborone Botswana Tel : +267 397 38 63 Ambassade de France au Botswana"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [],
@@ -627,7 +627,7 @@
       ],
       "carteVigilance": "/maps/BW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/botswana/",
-      "scrapedAt": "2026-06-08T05:53:58.418880"
+      "scrapedAt": "2026-06-09T05:10:10.471597"
     },
     "BF": {
       "iso": "BF",
@@ -768,7 +768,7 @@
       ],
       "carteVigilance": "/maps/BF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burkina-faso/",
-      "scrapedAt": "2026-06-08T05:54:02.554924"
+      "scrapedAt": "2026-06-09T05:10:17.862055"
     },
     "BI": {
       "iso": "BI",
@@ -782,6 +782,11 @@
           "label": "Burundi",
           "niveau": "modere",
           "texte": "Présentation du Burundi Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Burundi en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -812,11 +817,6 @@
           "label": "Activités sportives à risque",
           "niveau": "modere",
           "texte": "Il est recommandé d’être particulièrement vigilant sur les berges du lac Tanganyika, où la baignade est déconseillée aux abords mêmes de Bujumbura en raison de la présence de crocodiles et d’hippopotames (animaux protégés et particulièrement dangereux). La pratique des sports aériens légers type parapente ou ULM n’est pas recommandée car susceptible, dans le contexte actuel, de provoquer des malen"
-        },
-        {
-          "label": "Ambassade de France au Burundi",
-          "niveau": "modere",
-          "texte": "60, boulevard de l&#039;Uprona BP 1740 Bujumbura Burundi Tel : +33 5 24 09 23 97 Ambassade de France au Burundi"
         }
       ],
       "zonesVigilance": [
@@ -926,7 +926,7 @@
       ],
       "carteVigilance": "/maps/BI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burundi/",
-      "scrapedAt": "2026-06-08T05:54:06.580280"
+      "scrapedAt": "2026-06-09T05:10:23.752803"
     },
     "CM": {
       "iso": "CM",
@@ -940,6 +940,11 @@
           "label": "Cameroun",
           "niveau": "modere",
           "texte": "Présentation du Cameroun Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Cameroun en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -970,11 +975,6 @@
           "label": "Consulat général de France à Douala",
           "niveau": "modere",
           "texte": "Rue des Cocotiers BP 869 Douala Cameroun Tel : +237 6 94 46 40 44 Consulat général de France à Douala"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Yaoundé",
-          "niveau": "modere",
-          "texte": "Consulat Plateau Atémengué Yaoundé Cameroun Section consulaire de l’Ambassade de France à Yaoundé"
         }
       ],
       "zonesVigilance": [
@@ -1080,7 +1080,7 @@
       ],
       "carteVigilance": "/maps/CM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cameroun/",
-      "scrapedAt": "2026-06-08T05:54:10.543488"
+      "scrapedAt": "2026-06-09T05:10:29.930535"
     },
     "CV": {
       "iso": "CV",
@@ -1094,6 +1094,11 @@
           "label": "Cap-Vert",
           "niveau": "modere",
           "texte": "Présentation du Cap-Vert Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Cap-Vert en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -1124,11 +1129,6 @@
           "label": "Activités sportives à risque",
           "niveau": "modere",
           "texte": "L’attention des usagers de la mer (voile, planche à voile, surf, kitesurf, paddle, scooter des mers, etc.) est appelée sur la vigueur des éléments naturels au Cap-Vert (vents soutenus, vagues puissantes, courants forts) et sur l’absence de dispositif de secours en mer dans l’archipel. Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant"
-        },
-        {
-          "label": "Ambassade de France au Cap-Vert",
-          "niveau": "modere",
-          "texte": "Rua Tenente Valadim, n° 28 – Plateau 0192 Praia Santiago Cap-Vert Tel : +238 260 45 35 Ambassade de France au Cap-Vert"
         }
       ],
       "zonesVigilance": [
@@ -1221,7 +1221,7 @@
       ],
       "carteVigilance": "/maps/CV.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cap-vert/",
-      "scrapedAt": "2026-06-08T05:54:14.526587"
+      "scrapedAt": "2026-06-09T05:10:35.934132"
     },
     "CF": {
       "iso": "CF",
@@ -1235,6 +1235,11 @@
           "label": "République centrafricaine",
           "niveau": "modere",
           "texte": "Présentation de la République centrafricaine Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de République centrafricaine en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -1265,11 +1270,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -1368,7 +1368,7 @@
       ],
       "carteVigilance": "/maps/CF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-centrafricaine/",
-      "scrapedAt": "2026-06-08T05:54:19.292976"
+      "scrapedAt": "2026-06-09T05:10:43.087276"
     },
     "KM": {
       "iso": "KM",
@@ -1382,6 +1382,11 @@
           "label": "Comores",
           "niveau": "modere",
           "texte": "Présentation des Comores Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation des Comores en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -1412,11 +1417,6 @@
           "label": "Excursion sur le volcan Khartala",
           "niveau": "modere",
           "texte": "Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
-        },
-        {
-          "label": "Ambassade de France aux Comores",
-          "niveau": "modere",
-          "texte": "Boulevard de Strasbourg BP 465 Moroni Comores Tel : +33 1 88 24 56 77 Ambassade de France aux Comores"
         }
       ],
       "zonesVigilance": [
@@ -1503,7 +1503,7 @@
       ],
       "carteVigilance": "/maps/KM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/comores/",
-      "scrapedAt": "2026-06-08T05:54:23.173884"
+      "scrapedAt": "2026-06-09T05:10:49.204796"
     },
     "CG": {
       "iso": "CG",
@@ -1651,7 +1651,7 @@
       ],
       "carteVigilance": "/maps/CG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/congo/",
-      "scrapedAt": "2026-06-08T05:54:27.727101"
+      "scrapedAt": "2026-06-09T05:10:56.270476"
     },
     "CD": {
       "iso": "CD",
@@ -1665,6 +1665,11 @@
           "label": "République démocratique du Congo",
           "niveau": "modere",
           "texte": "Présentation de la République démocratique du Congo Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation de République démocratique du Congo en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -1695,11 +1700,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -1804,7 +1804,7 @@
       ],
       "carteVigilance": "/maps/CD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-democratique-du-congo/",
-      "scrapedAt": "2026-06-08T05:54:32.124941"
+      "scrapedAt": "2026-06-09T05:11:03.184627"
     },
     "CI": {
       "iso": "CI",
@@ -1818,6 +1818,11 @@
           "label": "Côte d&#039;Ivoire",
           "niveau": "modere",
           "texte": "Présentation de la Côte d’Ivoire Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Côte d&#039;Ivoire en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -1848,11 +1853,6 @@
           "label": "Consulat général de France à Abidjan (compétent pour le Libéria)",
           "niveau": "modere",
           "texte": "Consulat 17, rue Lecoeur 17 BP 175 Abidjan Côte d’Ivoire Consulat général de France à Abidjan"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -1972,7 +1972,7 @@
       ],
       "carteVigilance": "/maps/CI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/",
-      "scrapedAt": "2026-06-08T05:54:35.574437"
+      "scrapedAt": "2026-06-09T05:11:08.426725"
     },
     "DJ": {
       "iso": "DJ",
@@ -1986,6 +1986,11 @@
           "label": "Djibouti",
           "niveau": "modere",
           "texte": "Présentation de Djibouti Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation de Djibouti en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -2016,11 +2021,6 @@
           "label": "Ambassade de France à Djibouti (compétente pour l&#039;Erythrée)",
           "niveau": "modere",
           "texte": "Boulevard Idriss Omar Guelleh , BP 2039 Djibouti Djibouti Tel : +33 3 59 39 70 03 Ambassade de France à Djibouti"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Djibouti",
-          "niveau": "modere",
-          "texte": "Boulevard du Maréchal Lyautey BP 75 Djibouti Djibouti Tel : (+33) 3 59 39 70 03 Ambassade de France à Djibouti"
         }
       ],
       "zonesVigilance": [
@@ -2122,7 +2122,7 @@
       ],
       "carteVigilance": "/maps/DJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/djibouti/",
-      "scrapedAt": "2026-06-08T05:54:39.224996"
+      "scrapedAt": "2026-06-09T05:11:14.328081"
     },
     "EG": {
       "iso": "EG",
@@ -2136,6 +2136,11 @@
           "label": "Égypte",
           "niveau": "modere",
           "texte": "Présentation de l’Égypte Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations d&#039;Égypte en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -2166,11 +2171,6 @@
           "label": "Ambassade de France en Egypte",
           "niveau": "modere",
           "texte": "29 avenue Charles de Gaulle Guizeh Le Caire Égypte Tel : +20 2 35 67 32 00 Ambassade de France en Egypte"
-        },
-        {
-          "label": "Consulat général de France au Caire",
-          "niveau": "modere",
-          "texte": "7 rue Abi Shammar, Guizeh BP 1774 Le Caire Égypte"
         }
       ],
       "zonesVigilance": [
@@ -2259,7 +2259,7 @@
       ],
       "carteVigilance": "/maps/EG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/egypte/",
-      "scrapedAt": "2026-06-08T05:54:42.853662"
+      "scrapedAt": "2026-06-09T05:11:20.762691"
     },
     "ER": {
       "iso": "ER",
@@ -2273,6 +2273,11 @@
           "label": "Erythrée",
           "niveau": "modere",
           "texte": "Présentation de l’Erythrée Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation d&#039;Érythrée en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -2303,11 +2308,6 @@
           "label": "Ambassade de France à Djibouti (compétente pour l&#039;Erythrée)",
           "niveau": "modere",
           "texte": "Boulevard Idriss Omar Guelleh , BP 2039 Djibouti Djibouti Tel : +33 3 59 39 70 03 Ambassade de France à Djibouti"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [],
@@ -2386,7 +2386,7 @@
       ],
       "carteVigilance": "/maps/ER.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/erythree/",
-      "scrapedAt": "2026-06-08T05:54:47.121813"
+      "scrapedAt": "2026-06-09T05:11:27.802399"
     },
     "SZ": {
       "iso": "SZ",
@@ -2530,7 +2530,7 @@
       ],
       "carteVigilance": "/maps/SZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/eswatini/",
-      "scrapedAt": "2026-06-08T05:54:51.199154"
+      "scrapedAt": "2026-06-09T05:11:34.757037"
     },
     "ET": {
       "iso": "ET",
@@ -2544,6 +2544,11 @@
           "label": "Éthiopie",
           "niveau": "modere",
           "texte": "Présentation de l’Éthiopie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations d&#039;Éthiopie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -2574,11 +2579,6 @@
           "label": "Délégation de la France auprès de l’Organisation de l’Union africaine (OUA) | Addis Abeba",
           "niveau": "modere",
           "texte": "OUA Ambassade de France Quartier Kabana 1464 Addis Abeba Éthiopie Tel : (251) 011 140 00 00 Délégation de la France auprès de l’Organisation de l’Union africaine ("
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -2689,7 +2689,7 @@
       ],
       "carteVigilance": "/maps/ET.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ethiopie/",
-      "scrapedAt": "2026-06-08T05:54:55.333594"
+      "scrapedAt": "2026-06-09T05:11:41.594780"
     },
     "GA": {
       "iso": "GA",
@@ -2703,6 +2703,11 @@
           "label": "Gabon",
           "niveau": "modere",
           "texte": "Présentation du Gabon Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Gabon en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -2733,11 +2738,6 @@
           "label": "Consulat général de France à Libreville (compétent pour Sao Tomé-et-Principe)",
           "niveau": "modere",
           "texte": "Boulevard de la Nation Batterie IV Libreville Gabon Tel : +33 3 59 39 71 64 Consulat général de France à Libreville"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -2826,7 +2826,7 @@
       ],
       "carteVigilance": "/maps/GA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gabon/",
-      "scrapedAt": "2026-06-08T05:54:59.300392"
+      "scrapedAt": "2026-06-09T05:11:47.906378"
     },
     "GM": {
       "iso": "GM",
@@ -2963,7 +2963,7 @@
       ],
       "carteVigilance": "/maps/GM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gambie/",
-      "scrapedAt": "2026-06-08T05:55:03.079403"
+      "scrapedAt": "2026-06-09T05:11:53.903815"
     },
     "GH": {
       "iso": "GH",
@@ -2977,6 +2977,11 @@
           "label": "Ghana",
           "niveau": "modere",
           "texte": "Présentation du Ghana Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Ghana en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -3007,11 +3012,6 @@
           "label": "Ambassade de France au Ghana",
           "niveau": "modere",
           "texte": "4th Circular Road Cantonments Accra Ghana Tel : +233 30 221 45 50 Ambassade de France au Ghana"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Accra",
-          "niveau": "modere",
-          "texte": "4th Circular Road Cantonments Accra Ghana Tel : (+233) (0) 59 699 34 Ambassade de France au Ghana"
         }
       ],
       "zonesVigilance": [
@@ -3128,7 +3128,7 @@
       ],
       "carteVigilance": "/maps/GH.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ghana/",
-      "scrapedAt": "2026-06-08T05:55:07.295790"
+      "scrapedAt": "2026-06-09T05:12:00.335723"
     },
     "GN": {
       "iso": "GN",
@@ -3142,6 +3142,11 @@
           "label": "Guinée",
           "niveau": "modere",
           "texte": "Présentation de la Guinée Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Guinée en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -3172,11 +3177,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -3278,7 +3278,7 @@
       ],
       "carteVigilance": "/maps/GN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee/",
-      "scrapedAt": "2026-06-08T05:55:11.394789"
+      "scrapedAt": "2026-06-09T05:12:07.240148"
     },
     "GQ": {
       "iso": "GQ",
@@ -3419,7 +3419,7 @@
       ],
       "carteVigilance": "/maps/GQ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-equatoriale/",
-      "scrapedAt": "2026-06-08T05:55:15.356482"
+      "scrapedAt": "2026-06-09T05:12:13.741855"
     },
     "GW": {
       "iso": "GW",
@@ -3448,7 +3448,7 @@
       ],
       "carteVigilance": null,
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-bissau/",
-      "scrapedAt": "2026-06-08T05:55:17.816886"
+      "scrapedAt": "2026-06-09T05:12:16.888476"
     },
     "KE": {
       "iso": "KE",
@@ -3462,6 +3462,11 @@
           "label": "Kénya",
           "niveau": "modere",
           "texte": "Présentation du Kénya Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Kenya en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -3492,11 +3497,6 @@
           "label": "Représentation permanente de la France auprès de l’organisation des Nations unies | Nairobi",
           "niveau": "modere",
           "texte": "ONU Ambassade de France Peponi Gardens, Off Peponi Road Nairobi 00100 Kenya Tel : +254 20 277 80 00 Représentation permanente de la France auprès de l’organisation des Nations uni…"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -3608,7 +3608,7 @@
       ],
       "carteVigilance": "/maps/KE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
-      "scrapedAt": "2026-06-08T05:55:21.996771"
+      "scrapedAt": "2026-06-09T05:12:23.777225"
     },
     "LS": {
       "iso": "LS",
@@ -3622,6 +3622,11 @@
           "label": "Lésotho",
           "niveau": "modere",
           "texte": "Présentation du Lésotho Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Lésotho en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -3652,11 +3657,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -3738,7 +3738,7 @@
       ],
       "carteVigilance": "/maps/LS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/lesotho/",
-      "scrapedAt": "2026-06-08T05:55:26.127019"
+      "scrapedAt": "2026-06-09T05:12:29.773361"
     },
     "LR": {
       "iso": "LR",
@@ -3752,6 +3752,11 @@
           "label": "Libéria",
           "niveau": "modere",
           "texte": "Présentation du Libéria Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Libéria en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -3782,11 +3787,6 @@
           "label": "Activités sportives à risque",
           "niveau": "modere",
           "texte": "La côte atlantique du Libéria est dangereuse pour les baigneurs. Les courants y sont puissants. Il est conseillé de garder toujours pied et de ne pas s’éloigner du bord de la plage, les courants pouvant faire dériver les nageurs et les empêcher de regagner le rivage. Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. "
-        },
-        {
-          "label": "Ambassade de France au Libéria",
-          "niveau": "modere",
-          "texte": "98 A UN Drive - Mamba Point Monrovia Liberia Tel : +231 77 059 93 73 La France au Libéria"
         }
       ],
       "zonesVigilance": [
@@ -3888,7 +3888,7 @@
       ],
       "carteVigilance": "/maps/LR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/liberia/",
-      "scrapedAt": "2026-06-08T05:55:30.015443"
+      "scrapedAt": "2026-06-09T05:12:36.816954"
     },
     "LY": {
       "iso": "LY",
@@ -3902,6 +3902,11 @@
           "label": "Libye",
           "niveau": "modere",
           "texte": "Présentation de la Libye Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Libye en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4025,7 +4030,7 @@
       ],
       "carteVigilance": "/maps/LY.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/libye/",
-      "scrapedAt": "2026-06-08T05:55:33.985848"
+      "scrapedAt": "2026-06-09T05:12:43.312697"
     },
     "MG": {
       "iso": "MG",
@@ -4039,6 +4044,11 @@
           "label": "Madagascar",
           "niveau": "modere",
           "texte": "Présentation de Madagascar Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Madagascar en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4069,11 +4079,6 @@
           "label": "Ambassade de France à Madagascar",
           "niveau": "modere",
           "texte": "3, rue Jean-Jaurès - Ambatomena BP 204 101 Antananarivo Madagascar Tel : (+261) 20 22 398 98 Ambassade de France à Madagascar"
-        },
-        {
-          "label": "Consulat général de France à Antananarivo",
-          "niveau": "modere",
-          "texte": "3, rue Jean-Jaurès - Ambatomena BP 897 101 Antananarivo Madagascar Tel : (+33) 3 59 39 70 32 Consulat général de France à Antananarivo"
         }
       ],
       "zonesVigilance": [
@@ -4173,7 +4178,7 @@
       ],
       "carteVigilance": "/maps/MG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/madagascar/",
-      "scrapedAt": "2026-06-08T05:55:38.501707"
+      "scrapedAt": "2026-06-09T05:12:50.606871"
     },
     "MW": {
       "iso": "MW",
@@ -4187,6 +4192,11 @@
           "label": "Malawi",
           "niveau": "modere",
           "texte": "Présentation du Malawi Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Malawi en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4217,11 +4227,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -4317,7 +4322,7 @@
       ],
       "carteVigilance": "/maps/MW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/malawi/",
-      "scrapedAt": "2026-06-08T05:55:42.715325"
+      "scrapedAt": "2026-06-09T05:12:57.514302"
     },
     "ML": {
       "iso": "ML",
@@ -4331,6 +4336,11 @@
           "label": "Mali",
           "niveau": "modere",
           "texte": "Présentation du Mali Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Mali en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4361,11 +4371,6 @@
           "label": "Consulat général de France à Bamako",
           "niveau": "modere",
           "texte": "Square Patrice Lumumba BP 17 Bamako Mali Tel : +33 1 70 71 29 69 Consulat général de France à Bamako"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -4459,7 +4464,7 @@
       ],
       "carteVigilance": "/maps/ML.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mali/",
-      "scrapedAt": "2026-06-08T05:55:46.514202"
+      "scrapedAt": "2026-06-09T05:13:03.191254"
     },
     "MA": {
       "iso": "MA",
@@ -4473,6 +4478,11 @@
           "label": "Maroc",
           "niveau": "modere",
           "texte": "Présentation du Maroc Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Maroc en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4503,11 +4513,6 @@
           "label": "Ambassade de France au Maroc",
           "niveau": "modere",
           "texte": "1, rue Ibn Hajar Agdal 00602 Rabat Maroc Tel : +212 5 37 68 97 00 Ambassade de France au Maroc"
-        },
-        {
-          "label": "Consulat général de France à Agadir",
-          "niveau": "modere",
-          "texte": "Boulevard Mohamed Cheikh Saadi BP 267 80000 Agadir Maroc Tel : +212 5 25 29 10 29 Consulat général de France à Agadir"
         }
       ],
       "zonesVigilance": [
@@ -4596,7 +4601,7 @@
       ],
       "carteVigilance": "/maps/MA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/",
-      "scrapedAt": "2026-06-08T05:55:50.211147"
+      "scrapedAt": "2026-06-09T05:13:08.997695"
     },
     "MR": {
       "iso": "MR",
@@ -4610,6 +4615,11 @@
           "label": "Mauritanie",
           "niveau": "modere",
           "texte": "Présentation de la Mauritanie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Mauritanie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4640,11 +4650,6 @@
           "label": "Section consulaire de l’Ambassade de France à Nouakchott",
           "niveau": "modere",
           "texte": "Rue Ahmed ould Hamed - Quartier de Tevragh-Zeina BP 231 Nouakchott Mauritanie Tel : + 33 2 52 88 01 86 Ambassade de France en Mauritanie"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -4758,7 +4763,7 @@
       ],
       "carteVigilance": "/maps/MR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mauritanie/",
-      "scrapedAt": "2026-06-08T05:55:54.257975"
+      "scrapedAt": "2026-06-09T05:13:15.397451"
     },
     "MU": {
       "iso": "MU",
@@ -4772,6 +4777,11 @@
           "label": "Maurice",
           "niveau": "modere",
           "texte": "Présentation de Maurice Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Maurice en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4802,11 +4812,6 @@
           "label": "Activités sportives à risque",
           "niveau": "modere",
           "texte": "La plus grande prudence s’impose dans le domaine des sports nautiques (plongée sous-marine, planche à voile, kitesurf, bouées tractées par bateau, parachute ascensionnel, etc.) : Il est fréquent que des démarcheurs inexpérimentés et peu respectueux des normes sécuritaires sollicitent les touristes sur les plages. Ils disposent rarement d’une assurance de responsabilité civile. Les hôtels offrant u"
-        },
-        {
-          "label": "Ambassade de France à Maurice (compétente pour les Seychelles)",
-          "niveau": "eleve",
-          "texte": "14, rue Saint-Georges (entrée du consulat 5 rue Auguste Rouget) 11324 Port-Louis Maurice Tel : +33 3 59 39 71 85 Ambassade de France à Maurice"
         }
       ],
       "zonesVigilance": [],
@@ -4875,7 +4880,7 @@
       ],
       "carteVigilance": "/maps/MU.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maurice/",
-      "scrapedAt": "2026-06-08T05:55:58.291609"
+      "scrapedAt": "2026-06-09T05:13:22.081119"
     },
     "MZ": {
       "iso": "MZ",
@@ -4889,6 +4894,11 @@
           "label": "Mozambique",
           "niveau": "modere",
           "texte": "Présentation du Mozambique Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Mozambique en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -4919,11 +4929,6 @@
           "label": "Ambassade de France au Mozambique (compétente pour l&#039;Estwatini)",
           "niveau": "modere",
           "texte": "Avenida Julius Nyerere - BP 4781 2361 Maputo Mozambique Tel : +258 21 48 46 00 Ambassade de France au Mozambique"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Maputo",
-          "niveau": "modere",
-          "texte": "Avenue Julius Nyerere 2385 Maputo Mozambique Tel : +33 1 70 71 02 54 Ambassade de France au Mozambique"
         }
       ],
       "zonesVigilance": [
@@ -5032,7 +5037,7 @@
       ],
       "carteVigilance": "/maps/MZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mozambique/",
-      "scrapedAt": "2026-06-08T05:56:02.756019"
+      "scrapedAt": "2026-06-09T05:13:30.108228"
     },
     "NA": {
       "iso": "NA",
@@ -5046,6 +5051,11 @@
           "label": "Namibie",
           "niveau": "modere",
           "texte": "Présentation de la Namibie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Namibie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5076,11 +5086,6 @@
           "label": "Ambassade de France en Namibie",
           "niveau": "modere",
           "texte": "24 Willemien Street - PO BOX 20484 Windhoek Namibie Tel : +264 61 27 67 00 Ambassade de France en Namibie"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [],
@@ -5164,7 +5169,7 @@
       ],
       "carteVigilance": "/maps/NA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/namibie/",
-      "scrapedAt": "2026-06-08T05:56:06.526930"
+      "scrapedAt": "2026-06-09T05:13:37.221437"
     },
     "NE": {
       "iso": "NE",
@@ -5178,6 +5183,11 @@
           "label": "Niger",
           "niveau": "modere",
           "texte": "Présentation du Niger Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires"
+        },
+        {
+          "label": "Contact des représentations du Niger en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5208,11 +5218,6 @@
           "label": "Section consulaire de l&#039;Ambassade de France à Niamey",
           "niveau": "modere",
           "texte": "boulevard de la Jeunesse, YA 23 BP 10660 12090 Niamey France Tel : +33 1 82 88 09 05"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Niamey",
-          "niveau": "modere",
-          "texte": "boulevard de la Jeunesse, YA 23 BP 10660 Niamey Niger Tel : +33 1 82 88 09 05"
         }
       ],
       "zonesVigilance": [
@@ -5306,7 +5311,7 @@
       ],
       "carteVigilance": "/maps/NE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/niger/",
-      "scrapedAt": "2026-06-08T05:56:10.710469"
+      "scrapedAt": "2026-06-09T05:13:43.727874"
     },
     "NG": {
       "iso": "NG",
@@ -5320,6 +5325,11 @@
           "label": "Nigéria",
           "niveau": "modere",
           "texte": "Présentation du Nigéria Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Nigéria en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5350,11 +5360,6 @@
           "label": "Consulat général de France à Lagos",
           "niveau": "modere",
           "texte": "Ikoyi Island - 1 Oyinkan Abayomi Drive Lagos 106104 Nigeria Tel : +234 201 343 89 39 Consulat général de France à Lagos"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -5474,7 +5479,7 @@
       ],
       "carteVigilance": "/maps/NG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/nigeria/",
-      "scrapedAt": "2026-06-08T05:56:14.974774"
+      "scrapedAt": "2026-06-09T05:13:50.861773"
     },
     "UG": {
       "iso": "UG",
@@ -5488,6 +5493,11 @@
           "label": "Ouganda",
           "niveau": "modere",
           "texte": "Présentation de l’Ouganda Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation d&#039;Ouganda en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5518,11 +5528,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [
@@ -5632,7 +5637,7 @@
       ],
       "carteVigilance": "/maps/UG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ouganda/",
-      "scrapedAt": "2026-06-08T05:56:18.928084"
+      "scrapedAt": "2026-06-09T05:13:58.161508"
     },
     "RW": {
       "iso": "RW",
@@ -5646,6 +5651,11 @@
           "label": "Rwanda",
           "niveau": "modere",
           "texte": "Présentation du Rwanda Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Rwanda en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5676,11 +5686,6 @@
           "label": "Ambassade de France au Rwanda",
           "niveau": "modere",
           "texte": "3 KN 33st – BP 441 Kigali Rwanda Tel : +33 5 24 09 23 79 Ambassade de France au Rwanda"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -5774,7 +5779,7 @@
       ],
       "carteVigilance": "/maps/RW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/rwanda/",
-      "scrapedAt": "2026-06-08T05:56:23.007126"
+      "scrapedAt": "2026-06-09T05:14:04.830022"
     },
     "ST": {
       "iso": "ST",
@@ -5912,7 +5917,7 @@
       ],
       "carteVigilance": "/maps/ST.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sao-tome-et-principe/",
-      "scrapedAt": "2026-06-08T05:56:26.839875"
+      "scrapedAt": "2026-06-09T05:14:10.890940"
     },
     "SN": {
       "iso": "SN",
@@ -5926,6 +5931,11 @@
           "label": "Sénégal",
           "niveau": "modere",
           "texte": "Présentation du Sénégal Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Sénégal en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -5956,11 +5966,6 @@
           "label": "Ambassade de France au Sénégal",
           "niveau": "modere",
           "texte": "1, rue El Hadji Amadou Assane Ndoye BP 4035 Dakar Sénégal Tel : +221 33 839 51 00 Ambassade de France au Sénégal"
-        },
-        {
-          "label": "Consulat général de France à Dakar (compétent pour le Cap-Vert, la Gambie et la Guinée-Bissao)",
-          "niveau": "modere",
-          "texte": "1, rue El Hadji Amadou Assane Ndoye BP 330 75015 Dakar Sénégal Tel : +33 2 52 88 02 00 Consulat général de France à Dakar"
         }
       ],
       "zonesVigilance": [
@@ -6066,7 +6071,7 @@
       ],
       "carteVigilance": "/maps/SN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/",
-      "scrapedAt": "2026-06-08T05:56:30.886612"
+      "scrapedAt": "2026-06-09T05:14:17.387016"
     },
     "SL": {
       "iso": "SL",
@@ -6080,6 +6085,11 @@
           "label": "Sierra Leone",
           "niveau": "modere",
           "texte": "Présentation de la Sierra Leone Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Sierra Leone en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6110,11 +6120,6 @@
           "label": "Activités sportives à risque",
           "niveau": "modere",
           "texte": "Sur certaines plages, les courants peuvent faire dériver les nageurs et les empêcher de regagner le rivage. Les plages ne sont pas surveillées. Il est recommandé de se renseigner sur l’accessibilité des plages auprès des autorités locales et de rester attentif à la signalisation. Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à no"
-        },
-        {
-          "label": "Ambassade de France en Guinée (compétente pour la Sierra Leone)",
-          "niveau": "modere",
-          "texte": "Avenue du Commerce (Kaloum) BP 373 et 570 Conakry Guinée Ambassade de France en Guinée"
         }
       ],
       "zonesVigilance": [
@@ -6218,7 +6223,7 @@
       ],
       "carteVigilance": "/maps/SL.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sierra-leone/",
-      "scrapedAt": "2026-06-08T05:56:35.339178"
+      "scrapedAt": "2026-06-09T05:14:23.737070"
     },
     "SO": {
       "iso": "SO",
@@ -6350,7 +6355,7 @@
       ],
       "carteVigilance": "/maps/SO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/somalie/",
-      "scrapedAt": "2026-06-08T05:56:39.187352"
+      "scrapedAt": "2026-06-09T05:14:29.926376"
     },
     "SD": {
       "iso": "SD",
@@ -6364,6 +6369,11 @@
           "label": "Soudan",
           "niveau": "modere",
           "texte": "Présentation du Soudan Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Soudan en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6480,7 +6490,7 @@
       ],
       "carteVigilance": "/maps/SD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan/",
-      "scrapedAt": "2026-06-08T05:56:43.496801"
+      "scrapedAt": "2026-06-09T05:14:37.052798"
     },
     "SS": {
       "iso": "SS",
@@ -6494,6 +6504,11 @@
           "label": "Soudan du Sud",
           "niveau": "modere",
           "texte": "Présentation du Soudan du Sud Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Soudan du Sud en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6524,11 +6539,6 @@
           "label": "Ambassade de France en Éthiopie (compétente pour le Soudan du Sud)",
           "niveau": "modere",
           "texte": "Quartier Kabana PO 1464 Addis Abeba Éthiopie Tel : + 33 1 82 88 55 49 Ambassade de France en Éthiopie et Soudan du Sud"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -6629,20 +6639,25 @@
       ],
       "carteVigilance": "/maps/SS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan-du-sud/",
-      "scrapedAt": "2026-06-08T05:56:47.622238"
+      "scrapedAt": "2026-06-09T05:14:43.303736"
     },
     "TZ": {
       "iso": "TZ",
-      "sourceDateStr": "07 avril 2026",
-      "dateMAJInterne": "03 Jun 2026",
+      "sourceDateStr": "08 juin 2026",
+      "dateMAJInterne": "09 Jun 2026",
       "risk": "eleve",
-      "version": 2,
+      "version": 3,
       "derniereMinute": [],
       "securite": [
         {
           "label": "Tanzanie",
           "niveau": "modere",
           "texte": "Présentation de la Tanzanie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation de Tanzanie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6673,11 +6688,6 @@
           "label": "Ambassade de France en Tanzanie",
           "niveau": "modere",
           "texte": "2 Kilimani Road, P.O. Box 2349 14110 Dar es Salaam Tanzanie Tel : +255 22 219 88 00 Ambassade de France en Tanzanie"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -6794,7 +6804,7 @@
       ],
       "carteVigilance": "/maps/TZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
-      "scrapedAt": "2026-06-08T05:56:51.188709"
+      "scrapedAt": "2026-06-09T05:14:49.681104"
     },
     "TD": {
       "iso": "TD",
@@ -6808,6 +6818,11 @@
           "label": "Tchad",
           "niveau": "modere",
           "texte": "Présentation du Tchad Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Tchad en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6838,11 +6853,6 @@
           "label": "Ambassade de France au Tchad",
           "niveau": "modere",
           "texte": "Rue de l&#039;Adjudant-Chef Zouala Agoyna N’Djamena Tchad Tel : +33 1 75 79 41 81 Ambassade de France au Tchad"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -6951,7 +6961,7 @@
       ],
       "carteVigilance": "/maps/TD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tchad/",
-      "scrapedAt": "2026-06-08T05:56:55.315004"
+      "scrapedAt": "2026-06-09T05:14:56.606005"
     },
     "TG": {
       "iso": "TG",
@@ -6965,6 +6975,11 @@
           "label": "Togo",
           "niveau": "modere",
           "texte": "Présentation du Togo Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations du Togo en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -6995,11 +7010,6 @@
           "label": "Ambassade de France au Togo",
           "niveau": "modere",
           "texte": "13 Avenue Mama Fousséni BP 337 Lomé Togo Tel : +228 22 23 46 00 Ambassade de France au Togo"
-        },
-        {
-          "label": "Section consulaire de l’Ambassade de France à Lomé",
-          "niveau": "modere",
-          "texte": "Rue de la Marina BP 7485 Lomé Togo Tel : +33 1 82 88 09 05 Ambassade de France au Togo"
         }
       ],
       "zonesVigilance": [
@@ -7111,7 +7121,7 @@
       ],
       "carteVigilance": "/maps/TG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/togo/",
-      "scrapedAt": "2026-06-08T05:56:59.765208"
+      "scrapedAt": "2026-06-09T05:15:03.415321"
     },
     "TN": {
       "iso": "TN",
@@ -7125,6 +7135,11 @@
           "label": "Tunisie",
           "niveau": "modere",
           "texte": "Présentation de la Tunisie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations de Tunisie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -7155,11 +7170,6 @@
           "label": "Ambassade de France en Tunisie",
           "niveau": "modere",
           "texte": "2, place de l&#039;Indépendance BP 493 1000 Tunis Tunisie Tel : +216 31 315 000 Ambassade de France en Tunisie"
-        },
-        {
-          "label": "Consulat général de France à Tunis",
-          "niveau": "modere",
-          "texte": "1, place de l&#039;Indépendance 1000 Tunis Tunisie Tel : +216 31 36 59 09 Consulat général de France en Tunisie"
         }
       ],
       "zonesVigilance": [
@@ -7258,7 +7268,7 @@
       ],
       "carteVigilance": "/maps/TN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/",
-      "scrapedAt": "2026-06-08T05:57:03.016482"
+      "scrapedAt": "2026-06-09T05:15:08.943889"
     },
     "ZA": {
       "iso": "ZA",
@@ -7272,6 +7282,11 @@
           "label": "Afrique du Sud",
           "niveau": "modere",
           "texte": "Présentation de l&#039;Afrique du Sud Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact des représentations d&#039;Afrique du sud en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -7302,11 +7317,6 @@
           "label": "Ambassade de France en Afrique du Sud",
           "niveau": "modere",
           "texte": "250, Melk street - New Muckleneuk Pretoria 0181 Afrique du Sud Tel : +27 12 425 1600 Ambassade de France en Afrique du Sud"
-        },
-        {
-          "label": "Consulat Général de France au Cap",
-          "niveau": "modere",
-          "texte": "78, Queen Victoria Street Gardens Cape Town 8001 Afrique du Sud Tel : +27 (0)21 490 0940 Consulat Général de France au Cap"
         }
       ],
       "zonesVigilance": [
@@ -7402,7 +7412,7 @@
       ],
       "carteVigilance": "/maps/ZA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/afrique-du-sud/",
-      "scrapedAt": "2026-06-08T05:57:07.061748"
+      "scrapedAt": "2026-06-09T05:15:15.708059"
     },
     "ZM": {
       "iso": "ZM",
@@ -7416,6 +7426,11 @@
           "label": "Zambie",
           "niveau": "modere",
           "texte": "Présentation de la Zambie Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation de Zambie en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -7446,11 +7461,6 @@
           "label": "Découvrez notre podcast : Sources diplomatiques",
           "niveau": "modere",
           "texte": "Un podcast au cœur de la diplomatie française."
-        },
-        {
-          "label": "Suivez-nous sur les réseaux sociaux",
-          "niveau": "modere",
-          "texte": "Suivez-nous sur Facebook Visiter le compte Threads Visiter le compte Instagram Visiter le compte TikTok Visiter le compte Youtube Visiter le compte Linkedin"
         }
       ],
       "zonesVigilance": [],
@@ -7534,7 +7544,7 @@
       ],
       "carteVigilance": "/maps/ZM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zambie/",
-      "scrapedAt": "2026-06-08T05:57:10.939989"
+      "scrapedAt": "2026-06-09T05:15:22.078148"
     },
     "ZW": {
       "iso": "ZW",
@@ -7548,6 +7558,11 @@
           "label": "Zimbabwé",
           "niveau": "modere",
           "texte": "Présentation du Zimbabwé Conseils aux voyageurs Dernières minutes et alertes Voyages d&#039;affaires Politique et économie Relations bilatérales"
+        },
+        {
+          "label": "Contact de la représentation du Zimbabwé en France",
+          "niveau": "modere",
+          "texte": "Accéder à l&#039;annuaire"
         },
         {
           "label": "Sécurité",
@@ -7578,11 +7593,6 @@
           "label": "Ambassade de France au Zimbabwe",
           "niveau": "modere",
           "texte": "3 Princess Drive Newlands Harare HA Zimbabwe Tel : +263 242 709 753 Ambassade de France au Zimbabwe"
-        },
-        {
-          "label": "Découvrez notre podcast : Sources diplomatiques",
-          "niveau": "modere",
-          "texte": "Un podcast au cœur de la diplomatie française."
         }
       ],
       "zonesVigilance": [
@@ -7677,7 +7687,7 @@
       ],
       "carteVigilance": "/maps/ZW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zimbabwe/",
-      "scrapedAt": "2026-06-08T05:57:14.604511"
+      "scrapedAt": "2026-06-09T05:15:28.908759"
     }
   }
 }
