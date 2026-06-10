@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T05:15:28.908930",
+  "generatedAt": "2026-06-10T05:26:06.323952",
   "totalChanged": 1,
   "countries": {
     "DZ": {
@@ -23,7 +23,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -158,7 +158,7 @@
       ],
       "carteVigilance": "/maps/DZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/algerie/",
-      "scrapedAt": "2026-06-09T05:09:49.948304"
+      "scrapedAt": "2026-06-10T05:22:25.422257"
     },
     "AO": {
       "iso": "AO",
@@ -181,7 +181,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -305,7 +305,7 @@
       ],
       "carteVigilance": "/maps/AO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/angola/",
-      "scrapedAt": "2026-06-09T05:09:56.976994"
+      "scrapedAt": "2026-06-10T05:22:30.293734"
     },
     "BJ": {
       "iso": "BJ",
@@ -328,7 +328,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -468,7 +468,7 @@
       ],
       "carteVigilance": "/maps/BJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/benin/",
-      "scrapedAt": "2026-06-09T05:10:04.788407"
+      "scrapedAt": "2026-06-10T05:22:35.192491"
     },
     "BW": {
       "iso": "BW",
@@ -491,7 +491,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -627,7 +627,7 @@
       ],
       "carteVigilance": "/maps/BW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/botswana/",
-      "scrapedAt": "2026-06-09T05:10:10.471597"
+      "scrapedAt": "2026-06-10T05:22:39.253436"
     },
     "BF": {
       "iso": "BF",
@@ -650,7 +650,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 27 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -675,7 +675,7 @@
         {
           "label": "Consulat général de France à Ouagadougou",
           "niveau": "modere",
-          "texte": "Avenue de l’indépendance - rue du Trésor Zone Koulouba Ouagadougou Burkina Faso Tel : +33 3 59 39 70 31 Ambassade de France au Burkina Faso"
+          "texte": "Avenue de l’indépendance - rue du Trésor Zone Koulouba Ouagadougou Burkina Faso Ambassade de France au Burkina Faso"
         }
       ],
       "zonesVigilance": [
@@ -768,7 +768,7 @@
       ],
       "carteVigilance": "/maps/BF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burkina-faso/",
-      "scrapedAt": "2026-06-09T05:10:17.862055"
+      "scrapedAt": "2026-06-10T05:22:44.073613"
     },
     "BI": {
       "iso": "BI",
@@ -791,7 +791,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -926,7 +926,7 @@
       ],
       "carteVigilance": "/maps/BI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burundi/",
-      "scrapedAt": "2026-06-09T05:10:23.752803"
+      "scrapedAt": "2026-06-10T05:22:48.098796"
     },
     "CM": {
       "iso": "CM",
@@ -949,7 +949,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1080,7 +1080,7 @@
       ],
       "carteVigilance": "/maps/CM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cameroun/",
-      "scrapedAt": "2026-06-09T05:10:29.930535"
+      "scrapedAt": "2026-06-10T05:22:52.850366"
     },
     "CV": {
       "iso": "CV",
@@ -1103,7 +1103,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1221,7 +1221,7 @@
       ],
       "carteVigilance": "/maps/CV.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cap-vert/",
-      "scrapedAt": "2026-06-09T05:10:35.934132"
+      "scrapedAt": "2026-06-10T05:22:58.027171"
     },
     "CF": {
       "iso": "CF",
@@ -1244,7 +1244,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1368,7 +1368,7 @@
       ],
       "carteVigilance": "/maps/CF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-centrafricaine/",
-      "scrapedAt": "2026-06-09T05:10:43.087276"
+      "scrapedAt": "2026-06-10T05:23:03.220810"
     },
     "KM": {
       "iso": "KM",
@@ -1391,7 +1391,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 24 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1503,7 +1503,7 @@
       ],
       "carteVigilance": "/maps/KM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/comores/",
-      "scrapedAt": "2026-06-09T05:10:49.204796"
+      "scrapedAt": "2026-06-10T05:23:07.183098"
     },
     "CG": {
       "iso": "CG",
@@ -1526,7 +1526,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1551,7 +1551,7 @@
         {
           "label": "Consulat général de France à Pointe-Noire",
           "niveau": "modere",
-          "texte": "4 allée de Makimba Pointe-Noire Congo-Kinshasa Tel : +33 4 22 84 02 08 Consulat général de France à Pointe-Noire"
+          "texte": "4 allée de Makimba Pointe-Noire Congo-Kinshasa Consulat général de France à Pointe-Noire"
         }
       ],
       "zonesVigilance": [
@@ -1651,7 +1651,7 @@
       ],
       "carteVigilance": "/maps/CG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/congo/",
-      "scrapedAt": "2026-06-09T05:10:56.270476"
+      "scrapedAt": "2026-06-10T05:23:11.981945"
     },
     "CD": {
       "iso": "CD",
@@ -1674,7 +1674,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1804,7 +1804,7 @@
       ],
       "carteVigilance": "/maps/CD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-democratique-du-congo/",
-      "scrapedAt": "2026-06-09T05:11:03.184627"
+      "scrapedAt": "2026-06-10T05:23:16.636673"
     },
     "CI": {
       "iso": "CI",
@@ -1827,7 +1827,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -1972,7 +1972,7 @@
       ],
       "carteVigilance": "/maps/CI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/",
-      "scrapedAt": "2026-06-09T05:11:08.426725"
+      "scrapedAt": "2026-06-10T05:23:20.355605"
     },
     "DJ": {
       "iso": "DJ",
@@ -1995,7 +1995,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2122,7 +2122,7 @@
       ],
       "carteVigilance": "/maps/DJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/djibouti/",
-      "scrapedAt": "2026-06-09T05:11:14.328081"
+      "scrapedAt": "2026-06-10T05:23:24.333621"
     },
     "EG": {
       "iso": "EG",
@@ -2259,7 +2259,7 @@
       ],
       "carteVigilance": "/maps/EG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/egypte/",
-      "scrapedAt": "2026-06-09T05:11:20.762691"
+      "scrapedAt": "2026-06-10T05:23:28.541013"
     },
     "ER": {
       "iso": "ER",
@@ -2282,7 +2282,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2386,7 +2386,7 @@
       ],
       "carteVigilance": "/maps/ER.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/erythree/",
-      "scrapedAt": "2026-06-09T05:11:27.802399"
+      "scrapedAt": "2026-06-10T05:23:33.021005"
     },
     "SZ": {
       "iso": "SZ",
@@ -2409,7 +2409,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2530,7 +2530,7 @@
       ],
       "carteVigilance": "/maps/SZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/eswatini/",
-      "scrapedAt": "2026-06-09T05:11:34.757037"
+      "scrapedAt": "2026-06-10T05:23:37.629077"
     },
     "ET": {
       "iso": "ET",
@@ -2553,7 +2553,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2689,7 +2689,7 @@
       ],
       "carteVigilance": "/maps/ET.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ethiopie/",
-      "scrapedAt": "2026-06-09T05:11:41.594780"
+      "scrapedAt": "2026-06-10T05:23:42.224143"
     },
     "GA": {
       "iso": "GA",
@@ -2712,7 +2712,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2826,7 +2826,7 @@
       ],
       "carteVigilance": "/maps/GA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gabon/",
-      "scrapedAt": "2026-06-09T05:11:47.906378"
+      "scrapedAt": "2026-06-10T05:23:46.625213"
     },
     "GM": {
       "iso": "GM",
@@ -2849,7 +2849,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 20 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -2963,7 +2963,7 @@
       ],
       "carteVigilance": "/maps/GM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gambie/",
-      "scrapedAt": "2026-06-09T05:11:53.903815"
+      "scrapedAt": "2026-06-10T05:23:50.207004"
     },
     "GH": {
       "iso": "GH",
@@ -2986,7 +2986,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -3128,7 +3128,7 @@
       ],
       "carteVigilance": "/maps/GH.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ghana/",
-      "scrapedAt": "2026-06-09T05:12:00.335723"
+      "scrapedAt": "2026-06-10T05:23:54.253161"
     },
     "GN": {
       "iso": "GN",
@@ -3151,7 +3151,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -3278,7 +3278,7 @@
       ],
       "carteVigilance": "/maps/GN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee/",
-      "scrapedAt": "2026-06-09T05:12:07.240148"
+      "scrapedAt": "2026-06-10T05:23:58.322856"
     },
     "GQ": {
       "iso": "GQ",
@@ -3301,7 +3301,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -3419,7 +3419,7 @@
       ],
       "carteVigilance": "/maps/GQ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-equatoriale/",
-      "scrapedAt": "2026-06-09T05:12:13.741855"
+      "scrapedAt": "2026-06-10T05:24:02.464592"
     },
     "GW": {
       "iso": "GW",
@@ -3448,14 +3448,14 @@
       ],
       "carteVigilance": null,
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-bissau/",
-      "scrapedAt": "2026-06-09T05:12:16.888476"
+      "scrapedAt": "2026-06-10T05:24:04.724828"
     },
     "KE": {
       "iso": "KE",
-      "sourceDateStr": "18 mai 2026",
-      "dateMAJInterne": "03 Jun 2026",
+      "sourceDateStr": "07 avril 2026",
+      "dateMAJInterne": "10 Jun 2026",
       "risk": "eleve",
-      "version": 2,
+      "version": 3,
       "derniereMinute": [],
       "securite": [
         {
@@ -3471,7 +3471,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -3608,7 +3608,7 @@
       ],
       "carteVigilance": "/maps/KE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
-      "scrapedAt": "2026-06-09T05:12:23.777225"
+      "scrapedAt": "2026-06-10T05:24:09.013251"
     },
     "LS": {
       "iso": "LS",
@@ -3631,7 +3631,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -3738,7 +3738,7 @@
       ],
       "carteVigilance": "/maps/LS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/lesotho/",
-      "scrapedAt": "2026-06-09T05:12:29.773361"
+      "scrapedAt": "2026-06-10T05:24:12.952290"
     },
     "LR": {
       "iso": "LR",
@@ -3761,7 +3761,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Avertissement",
@@ -3888,7 +3888,7 @@
       ],
       "carteVigilance": "/maps/LR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/liberia/",
-      "scrapedAt": "2026-06-09T05:12:36.816954"
+      "scrapedAt": "2026-06-10T05:24:17.176195"
     },
     "LY": {
       "iso": "LY",
@@ -4030,7 +4030,7 @@
       ],
       "carteVigilance": "/maps/LY.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/libye/",
-      "scrapedAt": "2026-06-09T05:12:43.312697"
+      "scrapedAt": "2026-06-10T05:24:21.306111"
     },
     "MG": {
       "iso": "MG",
@@ -4053,7 +4053,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 24 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -4178,7 +4178,7 @@
       ],
       "carteVigilance": "/maps/MG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/madagascar/",
-      "scrapedAt": "2026-06-09T05:12:50.606871"
+      "scrapedAt": "2026-06-10T05:24:26.007000"
     },
     "MW": {
       "iso": "MW",
@@ -4201,7 +4201,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 21 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -4322,7 +4322,7 @@
       ],
       "carteVigilance": "/maps/MW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/malawi/",
-      "scrapedAt": "2026-06-09T05:12:57.514302"
+      "scrapedAt": "2026-06-10T05:24:30.585387"
     },
     "ML": {
       "iso": "ML",
@@ -4345,7 +4345,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -4464,7 +4464,7 @@
       ],
       "carteVigilance": "/maps/ML.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mali/",
-      "scrapedAt": "2026-06-09T05:13:03.191254"
+      "scrapedAt": "2026-06-10T05:24:34.238569"
     },
     "MA": {
       "iso": "MA",
@@ -4601,7 +4601,7 @@
       ],
       "carteVigilance": "/maps/MA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/",
-      "scrapedAt": "2026-06-09T05:13:08.997695"
+      "scrapedAt": "2026-06-10T05:24:38.097352"
     },
     "MR": {
       "iso": "MR",
@@ -4624,7 +4624,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -4763,7 +4763,7 @@
       ],
       "carteVigilance": "/maps/MR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mauritanie/",
-      "scrapedAt": "2026-06-09T05:13:15.397451"
+      "scrapedAt": "2026-06-10T05:24:41.987493"
     },
     "MU": {
       "iso": "MU",
@@ -4786,7 +4786,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 14 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -4880,7 +4880,7 @@
       ],
       "carteVigilance": "/maps/MU.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maurice/",
-      "scrapedAt": "2026-06-09T05:13:22.081119"
+      "scrapedAt": "2026-06-10T05:24:46.295339"
     },
     "MZ": {
       "iso": "MZ",
@@ -4903,7 +4903,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 09 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5037,7 +5037,7 @@
       ],
       "carteVigilance": "/maps/MZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mozambique/",
-      "scrapedAt": "2026-06-09T05:13:30.108228"
+      "scrapedAt": "2026-06-10T05:24:50.798721"
     },
     "NA": {
       "iso": "NA",
@@ -5060,7 +5060,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 10 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Avertissement",
@@ -5169,7 +5169,7 @@
       ],
       "carteVigilance": "/maps/NA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/namibie/",
-      "scrapedAt": "2026-06-09T05:13:37.221437"
+      "scrapedAt": "2026-06-10T05:24:54.931870"
     },
     "NE": {
       "iso": "NE",
@@ -5192,7 +5192,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5311,7 +5311,7 @@
       ],
       "carteVigilance": "/maps/NE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/niger/",
-      "scrapedAt": "2026-06-09T05:13:43.727874"
+      "scrapedAt": "2026-06-10T05:24:59.123842"
     },
     "NG": {
       "iso": "NG",
@@ -5334,7 +5334,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 10 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5359,7 +5359,7 @@
         {
           "label": "Consulat général de France à Lagos",
           "niveau": "modere",
-          "texte": "Ikoyi Island - 1 Oyinkan Abayomi Drive Lagos 106104 Nigeria Tel : +234 201 343 89 39 Consulat général de France à Lagos"
+          "texte": "Ikoyi Island - 1 Oyinkan Abayomi Drive Lagos 106104 Nigeria Consulat général de France à Lagos"
         }
       ],
       "zonesVigilance": [
@@ -5479,7 +5479,7 @@
       ],
       "carteVigilance": "/maps/NG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/nigeria/",
-      "scrapedAt": "2026-06-09T05:13:50.861773"
+      "scrapedAt": "2026-06-10T05:25:03.515983"
     },
     "UG": {
       "iso": "UG",
@@ -5502,7 +5502,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 10 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5637,7 +5637,7 @@
       ],
       "carteVigilance": "/maps/UG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ouganda/",
-      "scrapedAt": "2026-06-09T05:13:58.161508"
+      "scrapedAt": "2026-06-10T05:25:08.110293"
     },
     "RW": {
       "iso": "RW",
@@ -5660,7 +5660,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5779,7 +5779,7 @@
       ],
       "carteVigilance": "/maps/RW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/rwanda/",
-      "scrapedAt": "2026-06-09T05:14:04.830022"
+      "scrapedAt": "2026-06-10T05:25:12.143851"
     },
     "ST": {
       "iso": "ST",
@@ -5802,7 +5802,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -5917,7 +5917,7 @@
       ],
       "carteVigilance": "/maps/ST.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sao-tome-et-principe/",
-      "scrapedAt": "2026-06-09T05:14:10.890940"
+      "scrapedAt": "2026-06-10T05:25:16.010163"
     },
     "SN": {
       "iso": "SN",
@@ -5940,7 +5940,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 16 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -6071,7 +6071,7 @@
       ],
       "carteVigilance": "/maps/SN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/",
-      "scrapedAt": "2026-06-09T05:14:17.387016"
+      "scrapedAt": "2026-06-10T05:25:20.137444"
     },
     "SL": {
       "iso": "SL",
@@ -6094,7 +6094,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Avertissement",
@@ -6223,7 +6223,7 @@
       ],
       "carteVigilance": "/maps/SL.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sierra-leone/",
-      "scrapedAt": "2026-06-09T05:14:23.737070"
+      "scrapedAt": "2026-06-10T05:25:24.630760"
     },
     "SO": {
       "iso": "SO",
@@ -6246,7 +6246,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -6355,7 +6355,7 @@
       ],
       "carteVigilance": "/maps/SO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/somalie/",
-      "scrapedAt": "2026-06-09T05:14:29.926376"
+      "scrapedAt": "2026-06-10T05:25:28.623941"
     },
     "SD": {
       "iso": "SD",
@@ -6378,7 +6378,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -6490,7 +6490,7 @@
       ],
       "carteVigilance": "/maps/SD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan/",
-      "scrapedAt": "2026-06-09T05:14:37.052798"
+      "scrapedAt": "2026-06-10T05:25:32.937125"
     },
     "SS": {
       "iso": "SS",
@@ -6513,7 +6513,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 15 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ? En cas d’urgence, l’ambassade de France à Djouba peut ê"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ? En cas d’urgence, l’ambassade de France à Djouba peut êt"
         },
         {
           "label": "Zones de vigilance",
@@ -6639,7 +6639,7 @@
       ],
       "carteVigilance": "/maps/SS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan-du-sud/",
-      "scrapedAt": "2026-06-09T05:14:43.303736"
+      "scrapedAt": "2026-06-10T05:25:37.203215"
     },
     "TZ": {
       "iso": "TZ",
@@ -6662,7 +6662,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 30 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -6804,7 +6804,7 @@
       ],
       "carteVigilance": "/maps/TZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
-      "scrapedAt": "2026-06-09T05:14:49.681104"
+      "scrapedAt": "2026-06-10T05:25:41.111351"
     },
     "TD": {
       "iso": "TD",
@@ -6827,7 +6827,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 30 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -6961,7 +6961,7 @@
       ],
       "carteVigilance": "/maps/TD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tchad/",
-      "scrapedAt": "2026-06-09T05:14:56.606005"
+      "scrapedAt": "2026-06-10T05:25:45.614077"
     },
     "TG": {
       "iso": "TG",
@@ -6984,7 +6984,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 13 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -7121,7 +7121,7 @@
       ],
       "carteVigilance": "/maps/TG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/togo/",
-      "scrapedAt": "2026-06-09T05:15:03.415321"
+      "scrapedAt": "2026-06-10T05:25:50.360798"
     },
     "TN": {
       "iso": "TN",
@@ -7250,7 +7250,7 @@
           "poliomyélite, la coqueluche mais aussi contre la rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays. <div class=\"paragraph paragraph--type--ds-co",
           "rougeole. Le carnet de vaccination peut être demandé à l’arrivée de certains pays. <div class=\"paragraph paragraph--type--ds-contenu-libre paragraph--view-mode--default fr-grid",
           "hives-diplomatiques-a-nantes-et-la-courneuve\" > Les archives diplomatiques <a class=\"fr-nav__link\" href=\"/fr/le-ministere/lieux-emblematiques/le-site-de-convention\"",
-          "Sida sont tenus de les signaler aux services de la santé et de la police. <div class=\"fr-grid-row fr-grid-row--gutters fr-m",
+          "Sida sont tenus de les signaler aux services de la santé et de la police. <div class=\"paragraph paragraph--type--ds-contenu-libre paragraph--view-mode--default fr-grid-row f",
           "Fièvre typhoïde : en fonction des conditions et de la durée de séjour ; Rage : notamment enfants en bas âge, séjour en milieu rural ou éloigné des villes"
         ]
       },
@@ -7268,7 +7268,7 @@
       ],
       "carteVigilance": "/maps/TN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/",
-      "scrapedAt": "2026-06-09T05:15:08.943889"
+      "scrapedAt": "2026-06-10T05:25:54.003268"
     },
     "ZA": {
       "iso": "ZA",
@@ -7291,7 +7291,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 27 mai 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -7412,7 +7412,7 @@
       ],
       "carteVigilance": "/maps/ZA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/afrique-du-sud/",
-      "scrapedAt": "2026-06-09T05:15:15.708059"
+      "scrapedAt": "2026-06-10T05:25:58.176703"
     },
     "ZM": {
       "iso": "ZM",
@@ -7435,7 +7435,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 24 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ? L’ambassade de France à Lusaka peut être jointe au +260"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ? L’ambassade de France à Lusaka peut être jointe au +260 "
         },
         {
           "label": "Zones de vigilance",
@@ -7544,7 +7544,7 @@
       ],
       "carteVigilance": "/maps/ZM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zambie/",
-      "scrapedAt": "2026-06-09T05:15:22.078148"
+      "scrapedAt": "2026-06-10T05:26:02.306934"
     },
     "ZW": {
       "iso": "ZW",
@@ -7567,7 +7567,7 @@
         {
           "label": "Sécurité",
           "niveau": "modere",
-          "texte": "Date de mise à jour le : 30 avril 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
+          "texte": "Date de mise à jour le : 09 juin 2026 Information toujours valable à la date du jour Pour recevoir des alertes, inscrivez-vous sur Fil d&#039;Ariane. Aidez-nous à améliorer notre service en répondant à notre enquête. Avant de voyager, il est indispensable de vérifier que vous êtes bien assuré Quelle est la portée des Conseils aux Voyageurs ?"
         },
         {
           "label": "Zones de vigilance",
@@ -7687,7 +7687,7 @@
       ],
       "carteVigilance": "/maps/ZW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zimbabwe/",
-      "scrapedAt": "2026-06-09T05:15:28.908759"
+      "scrapedAt": "2026-06-10T05:26:06.323803"
     }
   }
 }
