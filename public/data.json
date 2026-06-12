@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T06:03:21.414551",
-  "totalChanged": 0,
+  "generatedAt": "2026-06-12T05:57:03.275373",
+  "totalChanged": 1,
   "countries": {
     "DZ": {
       "iso": "DZ",
@@ -158,7 +158,7 @@
       ],
       "carteVigilance": "/maps/DZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/algerie/",
-      "scrapedAt": "2026-06-11T05:52:05.909620"
+      "scrapedAt": "2026-06-12T05:51:19.781346"
     },
     "AO": {
       "iso": "AO",
@@ -305,7 +305,7 @@
       ],
       "carteVigilance": "/maps/AO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/angola/",
-      "scrapedAt": "2026-06-11T05:52:15.115689"
+      "scrapedAt": "2026-06-12T05:51:27.660484"
     },
     "BJ": {
       "iso": "BJ",
@@ -468,7 +468,7 @@
       ],
       "carteVigilance": "/maps/BJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/benin/",
-      "scrapedAt": "2026-06-11T05:52:35.583998"
+      "scrapedAt": "2026-06-12T05:51:35.689980"
     },
     "BW": {
       "iso": "BW",
@@ -627,7 +627,7 @@
       ],
       "carteVigilance": "/maps/BW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/botswana/",
-      "scrapedAt": "2026-06-11T05:52:43.260804"
+      "scrapedAt": "2026-06-12T05:51:41.860165"
     },
     "BF": {
       "iso": "BF",
@@ -675,7 +675,7 @@
         {
           "label": "Consulat général de France à Ouagadougou",
           "niveau": "modere",
-          "texte": "Avenue de l’indépendance - rue du Trésor Zone Koulouba Ouagadougou Burkina Faso Ambassade de France au Burkina Faso"
+          "texte": "Avenue de l’indépendance - rue du Trésor Zone Koulouba Ouagadougou Burkina Faso La France au Burkina Faso"
         }
       ],
       "zonesVigilance": [
@@ -768,7 +768,7 @@
       ],
       "carteVigilance": "/maps/BF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burkina-faso/",
-      "scrapedAt": "2026-06-11T05:52:52.459988"
+      "scrapedAt": "2026-06-12T05:51:49.177553"
     },
     "BI": {
       "iso": "BI",
@@ -926,7 +926,7 @@
       ],
       "carteVigilance": "/maps/BI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burundi/",
-      "scrapedAt": "2026-06-11T05:53:07.384835"
+      "scrapedAt": "2026-06-12T05:51:55.423383"
     },
     "CM": {
       "iso": "CM",
@@ -1080,7 +1080,7 @@
       ],
       "carteVigilance": "/maps/CM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cameroun/",
-      "scrapedAt": "2026-06-11T05:53:18.427161"
+      "scrapedAt": "2026-06-12T05:52:02.029792"
     },
     "CV": {
       "iso": "CV",
@@ -1221,7 +1221,7 @@
       ],
       "carteVigilance": "/maps/CV.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cap-vert/",
-      "scrapedAt": "2026-06-11T05:53:34.228133"
+      "scrapedAt": "2026-06-12T05:52:08.165531"
     },
     "CF": {
       "iso": "CF",
@@ -1368,7 +1368,7 @@
       ],
       "carteVigilance": "/maps/CF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-centrafricaine/",
-      "scrapedAt": "2026-06-11T05:53:47.972296"
+      "scrapedAt": "2026-06-12T05:52:15.042470"
     },
     "KM": {
       "iso": "KM",
@@ -1503,7 +1503,7 @@
       ],
       "carteVigilance": "/maps/KM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/comores/",
-      "scrapedAt": "2026-06-11T05:54:02.752858"
+      "scrapedAt": "2026-06-12T05:52:21.142346"
     },
     "CG": {
       "iso": "CG",
@@ -1551,7 +1551,7 @@
         {
           "label": "Consulat général de France à Pointe-Noire",
           "niveau": "modere",
-          "texte": "4 allée de Makimba Pointe-Noire Congo-Kinshasa Consulat général de France à Pointe-Noire"
+          "texte": "4 allée de Makimba Pointe-Noire Congo-Kinshasa"
         }
       ],
       "zonesVigilance": [
@@ -1651,14 +1651,14 @@
       ],
       "carteVigilance": "/maps/CG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/congo/",
-      "scrapedAt": "2026-06-11T05:54:18.163898"
+      "scrapedAt": "2026-06-12T05:52:29.270271"
     },
     "CD": {
       "iso": "CD",
-      "sourceDateStr": "03 juin 2026",
-      "dateMAJInterne": "03 Jun 2026",
+      "sourceDateStr": "11 juin 2026",
+      "dateMAJInterne": "12 Jun 2026",
       "risk": "eleve",
-      "version": 2,
+      "version": 3,
       "derniereMinute": [],
       "securite": [
         {
@@ -1804,7 +1804,7 @@
       ],
       "carteVigilance": "/maps/CD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-democratique-du-congo/",
-      "scrapedAt": "2026-06-11T05:54:29.305434"
+      "scrapedAt": "2026-06-12T05:52:36.702165"
     },
     "CI": {
       "iso": "CI",
@@ -1852,7 +1852,7 @@
         {
           "label": "Consulat général de France à Abidjan (compétent pour le Libéria)",
           "niveau": "modere",
-          "texte": "Consulat 17, rue Lecoeur 17 BP 175 Abidjan Côte d’Ivoire Consulat général de France à Abidjan"
+          "texte": "Consulat 17, rue Lecoeur 17 BP 175 Abidjan Côte d’Ivoire La France en Côte d&#039;Ivoire"
         }
       ],
       "zonesVigilance": [
@@ -1972,7 +1972,7 @@
       ],
       "carteVigilance": "/maps/CI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/",
-      "scrapedAt": "2026-06-11T05:54:42.761414"
+      "scrapedAt": "2026-06-12T05:52:43.308765"
     },
     "DJ": {
       "iso": "DJ",
@@ -2122,7 +2122,7 @@
       ],
       "carteVigilance": "/maps/DJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/djibouti/",
-      "scrapedAt": "2026-06-11T05:55:01.244951"
+      "scrapedAt": "2026-06-12T05:52:49.479965"
     },
     "EG": {
       "iso": "EG",
@@ -2259,7 +2259,7 @@
       ],
       "carteVigilance": "/maps/EG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/egypte/",
-      "scrapedAt": "2026-06-11T05:55:09.840841"
+      "scrapedAt": "2026-06-12T05:52:55.868174"
     },
     "ER": {
       "iso": "ER",
@@ -2386,7 +2386,7 @@
       ],
       "carteVigilance": "/maps/ER.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/erythree/",
-      "scrapedAt": "2026-06-11T05:55:22.709101"
+      "scrapedAt": "2026-06-12T05:53:03.208981"
     },
     "SZ": {
       "iso": "SZ",
@@ -2530,7 +2530,7 @@
       ],
       "carteVigilance": "/maps/SZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/eswatini/",
-      "scrapedAt": "2026-06-11T05:55:42.781457"
+      "scrapedAt": "2026-06-12T05:53:10.151871"
     },
     "ET": {
       "iso": "ET",
@@ -2689,7 +2689,7 @@
       ],
       "carteVigilance": "/maps/ET.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ethiopie/",
-      "scrapedAt": "2026-06-11T05:55:55.393969"
+      "scrapedAt": "2026-06-12T05:53:17.301272"
     },
     "GA": {
       "iso": "GA",
@@ -2737,7 +2737,7 @@
         {
           "label": "Consulat général de France à Libreville (compétent pour Sao Tomé-et-Principe)",
           "niveau": "modere",
-          "texte": "Boulevard de la Nation Batterie IV Libreville Gabon Tel : +33 3 59 39 71 64 Consulat général de France à Libreville"
+          "texte": "Boulevard de la Nation Batterie IV Libreville Gabon La France au Gabon et à São Tomé et Principe"
         }
       ],
       "zonesVigilance": [
@@ -2826,7 +2826,7 @@
       ],
       "carteVigilance": "/maps/GA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gabon/",
-      "scrapedAt": "2026-06-11T05:56:03.415293"
+      "scrapedAt": "2026-06-12T05:53:24.029685"
     },
     "GM": {
       "iso": "GM",
@@ -2874,7 +2874,7 @@
         {
           "label": "Antenne diplomatique de Banjul",
           "niveau": "modere",
-          "texte": "Antenne diplomatique 966, Atlantic Boulevard (face au château d’eau de la NAWEC), Fajara, Kanifing Banjul Gambie Tel : + 220 722 2898 Ambassade de France en Gambie"
+          "texte": "Antenne diplomatique 966, Atlantic Boulevard (face au château d’eau de la NAWEC), Fajara, Kanifing Banjul Gambie Tel : + 220 722 2898 La France au Sénégal et en Gambie"
         }
       ],
       "zonesVigilance": [
@@ -2963,7 +2963,7 @@
       ],
       "carteVigilance": "/maps/GM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gambie/",
-      "scrapedAt": "2026-06-11T05:56:17.743215"
+      "scrapedAt": "2026-06-12T05:53:29.954173"
     },
     "GH": {
       "iso": "GH",
@@ -3128,7 +3128,7 @@
       ],
       "carteVigilance": "/maps/GH.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ghana/",
-      "scrapedAt": "2026-06-11T05:56:31.774965"
+      "scrapedAt": "2026-06-12T05:53:37.070200"
     },
     "GN": {
       "iso": "GN",
@@ -3278,7 +3278,7 @@
       ],
       "carteVigilance": "/maps/GN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee/",
-      "scrapedAt": "2026-06-11T05:56:42.814907"
+      "scrapedAt": "2026-06-12T05:53:43.632115"
     },
     "GQ": {
       "iso": "GQ",
@@ -3419,7 +3419,7 @@
       ],
       "carteVigilance": "/maps/GQ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-equatoriale/",
-      "scrapedAt": "2026-06-11T05:56:59.013742"
+      "scrapedAt": "2026-06-12T05:53:49.855194"
     },
     "GW": {
       "iso": "GW",
@@ -3448,7 +3448,7 @@
       ],
       "carteVigilance": null,
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-bissau/",
-      "scrapedAt": "2026-06-11T05:57:09.286822"
+      "scrapedAt": "2026-06-12T05:53:53.071618"
     },
     "KE": {
       "iso": "KE",
@@ -3608,7 +3608,7 @@
       ],
       "carteVigilance": "/maps/KE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
-      "scrapedAt": "2026-06-11T05:57:20.889300"
+      "scrapedAt": "2026-06-12T05:53:59.494479"
     },
     "LS": {
       "iso": "LS",
@@ -3738,7 +3738,7 @@
       ],
       "carteVigilance": "/maps/LS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/lesotho/",
-      "scrapedAt": "2026-06-11T05:57:40.190839"
+      "scrapedAt": "2026-06-12T05:54:05.468996"
     },
     "LR": {
       "iso": "LR",
@@ -3888,7 +3888,7 @@
       ],
       "carteVigilance": "/maps/LR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/liberia/",
-      "scrapedAt": "2026-06-11T05:57:50.972405"
+      "scrapedAt": "2026-06-12T05:54:11.267061"
     },
     "LY": {
       "iso": "LY",
@@ -4030,7 +4030,7 @@
       ],
       "carteVigilance": "/maps/LY.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/libye/",
-      "scrapedAt": "2026-06-11T05:58:05.540470"
+      "scrapedAt": "2026-06-12T05:54:17.179741"
     },
     "MG": {
       "iso": "MG",
@@ -4178,7 +4178,7 @@
       ],
       "carteVigilance": "/maps/MG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/madagascar/",
-      "scrapedAt": "2026-06-11T05:58:14.923355"
+      "scrapedAt": "2026-06-12T05:54:24.550241"
     },
     "MW": {
       "iso": "MW",
@@ -4322,7 +4322,7 @@
       ],
       "carteVigilance": "/maps/MW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/malawi/",
-      "scrapedAt": "2026-06-11T05:58:30.435627"
+      "scrapedAt": "2026-06-12T05:54:31.488677"
     },
     "ML": {
       "iso": "ML",
@@ -4464,7 +4464,7 @@
       ],
       "carteVigilance": "/maps/ML.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mali/",
-      "scrapedAt": "2026-06-11T05:58:38.027252"
+      "scrapedAt": "2026-06-12T05:54:37.489923"
     },
     "MA": {
       "iso": "MA",
@@ -4601,7 +4601,7 @@
       ],
       "carteVigilance": "/maps/MA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/",
-      "scrapedAt": "2026-06-11T05:58:46.345136"
+      "scrapedAt": "2026-06-12T05:54:43.777016"
     },
     "MR": {
       "iso": "MR",
@@ -4763,7 +4763,7 @@
       ],
       "carteVigilance": "/maps/MR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mauritanie/",
-      "scrapedAt": "2026-06-11T05:58:58.712096"
+      "scrapedAt": "2026-06-12T05:54:50.148129"
     },
     "MU": {
       "iso": "MU",
@@ -4880,7 +4880,7 @@
       ],
       "carteVigilance": "/maps/MU.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maurice/",
-      "scrapedAt": "2026-06-11T05:59:07.953856"
+      "scrapedAt": "2026-06-12T05:54:56.917646"
     },
     "MZ": {
       "iso": "MZ",
@@ -5036,7 +5036,7 @@
       ],
       "carteVigilance": "/maps/MZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mozambique/",
-      "scrapedAt": "2026-06-11T05:59:21.659666"
+      "scrapedAt": "2026-06-12T05:55:04.166911"
     },
     "NA": {
       "iso": "NA",
@@ -5168,7 +5168,7 @@
       ],
       "carteVigilance": "/maps/NA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/namibie/",
-      "scrapedAt": "2026-06-11T05:59:37.065851"
+      "scrapedAt": "2026-06-12T05:55:10.861661"
     },
     "NE": {
       "iso": "NE",
@@ -5310,7 +5310,7 @@
       ],
       "carteVigilance": "/maps/NE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/niger/",
-      "scrapedAt": "2026-06-11T05:59:58.581173"
+      "scrapedAt": "2026-06-12T05:55:17.722886"
     },
     "NG": {
       "iso": "NG",
@@ -5358,7 +5358,7 @@
         {
           "label": "Consulat général de France à Lagos",
           "niveau": "modere",
-          "texte": "Ikoyi Island - 1 Oyinkan Abayomi Drive Lagos 106104 Nigeria Consulat général de France à Lagos"
+          "texte": "Ikoyi Island - 1 Oyinkan Abayomi Drive Lagos 106104 Nigeria La France au Nigéria"
         }
       ],
       "zonesVigilance": [
@@ -5478,7 +5478,7 @@
       ],
       "carteVigilance": "/maps/NG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/nigeria/",
-      "scrapedAt": "2026-06-11T06:00:09.478108"
+      "scrapedAt": "2026-06-12T05:55:24.730393"
     },
     "UG": {
       "iso": "UG",
@@ -5636,7 +5636,7 @@
       ],
       "carteVigilance": "/maps/UG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ouganda/",
-      "scrapedAt": "2026-06-11T06:00:26.506360"
+      "scrapedAt": "2026-06-12T05:55:31.604813"
     },
     "RW": {
       "iso": "RW",
@@ -5778,7 +5778,7 @@
       ],
       "carteVigilance": "/maps/RW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/rwanda/",
-      "scrapedAt": "2026-06-11T06:00:41.439935"
+      "scrapedAt": "2026-06-12T05:55:38.219572"
     },
     "ST": {
       "iso": "ST",
@@ -5826,7 +5826,7 @@
         {
           "label": "Consulat général de France à Libreville (compétent pour Sao Tomé-et-Principe)",
           "niveau": "modere",
-          "texte": "Boulevard de la Nation Batterie IV Libreville Gabon Tel : +33 3 59 39 71 64 Consulat général de France à Libreville"
+          "texte": "Boulevard de la Nation Batterie IV Libreville Gabon La France au Gabon et à São Tomé et Principe"
         }
       ],
       "zonesVigilance": [
@@ -5916,7 +5916,7 @@
       ],
       "carteVigilance": "/maps/ST.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sao-tome-et-principe/",
-      "scrapedAt": "2026-06-11T06:00:54.764712"
+      "scrapedAt": "2026-06-12T05:55:44.309329"
     },
     "SN": {
       "iso": "SN",
@@ -6070,7 +6070,7 @@
       ],
       "carteVigilance": "/maps/SN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/",
-      "scrapedAt": "2026-06-11T06:01:06.686669"
+      "scrapedAt": "2026-06-12T05:55:50.972262"
     },
     "SL": {
       "iso": "SL",
@@ -6222,7 +6222,7 @@
       ],
       "carteVigilance": "/maps/SL.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sierra-leone/",
-      "scrapedAt": "2026-06-11T06:01:23.158347"
+      "scrapedAt": "2026-06-12T05:55:57.424849"
     },
     "SO": {
       "iso": "SO",
@@ -6354,7 +6354,7 @@
       ],
       "carteVigilance": "/maps/SO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/somalie/",
-      "scrapedAt": "2026-06-11T06:01:36.478791"
+      "scrapedAt": "2026-06-12T05:56:03.542409"
     },
     "SD": {
       "iso": "SD",
@@ -6489,7 +6489,7 @@
       ],
       "carteVigilance": "/maps/SD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan/",
-      "scrapedAt": "2026-06-11T06:01:50.246690"
+      "scrapedAt": "2026-06-12T05:56:10.261937"
     },
     "SS": {
       "iso": "SS",
@@ -6638,7 +6638,7 @@
       ],
       "carteVigilance": "/maps/SS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan-du-sud/",
-      "scrapedAt": "2026-06-11T06:02:03.487183"
+      "scrapedAt": "2026-06-12T05:56:17.449279"
     },
     "TZ": {
       "iso": "TZ",
@@ -6803,7 +6803,7 @@
       ],
       "carteVigilance": "/maps/TZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
-      "scrapedAt": "2026-06-11T06:02:14.514695"
+      "scrapedAt": "2026-06-12T05:56:24.190185"
     },
     "TD": {
       "iso": "TD",
@@ -6960,7 +6960,7 @@
       ],
       "carteVigilance": "/maps/TD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tchad/",
-      "scrapedAt": "2026-06-11T06:02:24.350220"
+      "scrapedAt": "2026-06-12T05:56:31.749101"
     },
     "TG": {
       "iso": "TG",
@@ -7120,7 +7120,7 @@
       ],
       "carteVigilance": "/maps/TG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/togo/",
-      "scrapedAt": "2026-06-11T06:02:35.778362"
+      "scrapedAt": "2026-06-12T05:56:39.387611"
     },
     "TN": {
       "iso": "TN",
@@ -7267,7 +7267,7 @@
       ],
       "carteVigilance": "/maps/TN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/",
-      "scrapedAt": "2026-06-11T06:02:43.756770"
+      "scrapedAt": "2026-06-12T05:56:44.940808"
     },
     "ZA": {
       "iso": "ZA",
@@ -7411,7 +7411,7 @@
       ],
       "carteVigilance": "/maps/ZA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/afrique-du-sud/",
-      "scrapedAt": "2026-06-11T06:02:55.407135"
+      "scrapedAt": "2026-06-12T05:56:51.476480"
     },
     "ZM": {
       "iso": "ZM",
@@ -7543,7 +7543,7 @@
       ],
       "carteVigilance": "/maps/ZM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zambie/",
-      "scrapedAt": "2026-06-11T06:03:12.499370"
+      "scrapedAt": "2026-06-12T05:56:57.607167"
     },
     "ZW": {
       "iso": "ZW",
@@ -7686,7 +7686,7 @@
       ],
       "carteVigilance": "/maps/ZW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zimbabwe/",
-      "scrapedAt": "2026-06-11T06:03:21.414395"
+      "scrapedAt": "2026-06-12T05:57:03.275238"
     }
   }
 }
