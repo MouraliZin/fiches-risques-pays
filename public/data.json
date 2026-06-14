@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-13T05:28:32.942262",
-  "totalChanged": 1,
+  "generatedAt": "2026-06-14T05:58:39.289013",
+  "totalChanged": 0,
   "countries": {
     "DZ": {
       "iso": "DZ",
@@ -158,7 +158,7 @@
       ],
       "carteVigilance": "/maps/DZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/algerie/",
-      "scrapedAt": "2026-06-13T05:22:35.598912"
+      "scrapedAt": "2026-06-14T05:52:42.028002"
     },
     "AO": {
       "iso": "AO",
@@ -305,7 +305,7 @@
       ],
       "carteVigilance": "/maps/AO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/angola/",
-      "scrapedAt": "2026-06-13T05:22:42.825073"
+      "scrapedAt": "2026-06-14T05:52:49.948997"
     },
     "BJ": {
       "iso": "BJ",
@@ -468,7 +468,7 @@
       ],
       "carteVigilance": "/maps/BJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/benin/",
-      "scrapedAt": "2026-06-13T05:22:51.149266"
+      "scrapedAt": "2026-06-14T05:52:58.584153"
     },
     "BW": {
       "iso": "BW",
@@ -627,7 +627,7 @@
       ],
       "carteVigilance": "/maps/BW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/botswana/",
-      "scrapedAt": "2026-06-13T05:22:57.447760"
+      "scrapedAt": "2026-06-14T05:53:04.488264"
     },
     "BF": {
       "iso": "BF",
@@ -768,7 +768,7 @@
       ],
       "carteVigilance": "/maps/BF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burkina-faso/",
-      "scrapedAt": "2026-06-13T05:23:05.191625"
+      "scrapedAt": "2026-06-14T05:53:11.638658"
     },
     "BI": {
       "iso": "BI",
@@ -926,7 +926,7 @@
       ],
       "carteVigilance": "/maps/BI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/burundi/",
-      "scrapedAt": "2026-06-13T05:23:11.481546"
+      "scrapedAt": "2026-06-14T05:53:17.822903"
     },
     "CM": {
       "iso": "CM",
@@ -1080,7 +1080,7 @@
       ],
       "carteVigilance": "/maps/CM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cameroun/",
-      "scrapedAt": "2026-06-13T05:23:17.871411"
+      "scrapedAt": "2026-06-14T05:53:24.588826"
     },
     "CV": {
       "iso": "CV",
@@ -1221,7 +1221,7 @@
       ],
       "carteVigilance": "/maps/CV.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cap-vert/",
-      "scrapedAt": "2026-06-13T05:23:24.341944"
+      "scrapedAt": "2026-06-14T05:53:31.086187"
     },
     "CF": {
       "iso": "CF",
@@ -1368,7 +1368,7 @@
       ],
       "carteVigilance": "/maps/CF.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-centrafricaine/",
-      "scrapedAt": "2026-06-13T05:23:31.758696"
+      "scrapedAt": "2026-06-14T05:53:38.678265"
     },
     "KM": {
       "iso": "KM",
@@ -1503,7 +1503,7 @@
       ],
       "carteVigilance": "/maps/KM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/comores/",
-      "scrapedAt": "2026-06-13T05:23:38.166992"
+      "scrapedAt": "2026-06-14T05:53:45.727949"
     },
     "CG": {
       "iso": "CG",
@@ -1651,7 +1651,7 @@
       ],
       "carteVigilance": "/maps/CG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/congo/",
-      "scrapedAt": "2026-06-13T05:23:45.903676"
+      "scrapedAt": "2026-06-14T05:53:54.478425"
     },
     "CD": {
       "iso": "CD",
@@ -1804,7 +1804,7 @@
       ],
       "carteVigilance": "/maps/CD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/republique-democratique-du-congo/",
-      "scrapedAt": "2026-06-13T05:23:53.505370"
+      "scrapedAt": "2026-06-14T05:54:01.965162"
     },
     "CI": {
       "iso": "CI",
@@ -1972,7 +1972,7 @@
       ],
       "carteVigilance": "/maps/CI.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/",
-      "scrapedAt": "2026-06-13T05:23:59.661480"
+      "scrapedAt": "2026-06-14T05:54:08.535685"
     },
     "DJ": {
       "iso": "DJ",
@@ -2122,7 +2122,7 @@
       ],
       "carteVigilance": "/maps/DJ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/djibouti/",
-      "scrapedAt": "2026-06-13T05:24:05.705207"
+      "scrapedAt": "2026-06-14T05:54:14.750693"
     },
     "EG": {
       "iso": "EG",
@@ -2259,7 +2259,7 @@
       ],
       "carteVigilance": "/maps/EG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/egypte/",
-      "scrapedAt": "2026-06-13T05:24:12.414527"
+      "scrapedAt": "2026-06-14T05:54:21.450922"
     },
     "ER": {
       "iso": "ER",
@@ -2386,7 +2386,7 @@
       ],
       "carteVigilance": "/maps/ER.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/erythree/",
-      "scrapedAt": "2026-06-13T05:24:19.690553"
+      "scrapedAt": "2026-06-14T05:54:28.810011"
     },
     "SZ": {
       "iso": "SZ",
@@ -2530,7 +2530,7 @@
       ],
       "carteVigilance": "/maps/SZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/eswatini/",
-      "scrapedAt": "2026-06-13T05:24:26.947066"
+      "scrapedAt": "2026-06-14T05:54:35.895587"
     },
     "ET": {
       "iso": "ET",
@@ -2689,7 +2689,7 @@
       ],
       "carteVigilance": "/maps/ET.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ethiopie/",
-      "scrapedAt": "2026-06-13T05:24:34.323329"
+      "scrapedAt": "2026-06-14T05:54:42.913595"
     },
     "GA": {
       "iso": "GA",
@@ -2826,7 +2826,7 @@
       ],
       "carteVigilance": "/maps/GA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gabon/",
-      "scrapedAt": "2026-06-13T05:24:41.347176"
+      "scrapedAt": "2026-06-14T05:54:49.963733"
     },
     "GM": {
       "iso": "GM",
@@ -2963,7 +2963,7 @@
       ],
       "carteVigilance": "/maps/GM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/gambie/",
-      "scrapedAt": "2026-06-13T05:24:47.300835"
+      "scrapedAt": "2026-06-14T05:54:56.043948"
     },
     "GH": {
       "iso": "GH",
@@ -3128,7 +3128,7 @@
       ],
       "carteVigilance": "/maps/GH.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ghana/",
-      "scrapedAt": "2026-06-13T05:24:54.406041"
+      "scrapedAt": "2026-06-14T05:55:02.990293"
     },
     "GN": {
       "iso": "GN",
@@ -3278,7 +3278,7 @@
       ],
       "carteVigilance": "/maps/GN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee/",
-      "scrapedAt": "2026-06-13T05:25:01.077823"
+      "scrapedAt": "2026-06-14T05:55:09.317383"
     },
     "GQ": {
       "iso": "GQ",
@@ -3419,7 +3419,7 @@
       ],
       "carteVigilance": "/maps/GQ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-equatoriale/",
-      "scrapedAt": "2026-06-13T05:25:08.074117"
+      "scrapedAt": "2026-06-14T05:55:16.261418"
     },
     "GW": {
       "iso": "GW",
@@ -3448,7 +3448,7 @@
       ],
       "carteVigilance": null,
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/guinee-bissau/",
-      "scrapedAt": "2026-06-13T05:25:11.254912"
+      "scrapedAt": "2026-06-14T05:55:19.429983"
     },
     "KE": {
       "iso": "KE",
@@ -3608,7 +3608,7 @@
       ],
       "carteVigilance": "/maps/KE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/kenya/",
-      "scrapedAt": "2026-06-13T05:25:18.260483"
+      "scrapedAt": "2026-06-14T05:55:26.199749"
     },
     "LS": {
       "iso": "LS",
@@ -3738,7 +3738,7 @@
       ],
       "carteVigilance": "/maps/LS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/lesotho/",
-      "scrapedAt": "2026-06-13T05:25:24.932738"
+      "scrapedAt": "2026-06-14T05:55:32.542475"
     },
     "LR": {
       "iso": "LR",
@@ -3888,7 +3888,7 @@
       ],
       "carteVigilance": "/maps/LR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/liberia/",
-      "scrapedAt": "2026-06-13T05:25:31.461763"
+      "scrapedAt": "2026-06-14T05:55:39.207086"
     },
     "LY": {
       "iso": "LY",
@@ -4030,7 +4030,7 @@
       ],
       "carteVigilance": "/maps/LY.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/libye/",
-      "scrapedAt": "2026-06-13T05:25:37.734639"
+      "scrapedAt": "2026-06-14T05:55:46.027607"
     },
     "MG": {
       "iso": "MG",
@@ -4178,7 +4178,7 @@
       ],
       "carteVigilance": "/maps/MG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/madagascar/",
-      "scrapedAt": "2026-06-13T05:25:45.431094"
+      "scrapedAt": "2026-06-14T05:55:53.590164"
     },
     "MW": {
       "iso": "MW",
@@ -4322,7 +4322,7 @@
       ],
       "carteVigilance": "/maps/MW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/malawi/",
-      "scrapedAt": "2026-06-13T05:25:52.864035"
+      "scrapedAt": "2026-06-14T05:56:00.900363"
     },
     "ML": {
       "iso": "ML",
@@ -4464,7 +4464,7 @@
       ],
       "carteVigilance": "/maps/ML.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mali/",
-      "scrapedAt": "2026-06-13T05:25:58.744952"
+      "scrapedAt": "2026-06-14T05:56:06.854588"
     },
     "MA": {
       "iso": "MA",
@@ -4601,7 +4601,7 @@
       ],
       "carteVigilance": "/maps/MA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maroc/",
-      "scrapedAt": "2026-06-13T05:26:05.191802"
+      "scrapedAt": "2026-06-14T05:56:13.152922"
     },
     "MR": {
       "iso": "MR",
@@ -4763,7 +4763,7 @@
       ],
       "carteVigilance": "/maps/MR.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mauritanie/",
-      "scrapedAt": "2026-06-13T05:26:11.728466"
+      "scrapedAt": "2026-06-14T05:56:19.614909"
     },
     "MU": {
       "iso": "MU",
@@ -4880,7 +4880,7 @@
       ],
       "carteVigilance": "/maps/MU.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/maurice/",
-      "scrapedAt": "2026-06-13T05:26:18.355551"
+      "scrapedAt": "2026-06-14T05:56:26.363507"
     },
     "MZ": {
       "iso": "MZ",
@@ -5036,7 +5036,7 @@
       ],
       "carteVigilance": "/maps/MZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/mozambique/",
-      "scrapedAt": "2026-06-13T05:26:25.806413"
+      "scrapedAt": "2026-06-14T05:56:33.549133"
     },
     "NA": {
       "iso": "NA",
@@ -5168,7 +5168,7 @@
       ],
       "carteVigilance": "/maps/NA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/namibie/",
-      "scrapedAt": "2026-06-13T05:26:33.203370"
+      "scrapedAt": "2026-06-14T05:56:40.122685"
     },
     "NE": {
       "iso": "NE",
@@ -5310,7 +5310,7 @@
       ],
       "carteVigilance": "/maps/NE.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/niger/",
-      "scrapedAt": "2026-06-13T05:26:40.386608"
+      "scrapedAt": "2026-06-14T05:56:47.148955"
     },
     "NG": {
       "iso": "NG",
@@ -5478,7 +5478,7 @@
       ],
       "carteVigilance": "/maps/NG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/nigeria/",
-      "scrapedAt": "2026-06-13T05:26:48.353791"
+      "scrapedAt": "2026-06-14T05:56:54.604723"
     },
     "UG": {
       "iso": "UG",
@@ -5636,7 +5636,7 @@
       ],
       "carteVigilance": "/maps/UG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/ouganda/",
-      "scrapedAt": "2026-06-13T05:26:55.649129"
+      "scrapedAt": "2026-06-14T05:57:01.928208"
     },
     "RW": {
       "iso": "RW",
@@ -5778,7 +5778,7 @@
       ],
       "carteVigilance": "/maps/RW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/rwanda/",
-      "scrapedAt": "2026-06-13T05:27:02.505121"
+      "scrapedAt": "2026-06-14T05:57:08.719278"
     },
     "ST": {
       "iso": "ST",
@@ -5916,7 +5916,7 @@
       ],
       "carteVigilance": "/maps/ST.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sao-tome-et-principe/",
-      "scrapedAt": "2026-06-13T05:27:08.733110"
+      "scrapedAt": "2026-06-14T05:57:14.812025"
     },
     "SN": {
       "iso": "SN",
@@ -6070,7 +6070,7 @@
       ],
       "carteVigilance": "/maps/SN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/",
-      "scrapedAt": "2026-06-13T05:27:16.172214"
+      "scrapedAt": "2026-06-14T05:57:22.110333"
     },
     "SL": {
       "iso": "SL",
@@ -6222,7 +6222,7 @@
       ],
       "carteVigilance": "/maps/SL.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/sierra-leone/",
-      "scrapedAt": "2026-06-13T05:27:23.348598"
+      "scrapedAt": "2026-06-14T05:57:28.882319"
     },
     "SO": {
       "iso": "SO",
@@ -6354,7 +6354,7 @@
       ],
       "carteVigilance": "/maps/SO.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/somalie/",
-      "scrapedAt": "2026-06-13T05:27:30.708410"
+      "scrapedAt": "2026-06-14T05:57:35.213232"
     },
     "SD": {
       "iso": "SD",
@@ -6489,7 +6489,7 @@
       ],
       "carteVigilance": "/maps/SD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan/",
-      "scrapedAt": "2026-06-13T05:27:38.385366"
+      "scrapedAt": "2026-06-14T05:57:42.448557"
     },
     "SS": {
       "iso": "SS",
@@ -6638,7 +6638,7 @@
       ],
       "carteVigilance": "/maps/SS.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/soudan-du-sud/",
-      "scrapedAt": "2026-06-13T05:27:45.320688"
+      "scrapedAt": "2026-06-14T05:57:50.941493"
     },
     "TZ": {
       "iso": "TZ",
@@ -6803,7 +6803,7 @@
       ],
       "carteVigilance": "/maps/TZ.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tanzanie/",
-      "scrapedAt": "2026-06-13T05:27:51.700585"
+      "scrapedAt": "2026-06-14T05:57:58.126832"
     },
     "TD": {
       "iso": "TD",
@@ -6960,7 +6960,7 @@
       ],
       "carteVigilance": "/maps/TD.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tchad/",
-      "scrapedAt": "2026-06-13T05:27:58.975717"
+      "scrapedAt": "2026-06-14T05:58:05.447238"
     },
     "TG": {
       "iso": "TG",
@@ -7120,7 +7120,7 @@
       ],
       "carteVigilance": "/maps/TG.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/togo/",
-      "scrapedAt": "2026-06-13T05:28:06.476889"
+      "scrapedAt": "2026-06-14T05:58:13.353689"
     },
     "TN": {
       "iso": "TN",
@@ -7267,7 +7267,7 @@
       ],
       "carteVigilance": "/maps/TN.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/",
-      "scrapedAt": "2026-06-13T05:28:12.360267"
+      "scrapedAt": "2026-06-14T05:58:19.665263"
     },
     "ZA": {
       "iso": "ZA",
@@ -7411,7 +7411,7 @@
       ],
       "carteVigilance": "/maps/ZA.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/afrique-du-sud/",
-      "scrapedAt": "2026-06-13T05:28:19.368636"
+      "scrapedAt": "2026-06-14T05:58:26.880289"
     },
     "ZM": {
       "iso": "ZM",
@@ -7543,7 +7543,7 @@
       ],
       "carteVigilance": "/maps/ZM.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zambie/",
-      "scrapedAt": "2026-06-13T05:28:26.133246"
+      "scrapedAt": "2026-06-14T05:58:33.202413"
     },
     "ZW": {
       "iso": "ZW",
@@ -7686,7 +7686,7 @@
       ],
       "carteVigilance": "/maps/ZW.jpg",
       "source": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/zimbabwe/",
-      "scrapedAt": "2026-06-13T05:28:32.942121"
+      "scrapedAt": "2026-06-14T05:58:39.288869"
     }
   }
 }
