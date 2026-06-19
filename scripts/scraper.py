@@ -39,6 +39,7 @@ SLUG_FR = {
     "SN":"senegal","SL":"sierra-leone","SO":"somalie","SD":"soudan","SS":"soudan-du-sud",
     "TZ":"tanzanie","TD":"tchad","TG":"togo","TN":"tunisie","ZA":"afrique-du-sud",
     "ZM":"zambie","ZW":"zimbabwe",
+    "SC":"seychelles",  # ajouté 19/06/2026 — manquait, slug vérifié en direct (voyage.gc.ca + diplomatie.gouv.fr)
 }
 
 # ── ISO2 → slug Canada (voyage.gc.ca/destinations/{slug}) ────────────────────
@@ -56,6 +57,7 @@ SLUG_CA = {
     "SN":"senegal","SL":"sierra-leone","SO":"somalie","SD":"soudan","SS":"soudan-du-sud",
     "TZ":"tanzanie","TD":"tchad","TG":"togo","TN":"tunisie","ZA":"afrique-du-sud",
     "ZM":"zambie","ZW":"zimbabwe",
+    "SC":"seychelles",  # ajouté 19/06/2026 — vérifié en direct
 }
 
 NAMES = {
@@ -70,6 +72,7 @@ NAMES = {
     "ST":"São Tomé","SN":"Sénégal","SL":"Sierra Leone","SO":"Somalie","SD":"Soudan",
     "SS":"Soudan du Sud","TZ":"Tanzanie","TD":"Tchad","TG":"Togo","TN":"Tunisie",
     "ZA":"Afrique du Sud","ZM":"Zambie","ZW":"Zimbabwe",
+    "SC":"Seychelles",  # ajouté 19/06/2026
 }
 
 REGIONS = {
@@ -103,6 +106,7 @@ RISK_DEFAULT = {
     "NE":"eleve","NG":"eleve","UG":"modere","RW":"faible","ST":"faible","SN":"faible",
     "SL":"modere","SO":"eleve","SD":"eleve","SS":"eleve","TZ":"faible","TD":"eleve",
     "TG":"modere","TN":"modere","ZA":"modere","ZM":"faible","ZW":"modere",
+    "SC":"faible",  # ajouté 19/06/2026 — Canada: "mesures de sécurité normales"
 }
 
 # ── Réseau diplomatique tunisien : ambassade de rattachement par pays ────────
@@ -225,9 +229,35 @@ def ca_fetch(iso):
     return fetch(url), url
 
 def ca_date(html):
-    """Date de dernière mise à jour Canada : 'Date de la dernière mise à jour : 29 mai 2026'."""
-    if not html: return None
-    m = re.search(r"derni[èe]re mise à jour\s*:?\s*</?[^>]*>?\s*(\d{1,2})\s+([a-zA-Zûéèà]+)\s+(\d{4})", html, re.I)
+    """Date de dernière mise à jour Canada : 'Date de la dernière mise à jour : 29 mai 2026'.
+
+    Les pages voyage.gc.ca contiennent DEUX lignes distinctes :
+      1) "Dernière mise à jour : <résumé du changement>"   (PAS de date à la suite)
+      2) "Date de la dernière mise à jour : <date> <heure> ET"  (la vraie date)
+    L'ancienne regex n'autorisait qu'une seule balise HTML optionnelle entre le
+    libellé et la date ; dès que le balisage réel imbrique plusieurs balises
+    (ex. <strong><span>...</span></strong>), elle ne trouvait aucune date et
+    renvoyait None silencieusement — gelant la fiche sans erreur visible.
+    On ancre désormais en priorité sur le libellé long et non ambigu, avec une
+    tolérance large (mais bornée) sur ce qui peut séparer le libellé de la date.
+    """
+    if not html:
+        return None
+    m = re.search(
+        r"Date de la derni[èe]re mise à jour\s*:?[\s\S]{0,40}?"
+        r"(\d{1,2})\s+([a-zA-Zûéèàâêîô]+)\s+(\d{4})",
+        html, re.I,
+    )
+    if m:
+        d = date_fr(m.group(1), m.group(2), m.group(3))
+        if d:
+            return d
+    # Repli : libellé générique, au cas où la page n'a pas la ligne longue.
+    m = re.search(
+        r"derni[èe]re mise à jour\s*:?[\s\S]{0,40}?"
+        r"(\d{1,2})\s+([a-zA-Zûéèàâêîô]+)\s+(\d{4})",
+        html, re.I,
+    )
     if m:
         return date_fr(m.group(1), m.group(2), m.group(3))
     return None
@@ -608,6 +638,13 @@ def scrape_country(iso, existing, visas_tn):
     sections_ca = ca_sections(html_ca)
     risk_ca     = ca_risk(html_ca)
     date_ca     = ca_date(html_ca)
+    if html_ca and not date_ca:
+        # Page récupérée mais date introuvable : page bloquée/différente
+        # (ex. anti-bot sur l'IP GitHub Actions) ou nouvelle structure HTML.
+        # On log un extrait pour diagnostiquer sans attendre un nouveau bug report.
+        idx = html_ca.lower().find("mise à jour")
+        extrait = html_ca[max(0, idx-20):idx+120] if idx != -1 else html_ca[:150]
+        print(f"      ⚠ ca_date introuvable pour {iso} (html {len(html_ca)} car.) — extrait: {extrait!r}")
 
     # 2. FRANCE — zones de vigilance + alertes RSS + santé
     slug_fr = SLUG_FR.get(iso)
@@ -720,4 +757,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
