@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fiches-risques-pays",
+  // Mettre à jour cette date à chaque modification majeure du fichier (recommandation Cloudflare)
+  "compatibility_date": "2026-06-19",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
