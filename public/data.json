@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-23T05:08:32.311621",
-  "totalChanged": 12,
+  "generatedAt": "2026-06-24T05:07:50.167536",
+  "totalChanged": 48,
   "countries": {
     "DZ": {
       "iso": "DZ",
       "name": "Algérie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-001-DZ-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-001-DZ-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -19,7 +19,7 @@
         "niveau": "eleve",
         "titre": "certains pays voisins : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -248,7 +248,7 @@
           "texte": "Pour conduire en Algérie, vous devez avoir :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise de l'Algérie est le dinar algérien (DZD). L'Algérie est une économie basée sur l'argent comptant. Les cartes de crédit sont généralement acceptées dans les grands htels, mais rarement dans les restaurants et les autres commerces. Des guichets automatiques compatibles avec les cartes étrangères sont disponibles dans les banques et certains grands htels, mais ils sont peu fiables."
         },
@@ -285,7 +285,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez l’ambassade de Tunisie compétente en Algérie, à Alger, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -365,17 +365,17 @@
         }
       },
       "carteVigilance": "/maps/DZ.jpg",
-      "scrapedAt": "2026-06-23T05:04:44.404691"
+      "scrapedAt": "2026-06-24T05:04:13.059860"
     },
     "AO": {
       "iso": "AO",
       "name": "Angola",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-002-AO-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-002-AO-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -384,7 +384,7 @@
         "niveau": "modere",
         "titre": "Province de Cabinda",
         "texte": "Des groupes militants revendiquant l'indépendance sont actifs dans la province de Cabinda, et des affrontements avec les forces de sécurité peuvent se produire. Des meurtres, des enlèvements et des ag",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -573,7 +573,7 @@
           "texte": "Vous devriez vous munir d'un permis de conduire international. Plus sur le permis de conduire international"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle de l'Angola est le kwanza (AOA). Les guichets automatiques ne distribuent que des kwanzas. &Agrave; Luanda, certains guichets acceptent les cartes VISA, mais seulement pour les retraits en kwanzas. Il est à noter que les guichets sont souvent défectueux ou ne sont pas suffisamment approvisionnés. Les cartes de débit ne fonctionnent pas."
         },
@@ -585,7 +585,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Mozambique, à Maputo, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -658,17 +658,17 @@
         }
       },
       "carteVigilance": "/maps/AO.jpg",
-      "scrapedAt": "2026-06-23T05:04:49.236184"
+      "scrapedAt": "2026-06-24T05:04:17.206546"
     },
     "BJ": {
       "iso": "BJ",
       "name": "Bénin",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-003-BJ-V4",
-      "sourceDateStr": "19 Jun 2026",
-      "dateMAJInterne": "20 Jun 2026",
+      "version": 5,
+      "ref": "FRP-003-BJ-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -677,7 +677,7 @@
         "niveau": "eleve",
         "titre": "dans : les zones frontalières du Burkina Faso et du Niger ; la totalité des parcs nationaux de la Pendjari et du W, les : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -876,7 +876,7 @@
           "texte": "Il est interdit de photographier les installations qui font l'objet d'une sensibilité particulière, telles que :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Bénin est le franc de la Communauté financière africaine ou CFA (XOF). Le Bénin a une économie basée sur l'argent comptant. Les cartes de crédit sont généralement acceptées dans les grands htels, mais rarement dans les restaurants et les autres commerces. Des guichets automatiques compatibles avec les cartes étrangères sont disponibles dans les banques et certains grands htels, mais ils sont rares à l'extérieur des grandes villes."
         },
@@ -903,7 +903,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Burkina Faso, à Ouagadougou et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -981,17 +981,17 @@
         }
       },
       "carteVigilance": "/maps/BJ.jpg",
-      "scrapedAt": "2026-06-23T05:04:53.823592"
+      "scrapedAt": "2026-06-24T05:04:21.709241"
     },
     "BW": {
       "iso": "BW",
       "name": "Botswana",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-004-BW-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-004-BW-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1000,7 +1000,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1144,7 +1144,7 @@
           "texte": "Pour conduire au Botswana, vous devez avoir : Vous pouvez conduire au Botswana avec un permis de conduire ressortissants tunisiens pour une durée maximale de 90 jours. Si vous avez l'intention de rester plus longtemps, vous devez convertir votre permis de conduire ressortissants tunisiens en permis de conduire botswanais. Si vous tes impliqué dans un accident, vous devez le signaler à la police en appelant ou en vous rendant au poste de police le plus proche."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Botswana est le pula (BWP). Vous devez déclarer toutes les devises étrangères en votre possession dont la valeur est égale ou supérieure à l'équivalent de 10 000 BWP."
         },
@@ -1171,7 +1171,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Zimbabwe à Harare et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -1233,17 +1233,17 @@
         }
       },
       "carteVigilance": "/maps/BW.jpg",
-      "scrapedAt": "2026-06-23T05:04:57.768434"
+      "scrapedAt": "2026-06-24T05:04:25.602953"
     },
     "BF": {
       "iso": "BF",
       "name": "Burkina Faso",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-005-BF-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-005-BF-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1252,7 +1252,7 @@
         "niveau": "eleve",
         "titre": "le contexte actuel de fortes tensions régionales, tout déplacement au Burkina Faso est formellement déconseillé : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1411,7 +1411,7 @@
           "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci ont été déplacés ou retenus dans certains pays en violation d'un droit de garde. La convention s'applique entre le Canada et le Burkina Faso. Si votre enfant a été déplacé ou est retenu illicitement au Burkina Faso et que les conditions requises sont remplies, vous pourriez tre en mesure de faire une demande de retour auprès de la cour burkinabè. Si vous vous trouvez dans cette situation : Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle du Burkina Faso est le franc CFA (FCFA). La plupart des transactions se font en argent comptant au Burkina Faso. Prévoyez de petites coupures pour vos paiements, car il peut tre difficile d'obtenir de la monnaie lors de vos transactions. Des guichets automatiques bancaires sont disponibles dans les grandes villes o vous pourrez retirer des francs CFA."
         },
@@ -1433,7 +1433,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Ouagadougou et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -1512,17 +1512,17 @@
         }
       },
       "carteVigilance": "/maps/BF.jpg",
-      "scrapedAt": "2026-06-23T05:05:02.313311"
+      "scrapedAt": "2026-06-24T05:04:29.736482"
     },
     "BI": {
       "iso": "BI",
       "name": "Burundi",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-006-BI-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-006-BI-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1531,7 +1531,7 @@
         "niveau": "modere",
         "titre": "Provinces de Bubanza et de Cibitoke",
         "texte": "La sécurité à la frontière est toujours source de préoccupation dans les provinces de Bubanza et de Cibitoke étant donné les affrontements violents dans l'est de la RDC et les mouvements transfrontali",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1740,7 +1740,7 @@
           "texte": "Vous devez avoir un permis de conduire international et une preuve d'assurance. Il est interdit d'utiliser un téléphone cellulaire au volant."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "De manière générale, il faut payer en argent comptant. Les cartes de crédit ne sont pas acceptées partout. Les guichets automatiques bancaires ne sont pas fiables. La plupart des commerants n'acceptent pas les dollars américains émis avant 2006 et refusent de les changer."
         },
@@ -1757,7 +1757,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Rwanda, à Kigali, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -1835,17 +1835,17 @@
         }
       },
       "carteVigilance": "/maps/BI.jpg",
-      "scrapedAt": "2026-06-23T05:05:06.791610"
+      "scrapedAt": "2026-06-24T05:04:33.773658"
     },
     "CM": {
       "iso": "CM",
       "name": "Cameroun",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-007-CM-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-007-CM-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1854,7 +1854,7 @@
         "niveau": "eleve",
         "titre": "dans une bande de 30 km le long de la frontière du Cameroun, du lac Tchad jusqu’au sud de la RCA en raison de la situat : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2088,7 +2088,7 @@
           "texte": "Pour conduire au Cameroun, vous devez avoir un permis de conduire international et votre permis de conduire ressortissants tunisiens valide. Si vous comptez rester plus d'un an au Cameroun, vous devrez obtenir un permis de conduire camerounais. Pour ce faire, vous devez présenter votre permis de conduire ressortissants tunisiens à la Délégation des transports publics de la ville o vous résidez. Les accidents de circulation peuvent attirer de larges foules. Restez calme si une dispute éclate, en particulier dans un lieu public. Si une foule vous menace, demandez à la police locale d'intervenir."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Cameroun est le franc de la Coopération financière en Afrique centrale (XAF), aussi appelé le franc CFA d'Afrique centrale. Le Cameroun est une économie largement basée sur l'argent comptant. Les grands magasins et les grands htels peuvent accepter les principales cartes de crédit ou l'euro et le dollar américain, mais il est préférable de le confirmer au moment de la réservation. Les cartes de crédit sont rarement acceptées en dehors des htels internationaux. Les virements de fonds vers l'extérieur du Cameroun ne peuvent se faire qu'avec l'autorisation du ministère des Finances. Les virements de fonds par l'entremise d'une banque prennent du temps et comportent des frais."
         },
@@ -2115,7 +2115,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "L'ambassade de Tunisie compétente au Cameroun à Yaoundé connaît actuellement des problèmes avec ses lignes téléphoniques. Veuillez nous contacter par courriel ou contacter le Centre de surveillance et d'intervention d'urgence à Ottawa. Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente à Yaoundé et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa. L'ambassade de Tunisie compétente au Cameroun à Yaoundé connaît actuellement des problèmes avec ses lignes téléphoniques. Veuillez nous contacter par courriel ou contacter le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -2199,7 +2199,7 @@
         }
       },
       "carteVigilance": "/maps/CM.jpg",
-      "scrapedAt": "2026-06-23T05:05:11.164641"
+      "scrapedAt": "2026-06-24T05:04:38.701890"
     },
     "CV": {
       "iso": "CV",
@@ -2218,7 +2218,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2263,17 +2263,17 @@
         }
       },
       "carteVigilance": "/maps/CV.jpg",
-      "scrapedAt": "2026-06-23T05:05:15.350782"
+      "scrapedAt": "2026-06-24T05:04:43.060237"
     },
     "CF": {
       "iso": "CF",
       "name": "Centrafrique",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-009-CF-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-009-CF-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -2282,7 +2282,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des groupes armés et des criminels ciblent des étrangers, des employés d'organisations internationales, ainsi que des ressortissants centrafricains. Le risque est particulièrement élevé en dehors de B",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2461,7 +2461,7 @@
           "texte": "Pour conduire en République centrafricaine, vous devez avoir un permis de conduire international et votre permis de conduire ressortissants tunisiens valide. Les sanctions pour la conduite en état d'ébriété sont sévères, et les contrevenants s'exposent à une peine d'emprisonnement. Les accidents de circulation peuvent attirer de larges foules. Restez calme si une dispute éclate, en particulier dans un lieu public. Si une foule vous menace, demandez à la police locale d'intervenir."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise de la République centrafricaine est le franc de la Communauté financière africaine (XAF). L'économie centrafricaine est basée sur l'argent comptant. Seuls les grands htels de Bangui acceptent les cartes de crédit. Les guichets automatiques bancaires ne se retrouvent que dans quelques banques et htels à Bangui. Bangui et Berbérati sont les seules villes o l'on peut convertir des devises."
         },
@@ -2483,7 +2483,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente à Yaoundé, au Cameroun et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -2556,17 +2556,17 @@
         }
       },
       "carteVigilance": "/maps/CF.jpg",
-      "scrapedAt": "2026-06-23T05:05:20.815517"
+      "scrapedAt": "2026-06-24T05:04:47.536463"
     },
     "KM": {
       "iso": "KM",
       "name": "Comores",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-010-KM-V4",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 5,
+      "ref": "FRP-010-KM-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -2575,7 +2575,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières comoriennes et parfois plus loin au large. On recommande aux navigateurs de prendre les précautions qui s'imposent. Carte en direct sur la p",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2771,7 +2771,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau du gouvernement aux Comores. Vous pouvez obtenir une aide consulaire et de plus amples renseignements consulaires auprès du ambassade de Tunisie compétente à Dar es Salaam (Tanzanie). Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente à Dar es Salaam (Tanzanie) et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères aux Comores. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -2833,7 +2833,7 @@
         }
       },
       "carteVigilance": "/maps/KM.jpg",
-      "scrapedAt": "2026-06-23T05:05:24.897477"
+      "scrapedAt": "2026-06-24T05:04:51.437417"
     },
     "CG": {
       "iso": "CG",
@@ -2852,7 +2852,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2905,7 +2905,7 @@
         }
       },
       "carteVigilance": "/maps/CG.jpg",
-      "scrapedAt": "2026-06-23T05:05:29.439388"
+      "scrapedAt": "2026-06-24T05:04:55.845926"
     },
     "CD": {
       "iso": "CD",
@@ -2924,7 +2924,7 @@
         "niveau": "eleve",
         "titre": "dans le parc national des Virunga, le parc de Kahuzi-Biega et le parc de la Garamba, des enlèvements étant régulièremen : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2997,7 +2997,7 @@
         }
       },
       "carteVigilance": "/maps/CD.jpg",
-      "scrapedAt": "2026-06-23T05:05:34.456961"
+      "scrapedAt": "2026-06-24T05:05:00.582276"
     },
     "CI": {
       "iso": "CI",
@@ -3016,7 +3016,7 @@
         "niveau": "eleve",
         "titre": "quel que soit le motif dans le nord du district du Zanzan et l’est du district des Savanes ainsi que dans le parc natio : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3079,17 +3079,17 @@
         }
       },
       "carteVigilance": "/maps/CI.jpg",
-      "scrapedAt": "2026-06-23T05:05:39.199827"
+      "scrapedAt": "2026-06-24T05:05:04.796914"
     },
     "DJ": {
       "iso": "DJ",
       "name": "Djibouti",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-014-DJ-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-014-DJ-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3098,7 +3098,7 @@
         "niveau": "eleve",
         "titre": "le pays mais les frontières terrestres et maritimes sont à éviter : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3277,7 +3277,7 @@
           "texte": "Ayez un permis de conduire international."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le franc de Djibouti. De manière générale, il faut payer en argent comptant. Ayez suffisamment de devises, car les cartes de crédit et de débit ne sont pas acceptées partout. De mai à octobre, le temps est très sec et très chaud. Djibouti est situé dans une zone d'activité sismique."
         },
@@ -3289,7 +3289,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Addis-Abeba, en Éthiopie, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -3367,17 +3367,17 @@
         }
       },
       "carteVigilance": "/maps/DJ.jpg",
-      "scrapedAt": "2026-06-23T05:05:43.394984"
+      "scrapedAt": "2026-06-24T05:05:09.173646"
     },
     "EG": {
       "iso": "EG",
       "name": "Égypte",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-015-EG-V3",
-      "sourceDateStr": "02 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-015-EG-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3386,7 +3386,7 @@
         "niveau": "eleve",
         "titre": "la zone désertique, en direction de la frontière libyenne sont formellement déconseillés, à l’exception de ceux dans la : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3615,7 +3615,7 @@
           "texte": "Il est interdit d'exporter sans permis des antiquités ou des objets datant de plus de 100 ans. Pour plus de détails sur les formalités douanières, communiquez avec l'ambassade de la République arabe d'&Eacute;gypte à Ottawa."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est la livre égyptienne (EGP, E). On ne peut entrer en &Eacute;gypte ni en sortir avec plus de 5000 E. Vous devez déclarer tout montant en devises équivalant à 10000 $ US ou plus. On peut facilement encaisser des chèques de voyage et changer des devises étrangères dans les htels et les banques. Il est préférable d'avoir des dollars américains, surtout dans les sites touristiques. Certains agents de voyage et voyagistes demandent à tre payés comptant en dollars américains."
         },
@@ -3662,7 +3662,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente au Caire et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -3745,17 +3745,17 @@
         }
       },
       "carteVigilance": "/maps/EG.jpg",
-      "scrapedAt": "2026-06-23T05:05:48.043419"
+      "scrapedAt": "2026-06-24T05:05:13.524024"
     },
     "ER": {
       "iso": "ER",
       "name": "Érythrée",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-016-ER-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-016-ER-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3764,7 +3764,7 @@
         "niveau": "eleve",
         "titre": "le désert des Danakils, il est formellement déconseillé de se rendre dans cette région : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3988,7 +3988,7 @@
           "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci ont été déplacés ou retenus dans certains pays en violation d'un droit de garde. Elle ne s'applique pas entre le Canada et l'&Eacute;rythrée. Si votre enfant a été déplacé ou est retenu illicitement en &Eacute;rythrée par un parent ravisseur : consultez un avocat en Tunisie et en &Eacute;rythrée afin d'envisager toutes les options juridiques possibles pour le retour de votre enfant; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise d'&Eacute;rythrée est le nakfa (ERN). Vous devez, à votre arrivée, déclarer toute somme qui excède 10 000 dollars américains ou l'équivalent dans d'autres devises. L'&Eacute;rythrée est une économie basée sur l'argent comptant. Les cartes de crédit ne sont pas acceptées comme mode de paiement pour les transactions quotidiennes. Il est illégal d'utiliser des devises étrangères pour effectuer des achats, excepté dans les htels officiels o les étrangers sont tenus de payer leur hébergement en euros ou en dollars américains."
         },
@@ -4010,7 +4010,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Addis-Abeba, en Ethiopie, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -4088,17 +4088,17 @@
         }
       },
       "carteVigilance": "/maps/ER.jpg",
-      "scrapedAt": "2026-06-23T05:05:52.001510"
+      "scrapedAt": "2026-06-24T05:05:17.411331"
     },
     "SZ": {
       "iso": "SZ",
       "name": "Eswatini",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-017-SZ-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-017-SZ-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4107,7 +4107,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Bien qu'aucun attentat n'ait été perpétré récemment en Eswatini, il existe une menace terroriste.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4281,7 +4281,7 @@
           "texte": "respectez les traditions sociales et religieuses"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le Lilangeni (SZL), mais les rands d'Afrique du Sud (en billets seulement) sont également acceptés et couramment utilisés. La plupart des grands htels et certains restaurants acceptent les cartes de crédit. Des phénomènes météorologiques violents peuvent survenir en Eswatini, notamment des orages et de fortes pluies. La saison des pluies s'étend d'octobre à avril. Pendant cette période, certaines routes peuvent devenir dangereuses. Tenez-vous au courant des prévisions météorologiques régionales et planifiez vos déplacements en conséquence."
         },
@@ -4293,7 +4293,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires en Eswatini. Vous pouvez obtenir une aide consulaire et de plus amples renseignements consulaires auprès du ambassade de Tunisie compétente à Maputo, au Mozambique. Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente à Maputo, au Mozambique, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Eswatini. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -4355,17 +4355,17 @@
         }
       },
       "carteVigilance": "/maps/SZ.jpg",
-      "scrapedAt": "2026-06-23T05:05:55.864264"
+      "scrapedAt": "2026-06-24T05:05:21.065786"
     },
     "ET": {
       "iso": "ET",
       "name": "Éthiopie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-018-ET-V3",
-      "sourceDateStr": "09 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-018-ET-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4374,7 +4374,7 @@
         "niveau": "eleve",
         "titre": "la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageurs sont toutefois invités à organise : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4673,7 +4673,7 @@
           "texte": "Vous pouvez conduire en &Eacute;thiopie avec votre permis de conduire ressortissants tunisiens, accompagné d'un permis de conduire international pendant une durée maximale de 45 jours. Les autorités locales peuvent vous demander de fournir une preuve de votre date d'arrivée, telle que le tampon d'entrée dans votre passeport. Au-delà de 45 jours, vous devez obtenir un permis de conduire éthiopien."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise de l'&Eacute;thiopie est le birr (ETB). Les cartes de crédit ne sont pas largement acceptées, sauf dans les grands htels, les agences de voyages, ainsi que dans quelques boutiques et restaurants d'Addis-Abeba. Les guichets automatiques sont très limités en dehors des centres urbains et peuvent tre à court d'argent sans préavis. Assurez-vous d'avoir accès à des devises en espèces en cas d'urgence."
         },
@@ -4705,7 +4705,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente en Éthiopie, à Addis-Abeba, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -4798,17 +4798,17 @@
         }
       },
       "carteVigilance": "/maps/ET.jpg",
-      "scrapedAt": "2026-06-23T05:06:00.316398"
+      "scrapedAt": "2026-06-24T05:05:25.484846"
     },
     "GA": {
       "iso": "GA",
       "name": "Gabon",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-019-GA-V3",
-      "sourceDateStr": "29 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-019-GA-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4817,7 +4817,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières et parfois aussi plus loin au large. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie Intern",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4961,7 +4961,7 @@
           "texte": "La possession, l'usage et le trafic de stupéfiants sont sévèrement punis. Les personnes reconnues coupables de ces délits sont passibles de peines d'emprisonnement."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Gabon est le franc de la Communauté financière africaine ou franc CFA (XAF). Les taux de change sont fixés par la Banque des &Eacute;tats de l'Afrique centrale. Les euros et les dollars américains sont acceptés presque partout, mais des frais de change élevés peuvent s'appliquer. Les cartes de crédit sont acceptées seulement dans les grands htels, les restaurants et les supermarchés de Libreville. On trouve des guichets automatiques bancaires, mais les retraits en argent sont limités. Autant que possible, faites toutes vos transactions en argent comptant."
         },
@@ -4978,7 +4978,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Cameroun, à Yaoundé, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères au Gabon. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -5040,17 +5040,17 @@
         }
       },
       "carteVigilance": "/maps/GA.jpg",
-      "scrapedAt": "2026-06-23T05:06:04.357904"
+      "scrapedAt": "2026-06-24T05:05:29.537499"
     },
     "GM": {
       "iso": "GM",
       "name": "Gambie",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-020-GM-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-020-GM-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5059,7 +5059,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5213,7 +5213,7 @@
           "texte": "En 2027, le mois lunaire du ramadan devrait commencer autour du 7 février. En public, entre le lever et le coucher du soleil, soyez discret au moment de :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le dalasi (GMD). Il faut remplir un formulaire de déclaration des devises étrangères dès l'arrivée au pays. Il est possible que certaines devises régionales ne soient pas acceptées ni échangées. Les dollars américains, les euros et les francs de la Communauté financière africaine (CFA) sont acceptés presque partout."
         },
@@ -5225,7 +5225,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires en Gambie. Vous pouvez obtenir une aide consulaire et de plus amples renseignements consulaires auprès du Haut-Commissariat du Royaume-Uni à Banjul. Cabo Verde, Gambie, Guinée, Guinée-Bissau Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Dakar, au Sénégal, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa. Cabo Verde, Gambie, Guinée, Guinée-Bissau"
         },
         {
           "cat": "Avertissement",
@@ -5287,17 +5287,17 @@
         }
       },
       "carteVigilance": "/maps/GM.jpg",
-      "scrapedAt": "2026-06-23T05:06:08.318570"
+      "scrapedAt": "2026-06-24T05:05:33.156708"
     },
     "GH": {
       "iso": "GH",
       "name": "Ghana",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-021-GH-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-021-GH-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5306,7 +5306,7 @@
         "niveau": "modere",
         "titre": "Zone frontalière avec le Burkina Faso - &Eacute;vitez tout voyage non essentiel",
         "texte": "&Eacute;vitez tout voyage non essentiel à moins de 25 km de la frontière avec le Burkina Faso en raison du risque de conflit intercommunautaire et de l'activité terroriste.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5525,7 +5525,7 @@
           "texte": "Vous devez vous munir d'un permis de conduire international. Vous pourrez l'utiliser pendant 12 mois. Après 12 mois, vous devrez vous procurer un permis de conduire ghanéen. Si vous avez le statut de résident, vous devriez demander votre permis ghanéen dès que possible. Toutes les voitures doivent tre contenir :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "Aucune restriction ne limite l'importation ou l'exportation de devises étrangères. Vous devez cependant les déclarer à votre arrivée et les convertir en cédis dans une banque ou un bureau de change. Il est interdit d'exporter des cédis. Avant de quitter le pays, vous devez dépenser les cédis qu'il vous reste ou les convertir en devises étrangères."
         },
@@ -5547,7 +5547,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Ghana, à Accra, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -5630,17 +5630,17 @@
         }
       },
       "carteVigilance": "/maps/GH.jpg",
-      "scrapedAt": "2026-06-23T05:06:12.674242"
+      "scrapedAt": "2026-06-24T05:05:37.243401"
     },
     "GN": {
       "iso": "GN",
       "name": "Guinée",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-022-GN-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-022-GN-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5649,7 +5649,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Il existe une menace terroriste. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de tr",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5865,7 +5865,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Les services consulaires sont présentement offerts par l’ambassade de Tunisie compétente au Sénégal, à Dakar Cabo Verde, Gambie, Guinée, Guinée-Bissau Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Dakar, au Sénégal et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Guinée. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -5944,17 +5944,17 @@
         }
       },
       "carteVigilance": "/maps/GN.jpg",
-      "scrapedAt": "2026-06-23T05:06:16.975281"
+      "scrapedAt": "2026-06-24T05:05:41.573557"
     },
     "GQ": {
       "iso": "GQ",
       "name": "Guinée Éq.",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-023-GQ-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-023-GQ-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5963,7 +5963,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, et dans certains cas, plus loin dans la mer. Les navigateurs doivent prendre les précautions qui ",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6142,7 +6142,7 @@
           "texte": "Le permis de conduire équato-guinéen est obligatoire pour les résidents. Le permis est renouvelable chaque année. En tant que voyageur, vous devez vous munir d'un permis de conduire international. Si vous louez une voiture, assurez-vous d'avoir l'enregistrement du véhicule, votre passeport et votre permis de conduire international avec vous en tout temps."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle de la Guinée équatoriale est le franc centrafricain (CFA). L'économie fonctionne principalement en espèces. Les cartes de crédit ne sont pas acceptées, sauf par les grandes compagnies aériennes et les htels. Il existe un nombre limité de guichets automatiques bancaires, situés à Malabo et à Bata. Il se peut que vous deviez déclarer toutes les devises que vous avez en votre possession au moment de votre arrivée et de votre départ. Certaines restrictions d'importation et d'exportation peuvent s'appliquer."
         },
@@ -6154,7 +6154,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau en Guinée équatoriale. Vous pouvez obtenir une aide consulaire auprès du ambassade de Tunisie compétente au Nigéria, à Abuja. Guinée équatoriale, Sao Tomé-et-Principe Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Nigéria, à Abuja, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Guinée équatoriale. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -6217,17 +6217,17 @@
         }
       },
       "carteVigilance": "/maps/GQ.jpg",
-      "scrapedAt": "2026-06-23T05:06:21.106585"
+      "scrapedAt": "2026-06-24T05:05:45.213859"
     },
     "GW": {
       "iso": "GW",
       "name": "Guinée-Bissau",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 2,
-      "ref": "FRP-024-GW-V2",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 3,
+      "ref": "FRP-024-GW-V3",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -6236,7 +6236,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6380,7 +6380,7 @@
           "texte": "La Guinée-Bissau n'adhère pas au programme du permis de conduire international. Vous devriez recourir aux services d'un chauffeur. Toutefois, si vous tes ressortissants tunisiens et possédez un permis de conduire ressortissants tunisiens valide, vous pouvez vous en servir pendant une période n'excédant pas 3 mois. Si vous tes un coopérant, vous devez, à l'expiration de cette période, communiquer avec la Direction de la coopération internationale pour obtenir un permis de coopérant. Si vous travaillez dans le secteur privé, vous devez vous adresser à la Direction des transports pour obtenir un permis de la Guinée-Bissau."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le franc de la Communauté financière africaine (XOF). De manière générale, il faut payer en argent comptant. Les cartes de crédit ne sont pas couramment acceptées, et l'on ne trouve pas de guichets automatiques bancaires. Il est interdit d'exporter ou d'importer des devises locales. L'importation de devises étrangères ne fait l'objet d'aucune restriction, mais doit tre déclarée à l'arrivée. L'exportation de devises étrangères est limitée au montant déclaré à l'arrivée."
         },
@@ -6392,7 +6392,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau en Guinée-Bissau. Vous pouvez obtenir une aide consulaire auprès de l'ambassade de Tunisie compétente au Sénégal, à Dakar. Cabo Verde, Gambie, Guinée, Guinée-Bissau Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente à Dakar (Sénégal) et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Guinée-Bissau Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -6448,17 +6448,17 @@
         }
       },
       "carteVigilance": "/maps/GW.jpg",
-      "scrapedAt": "2026-06-23T05:06:24.282907"
+      "scrapedAt": "2026-06-24T05:05:48.298802"
     },
     "KE": {
       "iso": "KE",
       "name": "Kenya",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-025-KE-V4",
-      "sourceDateStr": "10 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 5,
+      "ref": "FRP-025-KE-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -6467,7 +6467,7 @@
         "niveau": "eleve",
         "titre": "l’ensemble de la zone, les navires bas et lents sur l’eau étant les plus vulnérables à des actions d’abordage hostiles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6751,7 +6751,7 @@
           "texte": "En 2027, le mois lunaire du ramadan devrait commencer autour du 7 février. En public, entre le lever et le coucher du soleil, soyez discret au moment de :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Kenya est le shilling du Kenya (KES). Les cartes de crédit sont largement acceptées dans les grandes villes et les destinations touristiques populaires, mais pas dans les régions éloignées. Les guichets automatiques bancaires sont nombreux dans les villes. Vous pouvez échanger vos devises dans les banques, les htels, les bureaux de change ou à l'aéroport. M-PESA est une méthode courante de transfert électronique de fonds acceptée dans l'ensemble du Kenya, y compris dans les parcs nationaux. Ces derniers refusent tout paiement en espèces et acceptent habituellement les paiements par carte de crédit. Toutefois, il arrive qu'en raison de problèmes techniques, seuls les paiements effectués au moyen du système M‑PESA sont acceptés."
         },
@@ -6778,7 +6778,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Kenya, à Nairobi, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -6866,26 +6866,26 @@
         }
       },
       "carteVigilance": "/maps/KE.jpg",
-      "scrapedAt": "2026-06-23T05:06:29.059958"
+      "scrapedAt": "2026-06-24T05:05:52.813224"
     },
     "LS": {
       "iso": "LS",
       "name": "Lesotho",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-026-LS-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-026-LS-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "modere",
-        "titre": "Enlèvement international d'enfants",
-        "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "niveau": "faible",
+        "titre": "Aucune alerte majeure en cours",
+        "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7014,36 +7014,6 @@
           "texte": "La décision de voyager appartient entièrement au voyageur. Le voyageur est également responsable de sa propre sécurité. Soyez bien préparé. Ne vous attendez pas à ce que les services médicaux soient les mmes que ceux offerts en Tunisie. Apportez dans vos bagages une trousse de produits de santé pour le voyage, en particulier si vous vous rendez dans des zones éloignées des grands centres urbains. Vous devez vous conformer aux lois locales."
         },
         {
-          "cat": "Drogues",
-          "niveau": "faible",
-          "texte": "La possession, l'usage et le trafic de stupéfiants sont sévèrement punis. Les personnes reconnues coupables peuvent s'attendre à de lourdes amendes ou à de longues peines de prison."
-        },
-        {
-          "cat": "Contrles d'identité",
-          "niveau": "faible",
-          "texte": "Les autorités locales peuvent demander à tout moment de vérifier votre identité. Vous devez toujours avoir sur vous vos pièces d'identité Conservez une photocopie de votre passeport en lieu sr au cas o vous le perdriez ou qu'il vous soit confisqué"
-        },
-        {
-          "cat": "Double citoyenneté",
-          "niveau": "faible",
-          "texte": "La double citoyenneté est légalement reconnue au Lesotho. Si vous avez à la fois la citoyenneté canadienne et celle du Lesotho, nous pourrions tre limités dans notre capacité à vous offrir des services consulaires pendant que vous y tes. Les exigences d'entrée et de sortie peuvent aussi tre différentes dans votre cas. Citoyen ou citoyenne à double citoyenneté"
-        },
-        {
-          "cat": "Enlèvement international d'enfants",
-          "niveau": "eleve",
-          "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci ont été déplacés ou retenus dans certains pays en violation d'un droit de garde. Elle ne s'applique pas entre le Canada et le Lesotho. Si votre enfant a été déplacé ou est retenu illicitement au Lesotho par un parent ravisseur : consultez un avocat en Tunisie et au Lesotho afin d'envisager toutes les options juridiques possibles pour le retour de votre enfant; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
-        },
-        {
-          "cat": "Conduite automobile",
-          "niveau": "faible",
-          "texte": "Vous devez vous munir d'un permis de conduire international."
-        },
-        {
-          "cat": "Monnaie",
-          "niveau": "faible",
-          "texte": "La devise est le loti (au pluriel, maloti) (LSL). Cependant, le rand sud-africain (ZAR) est également accepté. Les principales cartes de crédit ne sont acceptées que dans les grands établissements touristiques et les grandes banques."
-        },
-        {
           "cat": "Temps violent",
           "niveau": "faible",
           "texte": "Le Lesotho est sujet à de fortes intempéries. Dans les montagnes, le temps peut changer rapidement et des précipitations inattendues peuvent provoquer des crues soudaines et le gonflement des rivières. Pendant les mois d'hiver (de juin à aot), attendez-vous à un froid extrme et à de fortes chutes de neige dans les montagnes. Cela peut entraner la fermeture de routes et de cols de montagne. De violents orages se produisent en été (de novembre à février) et font plusieurs morts chaque année."
@@ -7056,7 +7026,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Afrique du Sud à Pretoria et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères au Lesotho. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -7119,17 +7089,17 @@
         }
       },
       "carteVigilance": "/maps/LS.jpg",
-      "scrapedAt": "2026-06-23T05:06:32.903959"
+      "scrapedAt": "2026-06-24T05:05:56.650217"
     },
     "LR": {
       "iso": "LR",
       "name": "Libéria",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-027-LR-V3",
-      "sourceDateStr": "28 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-027-LR-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7138,7 +7108,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de transport;",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7322,7 +7292,7 @@
           "texte": "Vous devriez vous munir d'un permis de conduire international. Le port de la ceinture de sécurité est obligatoire. Les convois transportant des représentants du gouvernement circulent à grande vitesse, et vous devez vous ranger sur l'accotement et éteindre vos phares si vous voyez s'approcher un tel convoi. Attendez quelques minutes pour poursuivre votre route après le passage du convoi."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "De manière générale, il faut payer en argent comptant. De nombreux marchands acceptent les paiements en dollars américains. Certains grands htels acceptent les cartes Visa et MasterCard. On trouve des guichets automatiques bancaires qu'à Monrovia et ils sont rares. Vous ne pouvez utiliser que votre carte Visa pour retirer de l'argent aux guichets automatiques bancaires. Assurez‑vous d'apporter suffisamment de dollars américains pour couvrir vos dépenses."
         },
@@ -7344,7 +7314,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires au Libéria. Vous pouvez obtenir de l'aide consulaire et de plus amples renseignements consulaires auprès de l'ambassade de Tunisie compétente en Cte d'Ivoire à Abidjan. Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente en Côte d'Ivoire à Abidjan et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères au Libéria. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -7418,17 +7388,17 @@
         }
       },
       "carteVigilance": "/maps/LR.jpg",
-      "scrapedAt": "2026-06-23T05:06:37.019105"
+      "scrapedAt": "2026-06-24T05:06:00.402975"
     },
     "LY": {
       "iso": "LY",
       "name": "Libye",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-028-LY-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-028-LY-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7437,7 +7407,7 @@
         "niveau": "eleve",
         "titre": "en Libye : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7646,7 +7616,7 @@
           "texte": "Vous pourriez tre accusé de blasphème et condamné à une peine d'emprisonnement si vous critiquez publiquement l'islam, ses enseignements ou ses valeurs."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "Généralement, il faut payer en argent comptant en Libye car les cartes de débit et de crédit ne sont pas souvent acceptées par les commerants. Les guichets automatiques bancaires sont peu nombreux. Il est interdit d'exporter des dinars libyens à l'extérieur du pays. Il n'y a pas de limite à l'importation ou l'exportation de devises étrangères par des non-résidents, mais vous devez déclarer toutes les devises en votre possession aux autorités douanières libyennes à l'entrée et à la sortie du pays. &Agrave; la sortie du pays, vous risquez de vous faire confisquer votre argent si vous n'avez pas déclaré les sommes que vous transportiez lorsque vous tes entrés en Libye."
         },
@@ -7683,7 +7653,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de représentation officielle en Libye. Notre capacité à fournir des services consulaires en Libye est extrmement limitée, en particulier dans l'est du pays. Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente auprès de la Libye à Tunis et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Libye. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -7763,17 +7733,17 @@
         }
       },
       "carteVigilance": "/maps/LY.jpg",
-      "scrapedAt": "2026-06-23T05:06:41.107811"
+      "scrapedAt": "2026-06-24T05:06:04.328883"
     },
     "MG": {
       "iso": "MG",
       "name": "Madagascar",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-029-MG-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-029-MG-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7782,7 +7752,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie ",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7988,7 +7958,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Afrique du Sud à Pretoria et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères à Madagascar. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -8050,17 +8020,17 @@
         }
       },
       "carteVigilance": "/maps/MG.jpg",
-      "scrapedAt": "2026-06-23T05:06:45.330518"
+      "scrapedAt": "2026-06-24T05:06:08.430137"
     },
     "MW": {
       "iso": "MW",
       "name": "Malawi",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-030-MW-V3",
-      "sourceDateStr": "15 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-030-MW-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8069,7 +8039,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8253,7 +8223,7 @@
           "texte": "De faon générale, la société au Malawi est conservatrice. Pour éviter de froisser les habitants locaux : comportez-vous avec discrétion et évitez les marques d'affection en public;"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du pays est le kwacha malawite (MWK). Le Malawi a une économie basée sur l'argent comptant. Les dollars américains sont largement acceptés. Vous devez déclarer toutes les devises étrangères à l'arrivée et au départ du Malawi. Les autorités locales peuvent vous détenir ou confisquer votre passeport si vous ne respectez pas cette obligation."
         },
@@ -8270,7 +8240,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Zimbabwe à Harare et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -8332,17 +8302,17 @@
         }
       },
       "carteVigilance": "/maps/MW.jpg",
-      "scrapedAt": "2026-06-23T05:06:49.415479"
+      "scrapedAt": "2026-06-24T05:06:12.123015"
     },
     "ML": {
       "iso": "ML",
       "name": "Mali",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-031-ML-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-031-ML-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8351,7 +8321,7 @@
         "niveau": "modere",
         "titre": "MALI - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Mali en raison du risque de terrorisme, d'enlèvement, de banditisme et des pénuries de carburant. Si la situation en matière de sécurité au Mali se détériore, la capacité ",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8550,9 +8520,14 @@
           "texte": "Vous devriez vous munir d'un permis de conduire international."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle du Mali est le franc CFA (XOF). Les cartes de crédit sont rarement acceptées, sauf dans quelques grands htels. La Banque centrale des &Eacute;tats de l'Afrique de l'Ouest a un bureau de change près du Grand Htel, situé sur la route de Koulikoro à Bamako. Le service offert par les bureaux de change est souvent lent, et les taux ne sont pas toujours à jour. Les guichets automatiques bancaires sont rares à l'extérieur de Bamako."
+        },
+        {
+          "cat": "Aide consulaire",
+          "niveau": "faible",
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères au Mali. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -8615,17 +8590,17 @@
         }
       },
       "carteVigilance": "/maps/ML.jpg",
-      "scrapedAt": "2026-06-23T05:06:53.700180"
+      "scrapedAt": "2026-06-24T05:06:16.379548"
     },
     "MA": {
       "iso": "MA",
       "name": "Maroc",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-032-MA-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-032-MA-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8634,7 +8609,7 @@
         "niveau": "modere",
         "titre": "Maroc - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence au Maroc en raison de la menace que pose le terrorisme.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8858,7 +8833,7 @@
           "texte": "En 2027, le mois lunaire du Ramadan devrait commencer autour du 7 février. En public, entre le lever et le coucher du soleil, abstenez-vous de :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle du Marco est le dirham marocain (MAD). Il ne peut tre converti à l'extérieur du pays. Ne changez que les sommes dont vous avez besoin, car il est illégal d'emporter des dirhams hors du Maroc. Au moment de votre départ, vous pourrez convertir les dirhams qu'il vous reste au comptoir de change de l'aéroport à condition de montrer une preuve de votre achat initial de devises. Les cartes de crédit et chèques de voyage sont acceptés dans certains magasins et restaurants des centres urbains ainsi que dans les grands htels."
         },
@@ -8880,7 +8855,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Maroc, à Rabat et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -8942,17 +8917,17 @@
         }
       },
       "carteVigilance": "/maps/MA.jpg",
-      "scrapedAt": "2026-06-23T05:06:57.945978"
+      "scrapedAt": "2026-06-24T05:06:20.437635"
     },
     "MR": {
       "iso": "MR",
       "name": "Mauritanie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-033-MR-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-033-MR-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8961,7 +8936,7 @@
         "niveau": "eleve",
         "titre": "dans les zones situées : au nord de la ville de Zouérate ; à l’est d’une ligne Ghallaouia – Akhrejit ; au nord-est d’un : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9155,14 +9130,14 @@
           "texte": "Entre minuit et 5 h, les autorités mauritaniennes interdisent la circulation interurbaine aux véhicules de transport de personnes et de marchandises de plus de 3,5 tonnes. Pendant la période d'interdiction de circulation, les véhicules ne peuvent pas tre sur les routes nationales. Ils doivent tre stationnés dans des gares routières ou dans les zones prévues à cet effet dans les villes. Vous devez vous munir d'un permis de conduire international."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "modere",
           "texte": "La Mauritanie a un climat très chaud et sec. La saison des pluies s'étend de juillet à octobre. Les inondations saisonnières peuvent nuire aux déplacements par voie terrestre et à la prestation des services essentiels. Dans certaines régions, l'approvisionnement en électricité et les réseaux de communication peuvent tre perturbés. Les routes peuvent devenir impraticables et les ponts, subir des dommages. Faites preuve de prudence, consultez régulièrement les médias et conformez-vous aux directives des autorités locales."
         },
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Maroc, à Rabat, et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Mauritanie Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -9250,17 +9225,17 @@
         }
       },
       "carteVigilance": "/maps/MR.jpg",
-      "scrapedAt": "2026-06-23T05:07:01.964320"
+      "scrapedAt": "2026-06-24T05:06:24.365769"
     },
     "MU": {
       "iso": "MU",
       "name": "Maurice",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-034-MU-V4",
-      "sourceDateStr": "19 Jun 2026",
-      "dateMAJInterne": "20 Jun 2026",
+      "version": 5,
+      "ref": "FRP-034-MU-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9269,7 +9244,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans l'Océan indien. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie In",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9443,7 +9418,7 @@
           "texte": "Vous pouvez conduire à Maurice avec un permis de conduire ressortissants tunisiens valide pour une durée maximale de quatre semaines. L'ge légal pour conduire un véhicule est de 18 ans L'ge légal pour conduire une moto est de 17 ans"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est la roupie mauricienne (MUR)."
         },
@@ -9460,7 +9435,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Afrique du Sud à Pretoria et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères à Maurice. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -9524,17 +9499,17 @@
         }
       },
       "carteVigilance": "/maps/MU.jpg",
-      "scrapedAt": "2026-06-23T05:07:05.779354"
+      "scrapedAt": "2026-06-24T05:06:28.144300"
     },
     "MZ": {
       "iso": "MZ",
       "name": "Mozambique",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-035-MZ-V3",
-      "sourceDateStr": "29 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-035-MZ-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9543,7 +9518,7 @@
         "niveau": "eleve",
         "titre": "dans l’ensemble de la province du Cabo Delgado, y compris son chef-lieu Pemba, ainsi que dans le tiers Est de la provin : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9762,7 +9737,7 @@
           "texte": "respectez les traditions sociales et religieuses."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Mozambique est le metical (MZN). L'importation et l'exportation de la devise nationale sont illégales. Lorsque vous entrez au Mozambique, vous devez déclarer les montants qui excèdent 10 000,00 USD ou 10 000 meticals en votre possession. Ceci inclut : Les dollars américains et les rands sud-africains sont les devises les plus faciles à changer dans les banques ou les bureaux de change. Ne traitez qu'avec des bureaux de change autorisés."
         },
@@ -9789,7 +9764,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Mozambique à Maputo et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -9891,17 +9866,17 @@
         }
       },
       "carteVigilance": "/maps/MZ.jpg",
-      "scrapedAt": "2026-06-23T05:07:10.293895"
+      "scrapedAt": "2026-06-24T05:06:32.518396"
     },
     "NA": {
       "iso": "NA",
       "name": "Namibie",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-036-NA-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-036-NA-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9910,7 +9885,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10156,7 +10131,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Afrique du Sud à Pretoria et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "[Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Namibie. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -10218,17 +10193,17 @@
         }
       },
       "carteVigilance": "/maps/NA.jpg",
-      "scrapedAt": "2026-06-23T05:07:14.484846"
+      "scrapedAt": "2026-06-24T05:06:36.387270"
     },
     "NE": {
       "iso": "NE",
       "name": "Niger",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-037-NE-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-037-NE-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10237,7 +10212,7 @@
         "niveau": "modere",
         "titre": "NIGER - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Niger en raison de l'instabilité politique et des risques de terrorisme et d'enlèvement. La situation politique et sécuritaire au Niger demeure imprévisible. Vous devriez ",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10436,7 +10411,7 @@
           "texte": "Les coutumes, lois et règlements au Niger sont inspirés par les pratiques et croyances de l'islam. Les démonstrations d'affection en public, y compris le fait de se tenir par la main ou de s'embrasser, ne sont pas acceptables socialement. En général, les voyageuses étrangères ne sont pas tenues de se couvrir la tte avec un voile. Toutefois, les vtements trop courts ou moulants sont considérés comme inappropriés."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle du Niger est le franc de la Communauté financière africaine (FCFA). L'économie du Niger est basée sur l'argent comptant. On ne trouve pas de guichet automatique et les cartes de crédit ne sont acceptées que dans quelques grands htels et restaurants. Ne changez votre argent que dans les bureaux de change réputés. Pour convertir des devises étrangères dont le montant dépasse 1 million de francs CFA, une autorisation du ministre des Finances est requise. Le formulaire d'autorisation peut tre obtenu auprès de toutes les grandes banques."
         },
@@ -10468,7 +10443,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l’ambassade de Tunisie compétente au Mali à Bamako et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -10530,17 +10505,17 @@
         }
       },
       "carteVigilance": "/maps/NE.jpg",
-      "scrapedAt": "2026-06-23T05:07:18.637898"
+      "scrapedAt": "2026-06-24T05:06:40.154029"
     },
     "NG": {
       "iso": "NG",
       "name": "Nigéria",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-038-NG-V5",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 6,
+      "ref": "FRP-038-NG-V6",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10549,7 +10524,7 @@
         "niveau": "eleve",
         "titre": "le Nord-Est, les États de Borno, Yobe, Gombe, Bauchi, Adamawa au nord de la Bénoué, Jigawa et Kano, (à l’exception de l : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10693,17 +10668,17 @@
         }
       },
       "carteVigilance": "/maps/NG.jpg",
-      "scrapedAt": "2026-06-23T05:07:24.419386"
+      "scrapedAt": "2026-06-24T05:06:44.496452"
     },
     "UG": {
       "iso": "UG",
       "name": "Ouganda",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-039-UG-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-039-UG-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10712,7 +10687,7 @@
         "niveau": "modere",
         "titre": "Ouganda - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
         "texte": "&Eacute;vitez tout voyage non essentiel en Ouganda en raison de l'impact régional de l'éclosion de maladie Ebola, ainsi que de la menace terroriste et du taux de criminalité élevé. L'Agence de la sant",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10926,7 +10901,7 @@
           "texte": "Il est conseillé d'tre muni d'un permis de conduire international. Les conducteurs doivent tre munis en tout temps : d'un permis de conduire valide en anglais ou accompagné d'une traduction certifiée conforme;"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le shilling ougandais (UGX). Les cartes de crédit ne sont acceptées que par les grands htels, les compagnies aériennes et certaines agences de location de voitures. On trouve des bureaux de change (forex) à presque tous les postes frontaliers et dans toutes les grandes villes. La plupart des magasins, banques et bureaux de change n'acceptent ou n'échangent pas les dollars américains émis avant 2007."
         },
@@ -10948,7 +10923,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Kenya à Nairobi et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -11021,17 +10996,17 @@
         }
       },
       "carteVigilance": "/maps/UG.jpg",
-      "scrapedAt": "2026-06-23T05:07:28.957807"
+      "scrapedAt": "2026-06-24T05:06:48.841191"
     },
     "RW": {
       "iso": "RW",
       "name": "Rwanda",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-040-RW-V3",
-      "sourceDateStr": "02 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-040-RW-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11040,7 +11015,7 @@
         "niveau": "modere",
         "titre": "Cybercriminalité",
         "texte": "La cybercriminalité, les attaques de logiciels malveillants et l'extorsion en ligne surviennent au Rwanda. Les criminels peuvent compromettre les réseaux Wi-Fi publics afin de voler des données person",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11239,7 +11214,7 @@
           "texte": "Vous devez vous munir d'un permis de conduire international. On exige une assurance responsabilité civile pour couvrir les dommages en cas d'accident causant des blessures mme si vous n'tes pas en tort. Si vous tes souponné d'avoir causé un accident, votre permis de conduire peut tre confisqué durant l'enqute. Les responsables d'un accident ayant causé la mort peuvent se voir imposer une peine d'emprisonnement."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise de Rwanda est le franc rwandais (RWF). Le Rwanda a une économie basée sur l'argent comptant. Les paiements électroniques et les services bancaires en ligne sont de plus en plus accessibles. Les cartes de crédit sont généralement acceptées dans : la plupart des entreprises, des restaurants et des magasins de Kigali."
         },
@@ -11266,7 +11241,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Rwanda à Kigali et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -11328,17 +11303,17 @@
         }
       },
       "carteVigilance": "/maps/RW.jpg",
-      "scrapedAt": "2026-06-23T05:07:32.901269"
+      "scrapedAt": "2026-06-24T05:06:52.794072"
     },
     "ST": {
       "iso": "ST",
       "name": "São Tomé",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-041-ST-V3",
-      "sourceDateStr": "29 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-041-ST-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11347,7 +11322,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des attaques de pirates et des vols à main armée contre des navires surviennent dans les eaux ctières et, dans certains cas, plus loin en mer. Les voyageurs devraient prendre les précautions nécessair",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11543,7 +11518,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires à Sao Tomé-et-Principe. Vous pouvez obtenir de l'aide consulaire et de plus amples renseignements consulaires auprès du ambassade de Tunisie compétente au Nigéria à Abuja. Guinée équatoriale, Sao Tomé-et-Principe Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Nigéria à Abuja et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères à Sao Tomé-et-Principe. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -11609,17 +11584,17 @@
         }
       },
       "carteVigilance": "/maps/ST.jpg",
-      "scrapedAt": "2026-06-23T05:07:36.723130"
+      "scrapedAt": "2026-06-24T05:06:56.553275"
     },
     "SN": {
       "iso": "SN",
       "name": "Sénégal",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-042-SN-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-042-SN-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11628,7 +11603,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Des attaques terroristes ont eu lieu dans certains pays frontaliers. La possibilité d'attaque terroriste ne peut tre exclue, notamment dans la zone frontalière avec le Mali. Les endroits suivants pour",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11842,7 +11817,7 @@
           "texte": "Vous pouvez conduire avec un permis de conduire ressortissants tunisiens valide pendant une période de 90 jours. Au-delà de cette période, vous devez avoir un permis de conduire international, accompagné de votre permis de conduire ressortissants tunisiens valide. Si un policier vous demande de payer une amende sur place, demandez une copie écrite de la contravention, qui peut tre payée ultérieurement auprès d'un tribunal local ou à un poste de police."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise du Sénégal est le franc CFA (XOF). Les cartes de crédit sont acceptées dans les grands htels, certains restaurants et certains magasins. Des guichets automatiques bancaires sont disponibles à Dakar et dans la plupart des grandes villes. Toutefois, il n'est pas possible d'y retirer des sommes importantes. &Eacute;vitez de changer de grandes quantités de francs CFA contre des devises étrangères ailleurs que dans des bureaux de change reconnus ou des banques."
         },
@@ -11859,7 +11834,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Cabo Verde, Gambie, Guinée, Guinée-Bissau Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente au Sénégal à Dakar et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa. Cabo Verde, Gambie, Guinée, Guinée-Bissau"
         },
         {
           "cat": "Avertissement",
@@ -11945,17 +11920,17 @@
         }
       },
       "carteVigilance": "/maps/SN.jpg",
-      "scrapedAt": "2026-06-23T05:07:40.891162"
+      "scrapedAt": "2026-06-24T05:07:00.764127"
     },
     "SL": {
       "iso": "SL",
       "name": "Sierra Leone",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-043-SL-V3",
-      "sourceDateStr": "12 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-043-SL-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11964,7 +11939,7 @@
         "niveau": "modere",
         "titre": "Régions frontalières",
         "texte": "Les zones frontalières sont mal surveillées par les autorités locales. Les zones frontalières avec la Guinée et le Libéria sont affectées par des conflits territoriaux en cours, des opérations militai",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12163,7 +12138,7 @@
           "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci ont été déplacés ou retenus dans certains pays en violation d'un droit de garde. Elle ne s'applique pas entre le Canada et la Sierra Leone. Si votre enfant a été déplacé ou est retenu illicitement en Sierra Leone par un parent ravisseur : consultez un avocat en Tunisie et en Sierra Leone afin d'envisager toutes les options juridiques possibles pour le retour de votre enfant; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La Sierra Leone est une économie basée sur l'argent comptant. Des règles strictes limitent l'importation de devises étrangères en argent comptant. L'usage des cartes de crédit et les cartes de débit n'est pas très répandu. Il y a très peu de guichets automatiques bancaires à Freetown. Pour changer vos devises étrangères, ne traitez qu'avec les banques ou les bureaux de change officiels. Le dollar américain et l'euro sont les devises les plus faciles à changer."
         },
@@ -12180,7 +12155,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Ghana à Accra et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Sierra Leone Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -12253,17 +12228,17 @@
         }
       },
       "carteVigilance": "/maps/SL.jpg",
-      "scrapedAt": "2026-06-23T05:07:45.067127"
+      "scrapedAt": "2026-06-24T05:07:04.802197"
     },
     "SO": {
       "iso": "SO",
       "name": "Somalie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-044-SO-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-044-SO-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -12272,7 +12247,7 @@
         "niveau": "eleve",
         "titre": "la zone : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12488,7 +12463,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires en Somalie. Notre capacité à offrir des services consulaires est extrmement limitée en Somalie. Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Kenya à Nairobi et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères en Somalie. Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -12571,7 +12546,7 @@
         }
       },
       "carteVigilance": "/maps/SO.jpg",
-      "scrapedAt": "2026-06-23T05:07:49.431904"
+      "scrapedAt": "2026-06-24T05:07:08.784479"
     },
     "SD": {
       "iso": "SD",
@@ -12590,7 +12565,7 @@
         "niveau": "eleve",
         "titre": "le contexte des affrontements en cours l’intégralité du territoire soudanais est formellement déconseillé : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12939,7 +12914,7 @@
         }
       },
       "carteVigilance": "/maps/SD.jpg",
-      "scrapedAt": "2026-06-23T05:07:53.978330"
+      "scrapedAt": "2026-06-24T05:07:12.878304"
     },
     "SS": {
       "iso": "SS",
@@ -12958,7 +12933,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13011,17 +12986,17 @@
         }
       },
       "carteVigilance": "/maps/SS.jpg",
-      "scrapedAt": "2026-06-23T05:07:58.334539"
+      "scrapedAt": "2026-06-24T05:07:17.021924"
     },
     "TZ": {
       "iso": "TZ",
       "name": "Tanzanie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-047-TZ-V4",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 5,
+      "ref": "FRP-047-TZ-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13030,7 +13005,7 @@
         "niveau": "modere",
         "titre": "Tanzanie - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence en Tanzanie en raison du taux de criminalité et du risque que représente le terrorisme.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13299,7 +13274,7 @@
           "texte": "Vous devez vous munir d'un permis de conduire international, en plus de votre permis de conduire ressortissants tunisiens."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le shilling tanzanien (TZS). Le shilling tanzanien et le dollar américain (USD) sont les modes de paiement privilégiés. Les cartes de crédit ne sont généralement pas acceptées dans les zones rurales."
         },
@@ -13331,7 +13306,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Tanzanie à Dar es Salaam et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -13409,17 +13384,17 @@
         }
       },
       "carteVigilance": "/maps/TZ.jpg",
-      "scrapedAt": "2026-06-23T05:08:03.014979"
+      "scrapedAt": "2026-06-24T05:07:21.780405"
     },
     "TD": {
       "iso": "TD",
       "name": "Tchad",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-048-TD-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-048-TD-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13428,7 +13403,7 @@
         "niveau": "eleve",
         "titre": "ces zones frontalières de la Libye, depuis août 2018, en vue de contrôler les incursions armées de groupes rebelles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13627,7 +13602,7 @@
           "texte": "La population est majoritairement musulmane. Habillez-vous et comportez-vous avec bon sens et discrétion. Respectez les traditions sociales et religieuses pour ne pas froisser les habitants. En 2027, le mois lunaire du ramadan devrait commencer autour du 7 février. En public, entre le lever et le coucher du soleil, soyez discret au moment de :"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le franc de la Communauté financière africaine (CFA). Il n'y a pas de restrictions à l'importation de devises locales ou étrangères, mais elles doivent tre déclarées à l'arrivée. L'exportation de la devise locale est interdite, et l'exportation de devises étrangères est limitée au montant déclaré à l'arrivée. Il faut obtenir d'une banque commerciale locale une preuve d'entrée des devises importées. Les guichets automatiques bancaires sont rares. Seuls les grands htels de N'Djamena acceptent les cartes de crédit. Plusieurs banques acceptent d'effectuer de petites avances de fonds en monnaie locale sur les principales cartes de crédit."
         },
@@ -13644,7 +13619,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente à Yaoundé, au Cameroun et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -13727,17 +13702,17 @@
         }
       },
       "carteVigilance": "/maps/TD.jpg",
-      "scrapedAt": "2026-06-23T05:08:07.249846"
+      "scrapedAt": "2026-06-24T05:07:25.959450"
     },
     "TG": {
       "iso": "TG",
       "name": "Togo",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-049-TG-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-049-TG-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13746,7 +13721,7 @@
         "niveau": "modere",
         "titre": "Frontière avec le Burkina Faso - &Eacute;vitez tout voyage",
         "texte": "&Eacute;vitez tout voyage à 30km de la frontière avec le Burkina Faso, en raison des opérations militaires, de la menace terroriste et du risque d'enlèvement. Cet avertissement inclus la ville ainsi q",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13950,7 +13925,7 @@
           "texte": "Vous pouvez utiliser votre permis de conduire ressortissants tunisiens pour conduire au Togo. Il est cependant recommandé de vous munir d'un permis de conduire international. Les points de contrle de la police sont fréquents au Togo. Vous devez avoir vos papiers d'identité et les documents relatifs à votre véhicule à portée de main pour les présenter sur demande."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise officielle du Togo est le franc de la Communauté financière africaine (XOF). L'économie repose essentiellement sur l'argent liquide. Les cartes de crédit sont généralement acceptées dans les villes et les htels. N'échangez les devises étrangères que dans les banques ou les bureaux de change officiels."
         },
@@ -13972,7 +13947,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente au Ghana à Accra et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères au Togo Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -14051,17 +14026,17 @@
         }
       },
       "carteVigilance": "/maps/TG.jpg",
-      "scrapedAt": "2026-06-23T05:08:11.175960"
+      "scrapedAt": "2026-06-24T05:07:29.730025"
     },
     "TN": {
       "iso": "TN",
       "name": "Tunisie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-050-TN-V3",
-      "sourceDateStr": "26 May 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-050-TN-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14070,7 +14045,7 @@
         "niveau": "eleve",
         "titre": "dans la zone montagneuse de l’Ouest (monts d’Orbata, Selloum, Semema, Chambi et Mghila), car pouvant abriter différente : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14279,7 +14254,7 @@
           "texte": "&Eacute;vitez de photographier les installations militaires, les édifices du gouvernement et les ambassades. Demandez la permission avant de prendre les gens en photo."
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise de la Tunisie est le dinar tunisien (TND). Il est interdit d'importer et d'exporter des dinars tunisiens (TND). Les guichets automatiques bancaires sont nombreux dans les zones touristiques ainsi que dans les grands centres urbains. Un grand nombre d'établissements, en milieu urbain et dans les zones touristiques, acceptent les cartes de crédit."
         },
@@ -14306,7 +14281,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez à l'ambassade de Tunisie compétente en Tunisie à Tunis et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -14387,17 +14362,17 @@
         }
       },
       "carteVigilance": "/maps/TN.jpg",
-      "scrapedAt": "2026-06-23T05:08:15.142387"
+      "scrapedAt": "2026-06-24T05:07:33.806438"
     },
     "ZA": {
       "iso": "ZA",
       "name": "Afrique du Sud",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-051-ZA-V4",
-      "sourceDateStr": "22 Jun 2026",
-      "dateMAJInterne": "23 Jun 2026",
+      "version": 5,
+      "ref": "FRP-051-ZA-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14406,7 +14381,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des enlèvements pour ranons surviennent fréquemment et des ressortissants étrangers ont été enlevés par le passé. Dans certains cas, les victimes ont été attirées via des applications de rencontres en",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14630,7 +14605,7 @@
           "texte": "Les autorités locales peuvent demander à voir votre pièce d'identité à tout moment. Ayez toujours une pièce d'identité valide sur vous ou une photocopie de celle-ci Gardez une photocopie de votre passeport et de votre visa ou permis de voyage en lieu sr en cas de perte ou de saisie"
         },
         {
-          "cat": "Monnaie",
+          "cat": "Argent",
           "niveau": "faible",
           "texte": "La devise est le rand sud-africain (ZAR). Les dollars ressortissants tunisiens sont facilement échangeables dans les grandes banques et les bureaux de change. Vous devez présenter votre passeport et une autre pièce d'identité pour effectuer des opérations de change. Les étrangers peuvent entrer en Afrique du Sud avec jusqu'à 25 000 ZAR, ou 10000 $ US, ou l'équivalent dans d'autres devises, sans avoir à le déclarer."
         },
@@ -14662,7 +14637,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Afrique du Sud à Pretoria et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa. Vous pouvez également appeler sans frais au 0800-992-773."
         },
         {
           "cat": "Avertissement",
@@ -14724,17 +14699,17 @@
         }
       },
       "carteVigilance": "/maps/ZA.jpg",
-      "scrapedAt": "2026-06-23T05:08:19.724383"
+      "scrapedAt": "2026-06-24T05:07:38.105907"
     },
     "ZM": {
       "iso": "ZM",
       "name": "Zambie",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-052-ZM-V4",
-      "sourceDateStr": "17 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 5,
+      "ref": "FRP-052-ZM-V5",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14743,7 +14718,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14979,7 +14954,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide consulaire d'urgence, téléphonez au bureau du ambassade de Tunisie compétente en Zambie à Lusaka et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -15053,17 +15028,17 @@
         }
       },
       "carteVigilance": "/maps/ZM.jpg",
-      "scrapedAt": "2026-06-23T05:08:24.111566"
+      "scrapedAt": "2026-06-24T05:07:42.429509"
     },
     "ZW": {
       "iso": "ZW",
       "name": "Zimbabwe",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 3,
-      "ref": "FRP-053-ZW-V3",
-      "sourceDateStr": "04 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 4,
+      "ref": "FRP-053-ZW-V4",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -15072,7 +15047,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15283,7 +15258,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Pour obtenir de l'aide d'urgence en dehors des heures de bureau, téléphonez à l'ambassade de Tunisie compétente au Zimbabwe à Harare et suivez les instructions qui vous seront données. Vous pouvez aussi appeler le Centre de surveillance et d'intervention d'urgence à Ottawa au 613-996-8885."
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -15361,17 +15336,17 @@
         }
       },
       "carteVigilance": "/maps/ZW.jpg",
-      "scrapedAt": "2026-06-23T05:08:28.466613"
+      "scrapedAt": "2026-06-24T05:07:46.350526"
     },
     "SC": {
       "iso": "SC",
       "name": "Seychelles",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 1,
-      "ref": "FRP-054-SC-V1",
-      "sourceDateStr": "09 Jun 2026",
-      "dateMAJInterne": "19 Jun 2026",
+      "version": 2,
+      "ref": "FRP-054-SC-V2",
+      "sourceDateStr": "23 Jun 2026",
+      "dateMAJInterne": "24 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -15380,7 +15355,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, en particulier dans le golfe d'Aden et l'océan Indien. Bien que le nombre de cas de piraterie ait",
-        "date": "23 Jun 2026"
+        "date": "24 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15556,7 +15531,7 @@
         {
           "cat": "Aide consulaire",
           "niveau": "faible",
-          "texte": "Le Canada n'a pas de bureau responsable des services consulaires aux Seychelles. Vous pouvez obtenir de l'aide consulaire et de plus amples renseignements consulaires auprès du ambassade de Tunisie compétente en Tanzanie à Dar es Salaam. Pour obtenir de l'aide consulaire d'urgence, téléphonez au ambassade de Tunisie compétente en Tanzanie à Dar es Salaam et suivez les instructions qui vous seront données. &Agrave; tout moment, vous pouvez aussi communiquer avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
+          "texte": "Il n'y a pas de bureau du ministère tunisien des Affaires étrangères aux Seychelles Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa."
         },
         {
           "cat": "Avertissement",
@@ -15619,7 +15594,7 @@
         }
       },
       "carteVigilance": "/maps/SC.jpg",
-      "scrapedAt": "2026-06-23T05:08:32.311577"
+      "scrapedAt": "2026-06-24T05:07:50.167494"
     }
   }
 }
