@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T05:09:29.515678",
-  "totalChanged": 9,
+  "generatedAt": "2026-06-27T04:57:37.506446",
+  "totalChanged": 3,
   "countries": {
     "DZ": {
       "iso": "DZ",
@@ -19,7 +19,7 @@
         "niveau": "eleve",
         "titre": "certains pays voisins : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -365,7 +365,7 @@
         }
       },
       "carteVigilance": "/maps/DZ.jpg",
-      "scrapedAt": "2026-06-25T05:07:18.434803"
+      "scrapedAt": "2026-06-27T04:55:37.012883"
     },
     "AO": {
       "iso": "AO",
@@ -384,7 +384,7 @@
         "niveau": "modere",
         "titre": "Province de Cabinda",
         "texte": "Des groupes militants revendiquant l'indépendance sont actifs dans la province de Cabinda, et des affrontements avec les forces de sécurité peuvent se produire. Des meurtres, des enlèvements et des ag",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -658,7 +658,7 @@
         }
       },
       "carteVigilance": "/maps/AO.jpg",
-      "scrapedAt": "2026-06-25T05:07:21.321035"
+      "scrapedAt": "2026-06-27T04:55:39.801593"
     },
     "BJ": {
       "iso": "BJ",
@@ -677,7 +677,7 @@
         "niveau": "eleve",
         "titre": "dans : les zones frontalières du Burkina Faso et du Niger ; la totalité des parcs nationaux de la Pendjari et du W, les : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -981,7 +981,7 @@
         }
       },
       "carteVigilance": "/maps/BJ.jpg",
-      "scrapedAt": "2026-06-25T05:07:23.954642"
+      "scrapedAt": "2026-06-27T04:55:42.373386"
     },
     "BW": {
       "iso": "BW",
@@ -1000,7 +1000,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1233,7 +1233,7 @@
         }
       },
       "carteVigilance": "/maps/BW.jpg",
-      "scrapedAt": "2026-06-25T05:07:26.742210"
+      "scrapedAt": "2026-06-27T04:55:44.799673"
     },
     "BF": {
       "iso": "BF",
@@ -1252,7 +1252,7 @@
         "niveau": "eleve",
         "titre": "le contexte actuel de fortes tensions régionales, tout déplacement au Burkina Faso est formellement déconseillé : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1512,7 +1512,7 @@
         }
       },
       "carteVigilance": "/maps/BF.jpg",
-      "scrapedAt": "2026-06-25T05:07:29.183683"
+      "scrapedAt": "2026-06-27T04:55:47.336680"
     },
     "BI": {
       "iso": "BI",
@@ -1531,7 +1531,7 @@
         "niveau": "modere",
         "titre": "Provinces de Bubanza et de Cibitoke",
         "texte": "La sécurité à la frontière est toujours source de préoccupation dans les provinces de Bubanza et de Cibitoke étant donné les affrontements violents dans l'est de la RDC et les mouvements transfrontali",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1835,17 +1835,17 @@
         }
       },
       "carteVigilance": "/maps/BI.jpg",
-      "scrapedAt": "2026-06-25T05:07:31.954477"
+      "scrapedAt": "2026-06-27T04:55:49.719396"
     },
     "CM": {
       "iso": "CM",
       "name": "Cameroun",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-007-CM-V5",
-      "sourceDateStr": "24 Jun 2026",
-      "dateMAJInterne": "25 Jun 2026",
+      "version": 6,
+      "ref": "FRP-007-CM-V6",
+      "sourceDateStr": "25 Jun 2026",
+      "dateMAJInterne": "27 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1854,7 +1854,7 @@
         "niveau": "eleve",
         "titre": "dans une bande de 30 km le long de la frontière du Cameroun, du lac Tchad jusqu’au sud de la RCA en raison de la situat : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1905,22 +1905,22 @@
         {
           "cat": "Région du Nord et de l'Adamaoua",
           "niveau": "eleve",
-          "texte": "Il existe un risque d'attaques terroriste et d'enlèvements dans les régions du Nord et de l'Adamaoua. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+          "texte": "Il existe un risque d'attaques terroristes et d'enlèvements dans les régions du Nord et de l'Adamaoua. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
           "cat": "Frontières avec le Nigéria, le Tchad et la République centrafricaine",
           "niveau": "eleve",
-          "texte": "Des groupes extrémistes violents, ainsi que des groupes criminels armés opèrent le long des frontières avec le Nigeria, le Tchad et la République centrafricaine. Le risque d'attentats à la bombe, d'attaques armées et d'enlèvements y est élevé. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+          "texte": "Des groupes extrémistes violents, ainsi que des groupes criminels armés qui opèrent le long des frontières avec le Nigeria, le Tchad et la République centrafricaine. Le risque d'attentats à la bombe, d'attaques armées et d'enlèvements y est élevé. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
           "cat": "Criminalité",
           "niveau": "modere",
-          "texte": "La criminalité est élevée dans les centres urbains, sur les principaux axes routiers et dans les régions frontalières. Des crimes mineurs, tels que des vols à la tire et de sac à l'arraché, surviennent régulièrement dans tous les centres urbains. Les voleurs ciblent les touristes. &Agrave; Yaoundé faites preuve d'une grande prudence aux endroits suivants et dans leurs alentours : soyez conscient de votre environnement, surtout dans les endroits achalandés; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+          "texte": "La criminalité est élevée dans les centres urbains, sur les principaux axes routiers et dans les régions frontalières. Des crimes mineurs, tels que des vols à la tire et de sac à l'arraché, surviennent régulièrement dans tous les centres urbains. Les voleurs ciblent les touristes. &Agrave; Yaoundé, faites preuve d'une grande prudence aux endroits suivants et dans leurs alentours : soyez conscient de votre environnement, surtout dans les endroits achalandés; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
           "cat": "Terrorisme",
           "niveau": "eleve",
-          "texte": "Il existe une menace terroriste sur l'ensemble du territoire et particulièrement dans la région de l'Extrme-Nord, dans le département du Mayo-Louti et dans les zones frontalières avec le Nigeria, le Tchad et la République centrafricaine. Des attaques armées et des attentats suicides ont ciblé des lieux très fréquentés, tel que des marchés, et ont fait des victimes civiles. Les terroristes pourraient cibler les endroits suivants : les édifices gouvernementaux, y compris les postes de police; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+          "texte": "Il existe une menace terroriste sur l'ensemble du territoire et particulièrement dans la région de l'Extrme-Nord, dans le département du Mayo-Louti et dans les zones frontalières avec le Nigeria, le Tchad et la République centrafricaine. Des attaques armées et des attentats suicides ont ciblé des lieux très fréquentés, tels que des marchés, et ont fait des victimes civiles. Les terroristes pourraient cibler les endroits suivants : les édifices gouvernementaux, y compris les postes de police; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
         },
         {
           "cat": "Enlèvements",
@@ -1945,7 +1945,7 @@
         {
           "cat": "Routes",
           "niveau": "faible",
-          "texte": "Il y a des enjeux majeurs de sécurité routière au Cameroun. Le nombre d'accidents de la route est élevé et implique souvent des piétons. L'assistance de la police et des services d'urgence est limitée, particulièrement dans les zones rurales. Les conditions routières varient à travers le pays et selon le moment de l'année. Les routes principales sont généralement bien entretenues, alors que les routes secondaires sont en mauvais état et dangereuses. Pendant les saisons des pluies , l'état des routes se dégrade considérablement et la conduite peut devenir dangereuses. Les routes peuvent tre dangereuse en raison :"
+          "texte": "Il y a des enjeux majeurs de sécurité routière au Cameroun. Le nombre d'accidents de la route est élevé et implique souvent des piétons. L'assistance de la police et des services d'urgence est limitée, particulièrement dans les zones rurales. Les conditions routières varient à travers le pays et selon le moment de l'année. Les routes principales sont généralement bien entretenues, alors que les routes secondaires sont en mauvais état et dangereuses. Pendant les saisons des pluies , l'état des routes se dégrade considérablement et la conduite peut devenir dangereuse. Les routes peuvent tre dangereuses en raison :"
         },
         {
           "cat": "Fraude",
@@ -1960,7 +1960,7 @@
         {
           "cat": "Voyager dans des régions éloignées",
           "niveau": "faible",
-          "texte": "Les infrastructures touristiques, y compris les htels, les restaurants et les réseaux de transports, sont limitées à l'extérieur des grandes villes. Si vous comptez vous rendre dans des endroits éloignés: évitez de voyager après la tombée de la nuit en dehors des centres urbains;"
+          "texte": "Les infrastructures touristiques, y compris les htels, les restaurants et les réseaux de transport, sont limitées à l'extérieur des grandes villes. Si vous comptez vous rendre dans des endroits éloignés: évitez de voyager après la tombée de la nuit en dehors des centres urbains;"
         },
         {
           "cat": "Baignade",
@@ -2040,12 +2040,12 @@
         {
           "cat": "Services et établissements médicaux",
           "niveau": "faible",
-          "texte": "Les établissements et les services médicaux ne sont pas du mme calibre qu'en Tunisie. L'accès aux soins de santé de bonne qualité est limité à Yaoundé et à Douala et très limités en dehors de ces villes. Il peut tre difficile d'obtenir des soins adéquats de la part des professionnels de la santé. Les établissements médicaux publics et privés exigent généralement un dépt initial en argent comptant, une garantie de paiement ou la confirmation que vous possédez une assurance médicale. En cas d'urgence médicale une évacuation médicale aérienne à l'étranger peut s'avérer nécessaire."
+          "texte": "Les établissements et les services médicaux ne sont pas du mme calibre qu'en Tunisie. L'accès aux soins de santé de bonne qualité est limité à Yaoundé et à Douala et très limité en dehors de ces villes. Il peut tre difficile d'obtenir des soins adéquats de la part des professionnels de la santé. Les établissements médicaux publics et privés exigent généralement un dépt initial en argent comptant, une garantie de paiement ou la confirmation que vous possédez une assurance médicale. En cas d'urgence médicale une évacuation médicale aérienne à l'étranger peut s'avérer nécessaire."
         },
         {
           "cat": "Médicaments",
           "niveau": "faible",
-          "texte": "Certains médicaments sur ordonnance pourraient ne pas tre disponibles au Cameroun. Si vous prenez des médicaments sur ordonnance, vous devez en vérifier leur légalité au Cameroun. Apportez suffisante de médicaments pour votre séjour"
+          "texte": "Certains médicaments sur ordonnance pourraient ne pas tre disponibles au Cameroun. Si vous prenez des médicaments sur ordonnance, vous devez vérifier leur légalité au Cameroun. Apportez suffisante de médicaments pour votre séjour"
         },
         {
           "cat": "&Agrave; retenir...",
@@ -2060,7 +2060,7 @@
         {
           "cat": "Tenue vestimentaire et comportement",
           "niveau": "faible",
-          "texte": "Pour éviter de froisser les sensibilités locales: respectez les traditions sociales et religieuses. Il est illégal de porter, d'acheter, de vendre ou de distribuer des habits militaires au Cameroun. Un civil qui porte une tenue de camouflage ou d'autres vtements de style militaire commet une infraction."
+          "texte": "Pour éviter de froisser les sensibilités locales : respectez les traditions sociales et religieuses. Il est illégal de porter, d'acheter, de vendre ou de distribuer des habits militaires au Cameroun. Un civil qui porte une tenue de camouflage ou d'autres vtements de style militaire commet une infraction."
         },
         {
           "cat": "Double citoyenneté",
@@ -2090,7 +2090,7 @@
         {
           "cat": "Argent",
           "niveau": "faible",
-          "texte": "La devise du Cameroun est le franc de la Coopération financière en Afrique centrale (XAF), aussi appelé le franc CFA d'Afrique centrale. Le Cameroun est une économie largement basée sur l'argent comptant. Les grands magasins et les grands htels peuvent accepter les principales cartes de crédit ou l'euro et le dollar américain, mais il est préférable de le confirmer au moment de la réservation. Les cartes de crédit sont rarement acceptées en dehors des htels internationaux. Les virements de fonds vers l'extérieur du Cameroun ne peuvent se faire qu'avec l'autorisation du ministère des Finances. Les virements de fonds par l'entremise d'une banque prennent du temps et comportent des frais."
+          "texte": "La devise du Cameroun est le franc de la Coopération financière en Afrique centrale (XAF), aussi appelé le franc CFA d'Afrique centrale. Le Cameroun est une économie largement basée sur l'argent comptant. Les grands magasins et les grands htels peuvent accepter les principales cartes de crédit ou les euro et le dollar américain, mais il est préférable de le confirmer au moment de la réservation. Les cartes de crédit sont rarement acceptées en dehors des htels internationaux. Les virements de fonds vers l'extérieur du Cameroun ne peuvent tre effectués qu'avec l'autorisation du ministère des Finances. Les virements de fonds par l'entremise d'une banque prennent du temps et comportent des frais."
         },
         {
           "cat": "Changements climatiques",
@@ -2100,7 +2100,7 @@
         {
           "cat": "Saisons des pluies",
           "niveau": "faible",
-          "texte": "de la mi-mars et la mi-juin, puis de la mi-septembre à la mi-novembre pour les régions du centre et du sud; de la mi-janvier à la mi-mars , puis de la mi-juin à la mi-septembre pour les régions du nord. Les inondations saisonnières peuvent nuire aux déplacements par voie terrestre et à la prestation des services essentiels, particulièrement dans les régions rurales. Les routes peuvent devenir impraticables en raison des coulées de boue et des glissements de terrain. Les ponts, les btiments et les infrastructures peuvent subir des dommages."
+          "texte": "de la mi-mars à la mi-juin, puis de la mi-septembre à la mi-novembre pour les régions du centre et du sud; de la mi-janvier à la mi-mars , puis de la mi-juin à la mi-septembre pour les régions du nord. Les inondations saisonnières peuvent nuire aux déplacements par voie terrestre et à la prestation des services essentiels, particulièrement dans les régions rurales. Les routes peuvent devenir impraticables en raison des coulées de boue et des glissements de terrain. Les ponts, les btiments et les infrastructures peuvent subir des dommages."
         },
         {
           "cat": "Volcans",
@@ -2199,7 +2199,7 @@
         }
       },
       "carteVigilance": "/maps/CM.jpg",
-      "scrapedAt": "2026-06-25T05:07:34.527884"
+      "scrapedAt": "2026-06-27T04:55:52.434350"
     },
     "CV": {
       "iso": "CV",
@@ -2218,7 +2218,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2263,7 +2263,7 @@
         }
       },
       "carteVigilance": "/maps/CV.jpg",
-      "scrapedAt": "2026-06-25T05:07:36.900437"
+      "scrapedAt": "2026-06-27T04:55:54.811263"
     },
     "CF": {
       "iso": "CF",
@@ -2282,7 +2282,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des groupes armés et des criminels ciblent des étrangers, des employés d'organisations internationales, ainsi que des ressortissants centrafricains. Le risque est particulièrement élevé en dehors de B",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2556,7 +2556,7 @@
         }
       },
       "carteVigilance": "/maps/CF.jpg",
-      "scrapedAt": "2026-06-25T05:07:39.303365"
+      "scrapedAt": "2026-06-27T04:55:57.465582"
     },
     "KM": {
       "iso": "KM",
@@ -2575,7 +2575,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières comoriennes et parfois plus loin au large. On recommande aux navigateurs de prendre les précautions qui s'imposent. Carte en direct sur la p",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2833,7 +2833,7 @@
         }
       },
       "carteVigilance": "/maps/KM.jpg",
-      "scrapedAt": "2026-06-25T05:07:41.778421"
+      "scrapedAt": "2026-06-27T04:55:59.805905"
     },
     "CG": {
       "iso": "CG",
@@ -2852,7 +2852,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2905,7 +2905,7 @@
         }
       },
       "carteVigilance": "/maps/CG.jpg",
-      "scrapedAt": "2026-06-25T05:07:44.578860"
+      "scrapedAt": "2026-06-27T04:56:02.514437"
     },
     "CD": {
       "iso": "CD",
@@ -2924,7 +2924,7 @@
         "niveau": "eleve",
         "titre": "dans le parc national des Virunga, le parc de Kahuzi-Biega et le parc de la Garamba, des enlèvements étant régulièremen : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2997,7 +2997,7 @@
         }
       },
       "carteVigilance": "/maps/CD.jpg",
-      "scrapedAt": "2026-06-25T05:07:47.874446"
+      "scrapedAt": "2026-06-27T04:56:05.061227"
     },
     "CI": {
       "iso": "CI",
@@ -3016,7 +3016,7 @@
         "niveau": "eleve",
         "titre": "quel que soit le motif dans le nord du district du Zanzan et l’est du district des Savanes ainsi que dans le parc natio : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3079,7 +3079,7 @@
         }
       },
       "carteVigilance": "/maps/CI.jpg",
-      "scrapedAt": "2026-06-25T05:07:50.713296"
+      "scrapedAt": "2026-06-27T04:56:07.478135"
     },
     "DJ": {
       "iso": "DJ",
@@ -3098,7 +3098,7 @@
         "niveau": "eleve",
         "titre": "le pays mais les frontières terrestres et maritimes sont à éviter : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3367,7 +3367,7 @@
         }
       },
       "carteVigilance": "/maps/DJ.jpg",
-      "scrapedAt": "2026-06-25T05:07:53.271079"
+      "scrapedAt": "2026-06-27T04:56:09.586615"
     },
     "EG": {
       "iso": "EG",
@@ -3386,7 +3386,7 @@
         "niveau": "eleve",
         "titre": "la zone désertique, en direction de la frontière libyenne sont formellement déconseillés, à l’exception de ceux dans la : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3745,7 +3745,7 @@
         }
       },
       "carteVigilance": "/maps/EG.jpg",
-      "scrapedAt": "2026-06-25T05:07:56.118718"
+      "scrapedAt": "2026-06-27T04:56:11.853221"
     },
     "ER": {
       "iso": "ER",
@@ -3764,7 +3764,7 @@
         "niveau": "eleve",
         "titre": "le désert des Danakils, il est formellement déconseillé de se rendre dans cette région : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4088,7 +4088,7 @@
         }
       },
       "carteVigilance": "/maps/ER.jpg",
-      "scrapedAt": "2026-06-25T05:07:58.543183"
+      "scrapedAt": "2026-06-27T04:56:14.032103"
     },
     "SZ": {
       "iso": "SZ",
@@ -4107,7 +4107,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Bien qu'aucun attentat n'ait été perpétré récemment en Eswatini, il existe une menace terroriste.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4355,7 +4355,7 @@
         }
       },
       "carteVigilance": "/maps/SZ.jpg",
-      "scrapedAt": "2026-06-25T05:08:00.719595"
+      "scrapedAt": "2026-06-27T04:56:16.206023"
     },
     "ET": {
       "iso": "ET",
@@ -4374,7 +4374,7 @@
         "niveau": "eleve",
         "titre": "la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageurs sont toutefois invités à organise : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4798,7 +4798,7 @@
         }
       },
       "carteVigilance": "/maps/ET.jpg",
-      "scrapedAt": "2026-06-25T05:08:03.530656"
+      "scrapedAt": "2026-06-27T04:56:18.654984"
     },
     "GA": {
       "iso": "GA",
@@ -4817,7 +4817,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières et parfois aussi plus loin au large. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie Intern",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5040,7 +5040,7 @@
         }
       },
       "carteVigilance": "/maps/GA.jpg",
-      "scrapedAt": "2026-06-25T05:08:06.050281"
+      "scrapedAt": "2026-06-27T04:56:20.806570"
     },
     "GM": {
       "iso": "GM",
@@ -5059,7 +5059,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5287,7 +5287,7 @@
         }
       },
       "carteVigilance": "/maps/GM.jpg",
-      "scrapedAt": "2026-06-25T05:08:08.391874"
+      "scrapedAt": "2026-06-27T04:56:22.974191"
     },
     "GH": {
       "iso": "GH",
@@ -5306,7 +5306,7 @@
         "niveau": "modere",
         "titre": "Zone frontalière avec le Burkina Faso - &Eacute;vitez tout voyage non essentiel",
         "texte": "&Eacute;vitez tout voyage non essentiel à moins de 25 km de la frontière avec le Burkina Faso en raison du risque de conflit intercommunautaire et de l'activité terroriste.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5630,7 +5630,7 @@
         }
       },
       "carteVigilance": "/maps/GH.jpg",
-      "scrapedAt": "2026-06-25T05:08:11.094826"
+      "scrapedAt": "2026-06-27T04:56:25.350991"
     },
     "GN": {
       "iso": "GN",
@@ -5649,7 +5649,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Il existe une menace terroriste. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de tr",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5944,7 +5944,7 @@
         }
       },
       "carteVigilance": "/maps/GN.jpg",
-      "scrapedAt": "2026-06-25T05:08:13.595315"
+      "scrapedAt": "2026-06-27T04:56:27.587340"
     },
     "GQ": {
       "iso": "GQ",
@@ -5963,7 +5963,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, et dans certains cas, plus loin dans la mer. Les navigateurs doivent prendre les précautions qui ",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6217,7 +6217,7 @@
         }
       },
       "carteVigilance": "/maps/GQ.jpg",
-      "scrapedAt": "2026-06-25T05:08:15.968540"
+      "scrapedAt": "2026-06-27T04:56:29.865912"
     },
     "GW": {
       "iso": "GW",
@@ -6236,7 +6236,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6448,7 +6448,7 @@
         }
       },
       "carteVigilance": "/maps/GW.jpg",
-      "scrapedAt": "2026-06-25T05:08:17.907333"
+      "scrapedAt": "2026-06-27T04:56:31.520826"
     },
     "KE": {
       "iso": "KE",
@@ -6467,7 +6467,7 @@
         "niveau": "eleve",
         "titre": "l’ensemble de la zone, les navires bas et lents sur l’eau étant les plus vulnérables à des actions d’abordage hostiles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6866,7 +6866,7 @@
         }
       },
       "carteVigilance": "/maps/KE.jpg",
-      "scrapedAt": "2026-06-25T05:08:20.503232"
+      "scrapedAt": "2026-06-27T04:56:33.879781"
     },
     "LS": {
       "iso": "LS",
@@ -6885,7 +6885,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7089,7 +7089,7 @@
         }
       },
       "carteVigilance": "/maps/LS.jpg",
-      "scrapedAt": "2026-06-25T05:08:22.747400"
+      "scrapedAt": "2026-06-27T04:56:35.959296"
     },
     "LR": {
       "iso": "LR",
@@ -7108,7 +7108,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de transport;",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7388,7 +7388,7 @@
         }
       },
       "carteVigilance": "/maps/LR.jpg",
-      "scrapedAt": "2026-06-25T05:08:25.000951"
+      "scrapedAt": "2026-06-27T04:56:38.077617"
     },
     "LY": {
       "iso": "LY",
@@ -7407,7 +7407,7 @@
         "niveau": "eleve",
         "titre": "en Libye : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7733,7 +7733,7 @@
         }
       },
       "carteVigilance": "/maps/LY.jpg",
-      "scrapedAt": "2026-06-25T05:08:27.321184"
+      "scrapedAt": "2026-06-27T04:56:40.195835"
     },
     "MG": {
       "iso": "MG",
@@ -7752,7 +7752,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie ",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8020,7 +8020,7 @@
         }
       },
       "carteVigilance": "/maps/MG.jpg",
-      "scrapedAt": "2026-06-25T05:08:29.811743"
+      "scrapedAt": "2026-06-27T04:56:42.589369"
     },
     "MW": {
       "iso": "MW",
@@ -8039,7 +8039,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8302,7 +8302,7 @@
         }
       },
       "carteVigilance": "/maps/MW.jpg",
-      "scrapedAt": "2026-06-25T05:08:32.171789"
+      "scrapedAt": "2026-06-27T04:56:44.582601"
     },
     "ML": {
       "iso": "ML",
@@ -8321,7 +8321,7 @@
         "niveau": "modere",
         "titre": "MALI - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Mali en raison du risque de terrorisme, d'enlèvement, de banditisme et des pénuries de carburant. Si la situation en matière de sécurité au Mali se détériore, la capacité ",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8590,7 +8590,7 @@
         }
       },
       "carteVigilance": "/maps/ML.jpg",
-      "scrapedAt": "2026-06-25T05:08:34.694112"
+      "scrapedAt": "2026-06-27T04:56:46.747260"
     },
     "MA": {
       "iso": "MA",
@@ -8609,7 +8609,7 @@
         "niveau": "modere",
         "titre": "Maroc - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence au Maroc en raison de la menace que pose le terrorisme.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8917,7 +8917,7 @@
         }
       },
       "carteVigilance": "/maps/MA.jpg",
-      "scrapedAt": "2026-06-25T05:08:37.147198"
+      "scrapedAt": "2026-06-27T04:56:48.990387"
     },
     "MR": {
       "iso": "MR",
@@ -8936,7 +8936,7 @@
         "niveau": "eleve",
         "titre": "dans les zones situées : au nord de la ville de Zouérate ; à l’est d’une ligne Ghallaouia – Akhrejit ; au nord-est d’un : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9225,7 +9225,7 @@
         }
       },
       "carteVigilance": "/maps/MR.jpg",
-      "scrapedAt": "2026-06-25T05:08:39.557297"
+      "scrapedAt": "2026-06-27T04:56:51.160118"
     },
     "MU": {
       "iso": "MU",
@@ -9244,7 +9244,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans l'Océan indien. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie In",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9499,7 +9499,7 @@
         }
       },
       "carteVigilance": "/maps/MU.jpg",
-      "scrapedAt": "2026-06-25T05:08:41.718601"
+      "scrapedAt": "2026-06-27T04:56:53.118895"
     },
     "MZ": {
       "iso": "MZ",
@@ -9518,7 +9518,7 @@
         "niveau": "eleve",
         "titre": "dans l’ensemble de la province du Cabo Delgado, y compris son chef-lieu Pemba, ainsi que dans le tiers Est de la provin : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9866,7 +9866,7 @@
         }
       },
       "carteVigilance": "/maps/MZ.jpg",
-      "scrapedAt": "2026-06-25T05:08:44.360794"
+      "scrapedAt": "2026-06-27T04:56:55.367007"
     },
     "NA": {
       "iso": "NA",
@@ -9885,7 +9885,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10193,7 +10193,7 @@
         }
       },
       "carteVigilance": "/maps/NA.jpg",
-      "scrapedAt": "2026-06-25T05:08:46.717506"
+      "scrapedAt": "2026-06-27T04:56:57.613422"
     },
     "NE": {
       "iso": "NE",
@@ -10212,7 +10212,7 @@
         "niveau": "modere",
         "titre": "NIGER - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Niger en raison de l'instabilité politique et des risques de terrorisme et d'enlèvement. La situation politique et sécuritaire au Niger demeure imprévisible. Vous devriez ",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10505,7 +10505,7 @@
         }
       },
       "carteVigilance": "/maps/NE.jpg",
-      "scrapedAt": "2026-06-25T05:08:49.067480"
+      "scrapedAt": "2026-06-27T04:56:59.658421"
     },
     "NG": {
       "iso": "NG",
@@ -10524,7 +10524,7 @@
         "niveau": "eleve",
         "titre": "le Nord-Est, les États de Borno, Yobe, Gombe, Bauchi, Adamawa au nord de la Bénoué, Jigawa et Kano, (à l’exception de l : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10668,7 +10668,7 @@
         }
       },
       "carteVigilance": "/maps/NG.jpg",
-      "scrapedAt": "2026-06-25T05:08:51.932043"
+      "scrapedAt": "2026-06-27T04:57:02.091784"
     },
     "UG": {
       "iso": "UG",
@@ -10687,7 +10687,7 @@
         "niveau": "modere",
         "titre": "Ouganda - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
         "texte": "&Eacute;vitez tout voyage non essentiel en Ouganda en raison de l'impact régional de l'éclosion de maladie Ebola, ainsi que de la menace terroriste et du taux de criminalité élevé. L'Agence de la sant",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10996,7 +10996,7 @@
         }
       },
       "carteVigilance": "/maps/UG.jpg",
-      "scrapedAt": "2026-06-25T05:08:54.382852"
+      "scrapedAt": "2026-06-27T04:57:04.410810"
     },
     "RW": {
       "iso": "RW",
@@ -11015,7 +11015,7 @@
         "niveau": "modere",
         "titre": "Cybercriminalité",
         "texte": "La cybercriminalité, les attaques de logiciels malveillants et l'extorsion en ligne surviennent au Rwanda. Les criminels peuvent compromettre les réseaux Wi-Fi publics afin de voler des données person",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11303,7 +11303,7 @@
         }
       },
       "carteVigilance": "/maps/RW.jpg",
-      "scrapedAt": "2026-06-25T05:08:56.589402"
+      "scrapedAt": "2026-06-27T04:57:06.414231"
     },
     "ST": {
       "iso": "ST",
@@ -11322,7 +11322,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des attaques de pirates et des vols à main armée contre des navires surviennent dans les eaux ctières et, dans certains cas, plus loin en mer. Les voyageurs devraient prendre les précautions nécessair",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11584,7 +11584,7 @@
         }
       },
       "carteVigilance": "/maps/ST.jpg",
-      "scrapedAt": "2026-06-25T05:08:58.899082"
+      "scrapedAt": "2026-06-27T04:57:08.455127"
     },
     "SN": {
       "iso": "SN",
@@ -11603,7 +11603,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Des attaques terroristes ont eu lieu dans certains pays frontaliers. La possibilité d'attaque terroriste ne peut tre exclue, notamment dans la zone frontalière avec le Mali. Les endroits suivants pour",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11920,17 +11920,17 @@
         }
       },
       "carteVigilance": "/maps/SN.jpg",
-      "scrapedAt": "2026-06-25T05:09:01.190081"
+      "scrapedAt": "2026-06-27T04:57:10.654149"
     },
     "SL": {
       "iso": "SL",
       "name": "Sierra Leone",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-043-SL-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-043-SL-V5",
+      "sourceDateStr": "25 Jun 2026",
+      "dateMAJInterne": "27 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11939,7 +11939,7 @@
         "niveau": "modere",
         "titre": "Régions frontalières",
         "texte": "Les zones frontalières sont mal surveillées par les autorités locales. Les zones frontalières avec la Guinée et le Libéria sont affectées par des conflits territoriaux en cours, des opérations militai",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11970,7 +11970,7 @@
         {
           "cat": "Crime",
           "niveau": "modere",
-          "texte": "Des crimes mineurs, tels que des vols à la tire et des vols de sacs à l'arraché, surviennent fréquemment l'ensemble du pays et auraient récemment augmenté à cause de la hausse de la consommation de drogue. Ces incidents se produisent surtout dans les zones achalandées, surtout à Freetown et particulièrement dans ces zones: rangez en lieu sr vos effets personnels, y compris votre passeport et vos autres documents de voyage; évitez de montrer des signes de richesse ou de porter des bijoux de grande valeur;"
+          "texte": "Des crimes mineurs, tels que des vols à la tire et des vols de sacs à l'arraché, surviennent fréquemment dans l'ensemble du pays et auraient récemment augmenté à cause de la hausse de la consommation de drogue. Ces incidents se produisent surtout dans les zones achalandées, surtout à Freetown et particulièrement dans ces zones: rangez en lieu sr vos effets personnels, y compris votre passeport et vos autres documents de voyage; évitez de montrer des signes de richesse ou de porter des bijoux de grande valeur;"
         },
         {
           "cat": "Manifestations",
@@ -11985,7 +11985,7 @@
         {
           "cat": "Routes",
           "niveau": "faible",
-          "texte": "Il y a des enjeux majeurs de sécurité routière en Sierra Leone. Les accidents mortels sont fréquents et impliquent souvent des piétons. L'assistance de la police et des services d'urgence sont limités voire inexistante dans les zones rurales. La conduite peut tre dangereuse en raison : des routes mal entretenues et des nids-de-poule;"
+          "texte": "Il y a des enjeux majeurs de sécurité routière en Sierra Leone. Les accidents mortels sont fréquents et impliquent souvent des piétons. L'assistance de la police et des services d'urgence est limitée voire inexistante dans les zones rurales. La conduite peut tre dangereuse en raison : des routes mal entretenues et des nids-de-poule;"
         },
         {
           "cat": "Sécurité des femmes",
@@ -12015,12 +12015,12 @@
         {
           "cat": "Pénuries",
           "niveau": "faible",
-          "texte": "Des pénuries de carburant et d'eau surviennent occasionnellement. Gardez des réserves d'eau, de carburant et une trousse d'urgence à portée de main Surveillez les médias locaux pour rester courant de la situation"
+          "texte": "Des pénuries de carburant et d'eau surviennent occasionnellement. Gardez des réserves d'eau, de carburant et une trousse d'urgence à portée de main Surveillez les médias locaux pour rester au courant de la situation"
         },
         {
           "cat": "Activités aquatiques",
           "niveau": "faible",
-          "texte": "Les courants océaniques le long de la cte sont puissants et dangereux. Il n'y a pas de services de secours. Les plages sont généralement sans surveillance. Plusieurs noyades surviennent chaque année. Suivez les directives des autorités locales. Santé et sécurité dans un voyage d'aventure"
+          "texte": "Les courants océaniques le long de la cte sont puissants et dangereux. Il n'y a pas de services de secours. Les plages sont généralement sans surveillance. Plusieurs noyades surviennent chaque année. Suivez les directives des autorités locales."
         },
         {
           "cat": "Transport aérien",
@@ -12035,7 +12035,12 @@
         {
           "cat": "Visas",
           "niveau": "faible",
-          "texte": "Visa de touriste: exigé Visa d'affaires: exigé Visa d'étudiant: exigé Si vous vous rendez en Sierra Leone pour le tourisme ou les affaires, vous pouvez soit: demander un visa avant d'arriver en Sierra Leone;"
+          "texte": "Visa de touriste: exigé Visa d'affaires: exigé Visa d'étudiant: exigé Si vous vous rendez en Sierra Leone pour le tourisme ou les affaires, vous pouvez soit : demander un visa avant d'arriver en Sierra Leone;"
+        },
+        {
+          "cat": "Formulaire de déclaration de santé",
+          "niveau": "faible",
+          "texte": "Vous devez remplir un formulaire de déclaration de santé pour entrer et sortir de Sierra Leone. remplir le formulaire en ligne dans les 72 heures précédant votre voyage; conserver votre code QR de confirmation ou votre numéro de référence et le présenter aux autorités douanières et d'immigration."
         },
         {
           "cat": "Enfants et voyages",
@@ -12110,12 +12115,12 @@
         {
           "cat": "Photographies",
           "niveau": "faible",
-          "texte": "Il est interdit de photographier les installations militaires ou les immeubles gouvernementaux, y compris: Ces interdictions sont strictement appliquées. En cas de doute, ne prenez pas de photos."
+          "texte": "Il est interdit de photographier les installations militaires ou les immeubles gouvernementaux, y compris : Ces interdictions sont strictement appliquées. En cas de doute, ne prenez pas de photos."
         },
         {
           "cat": "Conduite automobile",
           "niveau": "faible",
-          "texte": "Vous devez avoir un permis de conduire international pour conduire en Sierra Leone. Ayez sur vous vos pièces d'identité et les documents de votre véhicule. Si vous tes impliqués dans un accident de la route et que vous blessez quelqu'un, amenez la personne directement à l'hpital. Si les témoins de l'accident réagissent avec agressivité, rendez-vous immédiatement au poste de police le plus proche."
+          "texte": "Vous devez avoir un permis de conduire international pour conduire en Sierra Leone. Ayez sur vous vos pièces d'identité et les documents de votre véhicule. Si vous tes impliqué dans un accident de la route et que vous blessez quelqu'un, amenez la personne directement à l'hpital. Si les témoins de l'accident réagissent avec agressivité, rendez-vous immédiatement au poste de police le plus proche."
         },
         {
           "cat": "Tenue vestimentaire et comportement",
@@ -12140,7 +12145,7 @@
         {
           "cat": "Argent",
           "niveau": "faible",
-          "texte": "La Sierra Leone est une économie basée sur l'argent comptant. Des règles strictes limitent l'importation de devises étrangères en argent comptant. L'usage des cartes de crédit et les cartes de débit n'est pas très répandu. Il y a très peu de guichets automatiques bancaires à Freetown. Pour changer vos devises étrangères, ne traitez qu'avec les banques ou les bureaux de change officiels. Le dollar américain et l'euro sont les devises les plus faciles à changer."
+          "texte": "La Sierra Leone est une économie basée sur l'argent comptant. Des règles strictes limitent l'importation de devises étrangères en argent comptant. L'usage des cartes de crédit n'est pas très répandu. Il y a très peu de guichets automatiques bancaires à Freetown. Pour changer vos devises étrangères, ne traitez qu'avec les banques ou les bureaux de change officiels. Le dollar américain et l'euro sont les devises les plus faciles à échanger."
         },
         {
           "cat": "Changements climatiques",
@@ -12150,7 +12155,7 @@
         {
           "cat": "Saison des pluies",
           "niveau": "faible",
-          "texte": "La saison des pluies s'étend de mai à novembre. Les inondations saisonnières peuvent nuire aux déplacements par voie terrestre et à la prestation des services essentiels. Les routes peuvent devenir impraticables en raison des coulées de boue et des glissements de terrain. Les points, les btiments et les infrastructures peuvent subir des dommages. Surveillez les médias locaux pour obtenir les dernières mises à jour, y compris l'état des routes et les bulletins météorologiques Suivez les directives des autorités locales, y compris les ordres d'évacuation"
+          "texte": "La saison des pluies s'étend de mai à novembre. Les inondations saisonnières peuvent nuire aux déplacements par voie terrestre et à la prestation des services essentiels. Les routes peuvent devenir impraticables en raison des coulées de boue et des glissements de terrain. Les ponts, les btiments et les infrastructures peuvent subir des dommages. Surveillez les médias locaux pour obtenir les dernières mises à jour, y compris l'état des routes et les bulletins météorologiques Suivez les directives des autorités locales, y compris les ordres d'évacuation"
         },
         {
           "cat": "Aide consulaire",
@@ -12228,7 +12233,7 @@
         }
       },
       "carteVigilance": "/maps/SL.jpg",
-      "scrapedAt": "2026-06-25T05:09:03.680711"
+      "scrapedAt": "2026-06-27T04:57:12.739667"
     },
     "SO": {
       "iso": "SO",
@@ -12247,7 +12252,7 @@
         "niveau": "eleve",
         "titre": "la zone : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12546,7 +12551,7 @@
         }
       },
       "carteVigilance": "/maps/SO.jpg",
-      "scrapedAt": "2026-06-25T05:09:05.946938"
+      "scrapedAt": "2026-06-27T04:57:14.902129"
     },
     "SD": {
       "iso": "SD",
@@ -12565,7 +12570,7 @@
         "niveau": "eleve",
         "titre": "le contexte des affrontements en cours l’intégralité du territoire soudanais est formellement déconseillé : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12914,7 +12919,7 @@
         }
       },
       "carteVigilance": "/maps/SD.jpg",
-      "scrapedAt": "2026-06-25T05:09:08.252015"
+      "scrapedAt": "2026-06-27T04:57:17.155742"
     },
     "SS": {
       "iso": "SS",
@@ -12933,7 +12938,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12986,7 +12991,7 @@
         }
       },
       "carteVigilance": "/maps/SS.jpg",
-      "scrapedAt": "2026-06-25T05:09:10.760746"
+      "scrapedAt": "2026-06-27T04:57:19.476594"
     },
     "TZ": {
       "iso": "TZ",
@@ -13005,7 +13010,7 @@
         "niveau": "modere",
         "titre": "Tanzanie - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence en Tanzanie en raison du taux de criminalité et du risque que représente le terrorisme.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13384,7 +13389,7 @@
         }
       },
       "carteVigilance": "/maps/TZ.jpg",
-      "scrapedAt": "2026-06-25T05:09:13.329718"
+      "scrapedAt": "2026-06-27T04:57:21.900995"
     },
     "TD": {
       "iso": "TD",
@@ -13403,7 +13408,7 @@
         "niveau": "eleve",
         "titre": "ces zones frontalières de la Libye, depuis août 2018, en vue de contrôler les incursions armées de groupes rebelles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13702,7 +13707,7 @@
         }
       },
       "carteVigilance": "/maps/TD.jpg",
-      "scrapedAt": "2026-06-25T05:09:15.671138"
+      "scrapedAt": "2026-06-27T04:57:23.976853"
     },
     "TG": {
       "iso": "TG",
@@ -13721,7 +13726,7 @@
         "niveau": "modere",
         "titre": "Frontière avec le Burkina Faso - &Eacute;vitez tout voyage",
         "texte": "&Eacute;vitez tout voyage à 30km de la frontière avec le Burkina Faso, en raison des opérations militaires, de la menace terroriste et du risque d'enlèvement. Cet avertissement inclus la ville ainsi q",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14026,7 +14031,7 @@
         }
       },
       "carteVigilance": "/maps/TG.jpg",
-      "scrapedAt": "2026-06-25T05:09:17.898447"
+      "scrapedAt": "2026-06-27T04:57:26.116699"
     },
     "TN": {
       "iso": "TN",
@@ -14045,7 +14050,7 @@
         "niveau": "eleve",
         "titre": "dans la zone montagneuse de l’Ouest (monts d’Orbata, Selloum, Semema, Chambi et Mghila), car pouvant abriter différente : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14362,26 +14367,26 @@
         }
       },
       "carteVigilance": "/maps/TN.jpg",
-      "scrapedAt": "2026-06-25T05:09:20.140174"
+      "scrapedAt": "2026-06-27T04:57:28.234013"
     },
     "ZA": {
       "iso": "ZA",
       "name": "Afrique du Sud",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-051-ZA-V5",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 6,
+      "ref": "FRP-051-ZA-V6",
+      "sourceDateStr": "25 Jun 2026",
+      "dateMAJInterne": "27 Jun 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
         "niveau": "modere",
-        "titre": "Enlèvements",
-        "texte": "Des enlèvements pour ranons surviennent fréquemment et des ressortissants étrangers ont été enlevés par le passé. Dans certains cas, les victimes ont été attirées via des applications de rencontres en",
-        "date": "25 Jun 2026"
+        "titre": "« Blocage national »",
+        "texte": "Une augmentation des attaques xénophobes, visant principalement les réfugiés et les immigrants venus d'autres pays d'Afrique a lieu. Des organisations anti-immigrés ont appelé à un « blocage national ",
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14398,6 +14403,11 @@
           "cat": "Afrique du Sud - Faites preuve d'une grande prudence",
           "niveau": "modere",
           "texte": "Faites preuve d'une grande prudence en Afrique du Sud en raison du nombre élevé de crimes graves."
+        },
+        {
+          "cat": "« Blocage national »",
+          "niveau": "eleve",
+          "texte": "Une augmentation des attaques xénophobes, visant principalement les réfugiés et les immigrants venus d'autres pays d'Afrique a lieu. Des organisations anti-immigrés ont appelé à un « blocage national » le 30 juin 2026. Des manifestations pourraient avoir lieu à l'approche de et après cette date. Par le passé, des manifestations similaires ont donné lieu à des flambées de violence. Plusieurs régions du pays pourraient tre touchées, en particulier les quartiers d'affaires et les townships. évitez les manifestations et les grands rassemblements;"
         },
         {
           "cat": "Criminalité",
@@ -14433,11 +14443,6 @@
           "cat": "Terrorisme",
           "niveau": "eleve",
           "texte": "Il existe une menace terroriste. Des attentats peuvent se produire à tout moment. Des individus agissants seuls, s'inspirant de groupes terroristes, peuvent mener des attentats en et cibler des lieux publics, y compris des endroits fréquentés par les étrangers. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les postes de police; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
-        },
-        {
-          "cat": "Troubles civils régionaux",
-          "niveau": "eleve",
-          "texte": "Des attaques xénophobes, visant principalement les réfugiés et les immigrants venus d'autres pays d'Afrique peuvent tre accompagnées de manifestations, de pillages et d'actes de violences. Ce genre de troubles civils peut survenir à tout moment et dans n'importe quelle région du pays."
         },
         {
           "cat": "Townships et régions rurales",
@@ -14699,7 +14704,7 @@
         }
       },
       "carteVigilance": "/maps/ZA.jpg",
-      "scrapedAt": "2026-06-25T05:09:22.568366"
+      "scrapedAt": "2026-06-27T04:57:30.440260"
     },
     "ZM": {
       "iso": "ZM",
@@ -14718,7 +14723,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15028,7 +15033,7 @@
         }
       },
       "carteVigilance": "/maps/ZM.jpg",
-      "scrapedAt": "2026-06-25T05:09:24.937474"
+      "scrapedAt": "2026-06-27T04:57:32.714077"
     },
     "ZW": {
       "iso": "ZW",
@@ -15047,7 +15052,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15336,7 +15341,7 @@
         }
       },
       "carteVigilance": "/maps/ZW.jpg",
-      "scrapedAt": "2026-06-25T05:09:27.292649"
+      "scrapedAt": "2026-06-27T04:57:35.048207"
     },
     "SC": {
       "iso": "SC",
@@ -15355,7 +15360,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, en particulier dans le golfe d'Aden et l'océan Indien. Bien que le nombre de cas de piraterie ait",
-        "date": "25 Jun 2026"
+        "date": "27 Jun 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15594,7 +15599,7 @@
         }
       },
       "carteVigilance": "/maps/SC.jpg",
-      "scrapedAt": "2026-06-25T05:09:29.515636"
+      "scrapedAt": "2026-06-27T04:57:37.506403"
     }
   }
 }
