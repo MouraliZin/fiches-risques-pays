@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T05:09:56.477002",
-  "totalChanged": 0,
+  "generatedAt": "2026-07-01T05:25:54.497027",
+  "totalChanged": 1,
   "countries": {
     "DZ": {
       "iso": "DZ",
@@ -16,10 +16,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "certains pays voisins : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Algérie - Faites preuve d'une grande prudence",
+        "texte": "Faites preuve d'une grande prudence en Algérie en raison de la menace terroriste et du risque d'enlèvement. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le ris",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -313,23 +313,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "certains pays voisins",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange sur la carte) Wilaya d’Aïn Defla : des groupes terroristes subsistent dans la région",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -365,7 +349,7 @@
         }
       },
       "carteVigilance": "/maps/DZ.jpg",
-      "scrapedAt": "2026-06-30T05:06:53.431518"
+      "scrapedAt": "2026-07-01T05:24:22.361684"
     },
     "AO": {
       "iso": "AO",
@@ -384,7 +368,7 @@
         "niveau": "modere",
         "titre": "Province de Cabinda",
         "texte": "Des groupes militants revendiquant l'indépendance sont actifs dans la province de Cabinda, et des affrontements avec les forces de sécurité peuvent se produire. Des meurtres, des enlèvements et des ag",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -613,18 +597,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange) Lunda Sul et Lunda Norte Les déplacements dans les provinces diamantifères de Lunda Sul et Lunda Norte sont",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -658,7 +631,7 @@
         }
       },
       "carteVigilance": "/maps/AO.jpg",
-      "scrapedAt": "2026-06-30T05:06:57.199475"
+      "scrapedAt": "2026-07-01T05:24:24.470677"
     },
     "BJ": {
       "iso": "BJ",
@@ -674,10 +647,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans : les zones frontalières du Burkina Faso et du Niger ; la totalité des parcs nationaux de la Pendjari et du W, les : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Régions frontalières avec le Burkina Faso, le Niger, le Nigéria et le Togo - &Eacute;vitez tout voyage",
+        "texte": "&Eacute;vitez tout voyage dans les zones suivantes en raison de la menace terroriste, du banditisme et du risque d'enlèvement : le long de la frontière avec le Togo dans le département d'Atakora à l'o",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -931,23 +904,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans : les zones frontalières du Burkina Faso et du Niger ; la totalité des parcs nationaux de la Pendjari et du W, les",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "Les zones suivantes sont déconseillées sauf raison impérative : le centre du département de l’Atakora, y compris les vi",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -981,7 +938,7 @@
         }
       },
       "carteVigilance": "/maps/BJ.jpg",
-      "scrapedAt": "2026-06-30T05:07:01.879688"
+      "scrapedAt": "2026-07-01T05:24:26.379166"
     },
     "BW": {
       "iso": "BW",
@@ -1000,7 +957,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1233,7 +1190,7 @@
         }
       },
       "carteVigilance": "/maps/BW.jpg",
-      "scrapedAt": "2026-06-30T05:07:05.442604"
+      "scrapedAt": "2026-07-01T05:24:28.422725"
     },
     "BF": {
       "iso": "BF",
@@ -1249,10 +1206,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "le contexte actuel de fortes tensions régionales, tout déplacement au Burkina Faso est formellement déconseillé : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "BURKINA FASO - &Eacute;VITEZ TOUT VOYAGE",
+        "texte": "&Eacute;vitez tout voyage au Burkina Faso en raison de la menace terroriste, du risque d'enlèvement et de l'instabilité de la situation politique. Note profil tunisien : le ciblage « étranger occident",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1461,23 +1418,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "le contexte actuel de fortes tensions régionales, tout déplacement au Burkina Faso est formellement déconseillé",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "dans l’ensemble des forêts classées, les parcs nationaux, les réserves fauniques et concessions de chasse, et dans la p",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -1512,7 +1453,7 @@
         }
       },
       "carteVigilance": "/maps/BF.jpg",
-      "scrapedAt": "2026-06-30T05:07:08.883843"
+      "scrapedAt": "2026-07-01T05:24:30.214600"
     },
     "BI": {
       "iso": "BI",
@@ -1531,7 +1472,7 @@
         "niveau": "modere",
         "titre": "Provinces de Bubanza et de Cibitoke",
         "texte": "La sécurité à la frontière est toujours source de préoccupation dans les provinces de Bubanza et de Cibitoke étant donné les affrontements violents dans l'est de la RDC et les mouvements transfrontali",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1785,23 +1726,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) La partie centrale de la forêt de la Kibira, au nord du Mont Teza, ainsi que les zones situées",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "en raison des risques d’actes de banditisme transfrontalier et de risques d’incidents frontaliers Zone de vigilance ren",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -1835,7 +1760,7 @@
         }
       },
       "carteVigilance": "/maps/BI.jpg",
-      "scrapedAt": "2026-06-30T05:07:12.712004"
+      "scrapedAt": "2026-07-01T05:24:31.856948"
     },
     "CM": {
       "iso": "CM",
@@ -1851,10 +1776,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans une bande de 30 km le long de la frontière du Cameroun, du lac Tchad jusqu’au sud de la RCA en raison de la situat : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Extrme-Nord et département du Mayo-Louti - &Eacute;vitez tout voyage",
+        "texte": "&Eacute;vitez tout voyage dans la région de l'Extrme-Nord ainsi que dans le département du Mayo-Louti dans la région du Nord en raison des opérations militaires, du risque de terrorisme, d'attaques ar",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2143,28 +2068,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans une bande de 30 km le long de la frontière du Cameroun, du lac Tchad jusqu’au sud de la RCA en raison de la situat",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "le golfe de Guinée, a fortiori le mouillage près des côtes, compte tenu des risques liés à la piraterie maritime",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange) Région du Nord et départements de la Vina et du Mbéré dans l’Adamaoua : dans les régions du Nord, à l’exceptio",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -2199,7 +2103,7 @@
         }
       },
       "carteVigilance": "/maps/CM.jpg",
-      "scrapedAt": "2026-06-30T05:07:16.650881"
+      "scrapedAt": "2026-07-01T05:24:33.541074"
     },
     "CV": {
       "iso": "CV",
@@ -2218,7 +2122,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2263,7 +2167,7 @@
         }
       },
       "carteVigilance": "/maps/CV.jpg",
-      "scrapedAt": "2026-06-30T05:07:20.263785"
+      "scrapedAt": "2026-07-01T05:24:35.289419"
     },
     "CF": {
       "iso": "CF",
@@ -2282,7 +2186,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des groupes armés et des criminels ciblent des étrangers, des employés d'organisations internationales, ainsi que des ressortissants centrafricains. Le risque est particulièrement élevé en dehors de B",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2511,18 +2415,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange) Les déplacements à Bangui et Bimbo sont déconseillés sauf raison impérative",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -2556,7 +2449,7 @@
         }
       },
       "carteVigilance": "/maps/CF.jpg",
-      "scrapedAt": "2026-06-30T05:07:23.718220"
+      "scrapedAt": "2026-07-01T05:24:37.079523"
     },
     "KM": {
       "iso": "KM",
@@ -2575,7 +2468,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières comoriennes et parfois plus loin au large. On recommande aux navigateurs de prendre les précautions qui s'imposent. Carte en direct sur la p",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2833,7 +2726,7 @@
         }
       },
       "carteVigilance": "/maps/KM.jpg",
-      "scrapedAt": "2026-06-30T05:07:26.741149"
+      "scrapedAt": "2026-07-01T05:24:38.649465"
     },
     "CG": {
       "iso": "CG",
@@ -2852,7 +2745,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2860,18 +2753,7 @@
         "Profil de risque criminel adapté : ciblage « occidental » moins direct, vigilance générale maintenue."
       ],
       "securite": [],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Frontière nord avec la République Centrafricaine (RCA) Il est déconseillé, sauf raison impérat",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -2905,7 +2787,7 @@
         }
       },
       "carteVigilance": "/maps/CG.jpg",
-      "scrapedAt": "2026-06-30T05:07:30.380816"
+      "scrapedAt": "2026-07-01T05:24:40.786994"
     },
     "CD": {
       "iso": "CD",
@@ -2921,10 +2803,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans le parc national des Virunga, le parc de Kahuzi-Biega et le parc de la Garamba, des enlèvements étant régulièremen : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "faible",
+        "titre": "Aucune alerte majeure en cours",
+        "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2932,38 +2814,7 @@
         "Profil de risque criminel adapté : ciblage « occidental » moins direct, vigilance générale maintenue."
       ],
       "securite": [],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans le parc national des Virunga, le parc de Kahuzi-Biega et le parc de la Garamba, des enlèvements étant régulièremen",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "dans les provinces du Kwilu et du Kwango en raison de la présence de milices armées",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "sur le territoire du Kwamouth dans la province du Maï-Ndombe",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "ces zones et dans les sites touristiques qui s’y trouvent",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange) En raison de l’instabilité politique et de l’insécurité générale, le reste du pays est placé en zone décons",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "de se rendre dans les trois provinces du Kasaï où des affrontements peuvent opposer des milices armées encore présentes",
-          "desc": "Déconseillé sauf raison impérative"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -2997,7 +2848,7 @@
         }
       },
       "carteVigilance": "/maps/CD.jpg",
-      "scrapedAt": "2026-06-30T05:07:34.457497"
+      "scrapedAt": "2026-07-01T05:24:42.871221"
     },
     "CI": {
       "iso": "CI",
@@ -3013,10 +2864,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "quel que soit le motif dans le nord du district du Zanzan et l’est du district des Savanes ainsi que dans le parc natio : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "faible",
+        "titre": "Aucune alerte majeure en cours",
+        "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3024,28 +2875,7 @@
         "Profil de risque criminel adapté : ciblage « occidental » moins direct, vigilance générale maintenue."
       ],
       "securite": [],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "quel que soit le motif dans le nord du district du Zanzan et l’est du district des Savanes ainsi que dans le parc natio",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange sur la carte) Régions frontalières du Libéria La zone située à la frontière libérienne, notamment les villes de",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "en raison de son accessibilité difficile et de son enclavement",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -3079,7 +2909,7 @@
         }
       },
       "carteVigilance": "/maps/CI.jpg",
-      "scrapedAt": "2026-06-30T05:07:38.147289"
+      "scrapedAt": "2026-07-01T05:24:44.732649"
     },
     "DJ": {
       "iso": "DJ",
@@ -3095,10 +2925,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "le pays mais les frontières terrestres et maritimes sont à éviter : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Terrorisme",
+        "texte": "Il existe une menace terroriste. Des attentats peuvent tre commis à tout moment. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les postes de police;",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3317,23 +3147,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "le pays mais les frontières terrestres et maritimes sont à éviter",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "par soi-même dans cet archipel",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -3367,7 +3181,7 @@
         }
       },
       "carteVigilance": "/maps/DJ.jpg",
-      "scrapedAt": "2026-06-30T05:07:41.405309"
+      "scrapedAt": "2026-07-01T05:24:47.558693"
     },
     "EG": {
       "iso": "EG",
@@ -3383,10 +3197,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "la zone désertique, en direction de la frontière libyenne sont formellement déconseillés, à l’exception de ceux dans la : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "&Eacute;gypte - Faites preuve d'une grande prudence",
+        "texte": "Faites preuve d'une grande prudence en &Eacute;gypte en raison des tensions qui persistent dans la région, du caractère imprévisible des conditions de sécurité et du risque de la menace terroriste.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3690,28 +3504,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "la zone désertique, en direction de la frontière libyenne sont formellement déconseillés, à l’exception de ceux dans la",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange sur la carte) La zone située entre d’une part, la zone désertique interdite aux civils, et d’autre part le sud",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "compte tenu d’un moindre maillage sécuritaire par les forces armées et de trafics",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -3745,7 +3538,7 @@
         }
       },
       "carteVigilance": "/maps/EG.jpg",
-      "scrapedAt": "2026-06-30T05:07:45.072897"
+      "scrapedAt": "2026-07-01T05:24:49.458460"
     },
     "ER": {
       "iso": "ER",
@@ -3761,10 +3554,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "le désert des Danakils, il est formellement déconseillé de se rendre dans cette région : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Frontière entre l'&Eacute;rythrée et le Soudan",
+        "texte": "La situation sécuritaire dans la zone entre l'&Eacute;rythrée et le Soudan est instable en raison de la présence de groupes armés opérant le long de la frontière, du risque d'attentats terroristes et ",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4038,23 +3831,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "le désert des Danakils, il est formellement déconseillé de se rendre dans cette région",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Les déplacements en dehors de la capitale sont déconseillés sauf raison impérative",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -4088,7 +3865,7 @@
         }
       },
       "carteVigilance": "/maps/ER.jpg",
-      "scrapedAt": "2026-06-30T05:07:48.331586"
+      "scrapedAt": "2026-07-01T05:24:51.121099"
     },
     "SZ": {
       "iso": "SZ",
@@ -4107,7 +3884,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Bien qu'aucun attentat n'ait été perpétré récemment en Eswatini, il existe une menace terroriste.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4355,7 +4132,7 @@
         }
       },
       "carteVigilance": "/maps/SZ.jpg",
-      "scrapedAt": "2026-06-30T05:07:51.438099"
+      "scrapedAt": "2026-07-01T05:24:52.754995"
     },
     "ET": {
       "iso": "ET",
@@ -4371,10 +4148,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageurs sont toutefois invités à organise : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Régions centrales - &Eacute;vitez tout voyage",
+        "texte": "&Eacute;vitez tout voyage dans les endroits suivants dans les régions centrales en raison des troubles civils, des crimes violents, des enlèvements, du conflit armé et des frappes aériennes : Gambella",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4733,38 +4510,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageurs sont toutefois invités à organise",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "l’application dédiée",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange) Région du Tigré La nomination d’une nouvelle autorité pour l’administration intérimaire de la région a mino",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": ") et d’effectuer des excursions dans la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageu",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "d’aller en région Afar via Semera (zone orange)",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange) et en vigilance renforcée (jaune) et les recommandations associées (cf",
-          "desc": "Déconseillé sauf raison impérative"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -4798,7 +4544,7 @@
         }
       },
       "carteVigilance": "/maps/ET.jpg",
-      "scrapedAt": "2026-06-30T05:07:55.051839"
+      "scrapedAt": "2026-07-01T05:24:54.596024"
     },
     "GA": {
       "iso": "GA",
@@ -4817,7 +4563,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières et parfois aussi plus loin au large. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie Intern",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5040,7 +4786,7 @@
         }
       },
       "carteVigilance": "/maps/GA.jpg",
-      "scrapedAt": "2026-06-30T05:07:58.092340"
+      "scrapedAt": "2026-07-01T05:24:56.371082"
     },
     "GM": {
       "iso": "GM",
@@ -5059,7 +4805,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5287,7 +5033,7 @@
         }
       },
       "carteVigilance": "/maps/GM.jpg",
-      "scrapedAt": "2026-06-30T05:08:01.172158"
+      "scrapedAt": "2026-07-01T05:24:58.036818"
     },
     "GH": {
       "iso": "GH",
@@ -5306,7 +5052,7 @@
         "niveau": "modere",
         "titre": "Zone frontalière avec le Burkina Faso - &Eacute;vitez tout voyage non essentiel",
         "texte": "&Eacute;vitez tout voyage non essentiel à moins de 25 km de la frontière avec le Burkina Faso en raison du risque de conflit intercommunautaire et de l'activité terroriste.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5575,28 +5321,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(orange) Parc national de Gbelé au nord-ouest du pays Compte tenu de la présence de groupes criminels, il est déconseil",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "de se rendre dans la partie nord-ouest de la zone frontière avec la Côte d’Ivoire",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "dans la zone comprise entre le nord-est de Gambaga et le sud de Chunbawso sur une bande de 5 à 10km ; dans la zone co",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -5630,7 +5355,7 @@
         }
       },
       "carteVigilance": "/maps/GH.jpg",
-      "scrapedAt": "2026-06-30T05:08:04.869921"
+      "scrapedAt": "2026-07-01T05:24:59.824762"
     },
     "GN": {
       "iso": "GN",
@@ -5649,7 +5374,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Il existe une menace terroriste. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de tr",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5893,23 +5618,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "Les zones frontalières avec le Mali et la Côte d’Ivoire, comprenant les villes de Siguiri et Mandiana ainsi que la rése",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange)",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -5944,7 +5653,7 @@
         }
       },
       "carteVigilance": "/maps/GN.jpg",
-      "scrapedAt": "2026-06-30T05:08:08.061239"
+      "scrapedAt": "2026-07-01T05:25:01.505821"
     },
     "GQ": {
       "iso": "GQ",
@@ -5963,7 +5672,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, et dans certains cas, plus loin dans la mer. Les navigateurs doivent prendre les précautions qui ",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6217,7 +5926,7 @@
         }
       },
       "carteVigilance": "/maps/GQ.jpg",
-      "scrapedAt": "2026-06-30T05:08:11.223240"
+      "scrapedAt": "2026-07-01T05:25:03.036201"
     },
     "GW": {
       "iso": "GW",
@@ -6236,7 +5945,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6448,7 +6157,7 @@
         }
       },
       "carteVigilance": "/maps/GW.jpg",
-      "scrapedAt": "2026-06-30T05:08:13.698888"
+      "scrapedAt": "2026-07-01T05:25:04.659815"
     },
     "KE": {
       "iso": "KE",
@@ -6464,10 +6173,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "l’ensemble de la zone, les navires bas et lents sur l’eau étant les plus vulnérables à des actions d’abordage hostiles : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Kenya - Faites preuve d'une grande prudence",
+        "texte": "Faites preuve d'une grande prudence au Kenya en raison de la menace terroriste et du taux de criminalité élevé.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6806,33 +6515,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "l’ensemble de la zone, les navires bas et lents sur l’eau étant les plus vulnérables à des actions d’abordage hostiles",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(orange) Compte tenu de l’insécurité récurrente, il est déconseillé de se rendre au nord de la ligne Kitale/ Archers’ P",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "de se rendre dans l’archipel de Lamu, situé dans un comté où sévissent régulièrement des groupes terroristes",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "le reste du territoire kényan est placé en vigilance renforcée",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -6866,7 +6549,7 @@
         }
       },
       "carteVigilance": "/maps/KE.jpg",
-      "scrapedAt": "2026-06-30T05:08:17.497262"
+      "scrapedAt": "2026-07-01T05:25:06.470008"
     },
     "LS": {
       "iso": "LS",
@@ -6885,7 +6568,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7089,7 +6772,7 @@
         }
       },
       "carteVigilance": "/maps/LS.jpg",
-      "scrapedAt": "2026-06-30T05:08:20.605036"
+      "scrapedAt": "2026-07-01T05:25:08.059906"
     },
     "LR": {
       "iso": "LR",
@@ -7108,7 +6791,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de transport;",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7342,18 +7025,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "Une plus grande vigilance est de mise dans les zones frontalières des comtés de Grand Cape Mount, Gbarpolu et Lofa (fro",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -7388,7 +7060,7 @@
         }
       },
       "carteVigilance": "/maps/LR.jpg",
-      "scrapedAt": "2026-06-30T05:08:24.052295"
+      "scrapedAt": "2026-07-01T05:25:09.653306"
     },
     "LY": {
       "iso": "LY",
@@ -7404,10 +7076,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "en Libye : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "LIBYE - &Eacute;VITEZ TOUT VOYAGE",
+        "texte": "&Eacute;vitez tout voyage en Libye en raison de la situation sécuritaire volatile dans l'ensemble du pays, d'affrontements sans préavis entre groupes armés rivaux, de l'instabilité politique, du risqu",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7681,23 +7353,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "en Libye",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(zone orange) Les déplacements dans les villes de Misrata et Benghazi sont déconseillés sauf raison impérative",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -7733,7 +7389,7 @@
         }
       },
       "carteVigilance": "/maps/LY.jpg",
-      "scrapedAt": "2026-06-30T05:08:27.509427"
+      "scrapedAt": "2026-07-01T05:25:11.299663"
     },
     "MG": {
       "iso": "MG",
@@ -7752,7 +7408,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie ",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8020,7 +7676,7 @@
         }
       },
       "carteVigilance": "/maps/MG.jpg",
-      "scrapedAt": "2026-06-30T05:08:31.294723"
+      "scrapedAt": "2026-07-01T05:25:12.974934"
     },
     "MW": {
       "iso": "MW",
@@ -8039,7 +7695,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8302,7 +7958,7 @@
         }
       },
       "carteVigilance": "/maps/MW.jpg",
-      "scrapedAt": "2026-06-30T05:08:34.485481"
+      "scrapedAt": "2026-07-01T05:25:14.530080"
     },
     "ML": {
       "iso": "ML",
@@ -8321,7 +7977,7 @@
         "niveau": "modere",
         "titre": "MALI - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Mali en raison du risque de terrorisme, d'enlèvement, de banditisme et des pénuries de carburant. Si la situation en matière de sécurité au Mali se détériore, la capacité ",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8590,7 +8246,7 @@
         }
       },
       "carteVigilance": "/maps/ML.jpg",
-      "scrapedAt": "2026-06-30T05:08:37.887086"
+      "scrapedAt": "2026-07-01T05:25:16.211289"
     },
     "MA": {
       "iso": "MA",
@@ -8609,7 +8265,7 @@
         "niveau": "modere",
         "titre": "Maroc - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence au Maroc en raison de la menace que pose le terrorisme.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8917,7 +8573,7 @@
         }
       },
       "carteVigilance": "/maps/MA.jpg",
-      "scrapedAt": "2026-06-30T05:08:41.243331"
+      "scrapedAt": "2026-07-01T05:25:17.830963"
     },
     "MR": {
       "iso": "MR",
@@ -8933,10 +8589,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans les zones situées : au nord de la ville de Zouérate ; à l’est d’une ligne Ghallaouia – Akhrejit ; au nord-est d’un : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "MAURITANIE - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
+        "texte": "&Eacute;vitez tout voyage non essentiel en Mauritanie, en raison de la menace terroriste ciblant particulièrement les intérts occidentaux.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9165,33 +8821,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans les zones situées : au nord de la ville de Zouérate ; à l’est d’une ligne Ghallaouia – Akhrejit ; au nord-est d’un",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "en zone rouge et d’emprunter les axes routiers vers le Mali",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(zone orange) La zone frontalière de Nouadhibou jusqu’à Zouérate est déconseillée sauf raison impérative, à l’exception",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "de se rendre : au nord d’une ligne Choum – Aghouedir ; à l’est d’une ligne Aghouedir – Tichit ; au sud-est d’une ligne",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -9225,7 +8855,7 @@
         }
       },
       "carteVigilance": "/maps/MR.jpg",
-      "scrapedAt": "2026-06-30T05:08:44.746459"
+      "scrapedAt": "2026-07-01T05:25:19.478471"
     },
     "MU": {
       "iso": "MU",
@@ -9244,7 +8874,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans l'Océan indien. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie In",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9499,7 +9129,7 @@
         }
       },
       "carteVigilance": "/maps/MU.jpg",
-      "scrapedAt": "2026-06-30T05:08:47.880915"
+      "scrapedAt": "2026-07-01T05:25:21.054136"
     },
     "MZ": {
       "iso": "MZ",
@@ -9515,10 +9145,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans l’ensemble de la province du Cabo Delgado, y compris son chef-lieu Pemba, ainsi que dans le tiers Est de la provin : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Mozambique - Faites preuve d'une grande prudence",
+        "texte": "Faites preuve d'une grande prudence au Mozambique en raison de la criminalité, du risque accru de manifestations et de débordements violents, des enlèvements et du terrorisme. Note profil tunisien : l",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9792,38 +9422,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans l’ensemble de la province du Cabo Delgado, y compris son chef-lieu Pemba, ainsi que dans le tiers Est de la provin",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "les îles au large de ces districts (Ibo et Quirimbas)",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "dans les districts de Memba, Errâti, Mecuburi, Lalaua et Nacaroa ainsi que la partie nord des districts de Nampula, Mon",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Des incursions djihadistes ont eu lieu dans les provinces limitrophes de Niassa et de Nampula",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "la partie occidentale de la province du Niassa ; les districts de Nacala (Sud), Monapo (Sud), Mossuril, Muecate (Nord",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -9866,7 +9465,7 @@
         }
       },
       "carteVigilance": "/maps/MZ.jpg",
-      "scrapedAt": "2026-06-30T05:08:51.472679"
+      "scrapedAt": "2026-07-01T05:25:23.046741"
     },
     "NA": {
       "iso": "NA",
@@ -9885,7 +9484,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10193,7 +9792,7 @@
         }
       },
       "carteVigilance": "/maps/NA.jpg",
-      "scrapedAt": "2026-06-30T05:08:54.837469"
+      "scrapedAt": "2026-07-01T05:25:24.739457"
     },
     "NE": {
       "iso": "NE",
@@ -10212,7 +9811,7 @@
         "niveau": "modere",
         "titre": "NIGER - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Niger en raison de l'instabilité politique et des risques de terrorisme et d'enlèvement. La situation politique et sécuritaire au Niger demeure imprévisible. Vous devriez ",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10505,26 +10104,26 @@
         }
       },
       "carteVigilance": "/maps/NE.jpg",
-      "scrapedAt": "2026-06-30T05:08:58.089350"
+      "scrapedAt": "2026-07-01T05:25:26.283920"
     },
     "NG": {
       "iso": "NG",
       "name": "Nigéria",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-038-NG-V6",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 7,
+      "ref": "FRP-038-NG-V7",
+      "sourceDateStr": "30 Jun 2026",
+      "dateMAJInterne": "01 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "le Nord-Est, les États de Borno, Yobe, Gombe, Bauchi, Adamawa au nord de la Bénoué, Jigawa et Kano, (à l’exception de l : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "NIG&Eacute;RIA - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
+        "texte": "&Eacute;vitez tout voyage non essentiel au Nigéria, y compris à Abuja, en raison des conditions de sécurité imprévisibles dans l'ensemble du pays et de l'important risque d'actes terroristes et crimin",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10536,6 +10135,156 @@
           "cat": "Sur cette page",
           "niveau": "faible",
           "texte": "Les éléments dans cette carte ne constituent pas une source officielle d'information géographique. Cette carte a pour seul but d'aider les ressortissants tunisiens en illustrant les niveaux de risque figurant dans les conseils et avertissements aux voyageurs pour cette destination. Les éléments dans cette carte ne représentent pas nécessairement le point de vue du gouvernement ressortissants tunisiens sur les frontières internationales, la nomenclature ou le statut politique. Les éléments dans cette carte ne constituent pas une source officielle d'information géographique. Cette carte a pour seul but d'aider les ressortissants tunisiens en illustrant les niveaux de risque figurant dans les conseils et avertissements aux voyageurs pour cette destination. Les éléments dans cette carte ne représentent pas nécessairement le point de vue du gouvernement ressortissants tunisiens sur les frontières internationales, la nomenclature ou le statut politique."
+        },
+        {
+          "cat": "NIG&Eacute;RIA - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
+          "niveau": "eleve",
+          "texte": "&Eacute;vitez tout voyage non essentiel au Nigéria, y compris à Abuja, en raison des conditions de sécurité imprévisibles dans l'ensemble du pays et de l'important risque d'actes terroristes et criminels, d'affrontements intercommunautaires, d'attaques à main armée et d'enlèvements. Cet avertissement exclut les villes de Calabar et de Lagos o vous devriez faire preuve d'une grande prudence. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "Niveau de risque régional - &Eacute;vitez tout voyage",
+          "niveau": "eleve",
+          "texte": "&Eacute;vitez tout voyage dans les régions suivantes, en raison du risque de terrorisme, d'attaques armées, d'enlèvements, et de violence intercommunale et sectaire : les &Eacute;tats de Kaduna, de Kano, de Katsina, de Sokoto et de Zamfara, situés dans le nord-ouest; les &Eacute;tats de Plateau, de Niger, de Kwara et de Kogi, situés dans le centre-nord; les &Eacute;tats d'Adamawa, de Bauchi, de Borno, de Gombe, de Jigawa, de Taraba et de Yobe; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "Calabar et Lagos - Faites preuve d'une grande prudence",
+          "niveau": "modere",
+          "texte": "Faites preuve d'une grande prudence dans les villes de Calabar et de Lagos, car le taux de criminalité y est élevé."
+        },
+        {
+          "cat": "Manifestations",
+          "niveau": "modere",
+          "texte": "Des manifestations ont lieu régulièrement, particulièrement dans les grandes villes. Mme les manifestations qui se veulent pacifiques peuvent soudainement donner lieu à des actes de violence. Elles peuvent aussi perturber la circulation et les transports publics. Les télécommunications et l'accès à internet peuvent également tre perturbés. &Eacute;vitez les endroits o se tiennent des manifestations et des grands rassemblements Attendez-vous à des mesures de sécurité renforcées et à une présence accrue des forces de l'ordre"
+        },
+        {
+          "cat": "&Eacute;tats du nord-ouest et du nord-est",
+          "niveau": "eleve",
+          "texte": "Il existe un risque de terrorisme, de banditisme et d'enlèvement dans les &Eacute;tats du nord-ouest et du nord-est suivants : Des groupes criminels sont de plus en plus actifs dans le nord-ouest, notamment dans l'&Eacute;tat de Kaduna. Les attaques violentes impliquant l'usage d'armes à feu et d'explosifs, ainsi que les enlèvements, sont fréquents. Ils ont visé : des plaques tournantes et des réseaux de transport; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "&Eacute;tats de Plateau, de Niger, de Kwara, de Kogi et de Taraba",
+          "niveau": "eleve",
+          "texte": "Des incidents violents, notamment des attentats à la bombe faisant de nombreuses victimes, surviennent dans les &Eacute;tats de Plateau, de Taraba, de Niger, de Kwara et de Kogi. Des épisodes sporadiques de violence intercommunautaire et sectaire se produisent dans les &Eacute;tats de Plateau et de Taraba. Il y a également eu une augmentation des cas d'enlèvement dans l'&Eacute;tat de Niger. D'autres attaques indiscriminées et enlèvements sont probables. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "&Eacute;tats du delta du Niger",
+          "niveau": "faible",
+          "texte": "La situation sécuritaire dans la région du delta du Niger reste fragile et instable, particulièrement dans les &Eacute;tats suivants : Si vous décidez de rester dans les &Eacute;tats du delta du Niger malgré le présent avertissement, exercez en tout temps une extrme vigilance Si vous voyagez pour affaires, assurez-vous que les réunions ont lieu dans des endroits sécurisés et que vous connaissez la personne que vous allez rencontrer"
+        },
+        {
+          "cat": "Lagos",
+          "niveau": "eleve",
+          "texte": "Le niveau de criminalité est élevé à Lagos et des crimes violents, notamment des agressions et des attaques à main armée, ont été commis contre des ressortissants étrangers et dans les secteurs qu'ils fréquentent. Séjournez dans des hébergements offrant des mesures de sécurité adéquates &Eacute;vitez tout déplacement non nécessaire après la tombée de la nuit"
+        },
+        {
+          "cat": "Identification",
+          "niveau": "faible",
+          "texte": "Les autorités locales peuvent vous demander de présenter une pièce d'identité à tout moment. Ayez toujours sur vous des photocopies certifiées de vos documents d'identité officiels Gardez une photocopie de votre passeport et de votre visa ou permis de séjour en lieu sr, en cas de perte ou de saisie"
+        },
+        {
+          "cat": "Criminalité",
+          "niveau": "modere",
+          "texte": "Le niveau de criminalité est élevé dans l'ensemble du Nigéria, particulièrement dans les zones urbaines et frontalières. Des crimes mineurs, tels que des vols à la tire et de sac à l'arraché, surviennent fréquemment, surtout dans les lieux très fréquentés tels que les marchés publics et les sites touristiques populaires. La criminalité augmente après la tombée de la nuit. Rangez en lieu sr vos effets personnels, y compris votre passeport et vos autres documents de voyage"
+        },
+        {
+          "cat": "Terrorisme",
+          "niveau": "eleve",
+          "texte": "Il existe une menace terroriste dans l'ensemble du Nigéria, surtout dans le Middle Belt, le nord et le nord-est du pays. De nombreuses attaques visant des individus, des groupes et les forces de l'ordre ont été menées dans tout le pays, y compris à Abuja. D'autres attaques sont probables. Les endroits suivants pourraient tre ciblés : les btiments gouvernementaux, y compris les postes de police;"
+        },
+        {
+          "cat": "Violence intercommunautaire",
+          "niveau": "faible",
+          "texte": "Les tensions intercommunautaires peuvent parfois dégénérer en violences et troubles localisés. Bien que ces conflits puissent survenir partout au Nigeria, ils sont plus fréquents dans les &Eacute;tats du centre-nord, du nord-ouest et du nord-est. Pendant les périodes de troubles, les autorités locales peuvent renforcer les mesures de sécurité et imposer des couvre-feux."
+        },
+        {
+          "cat": "&Eacute;tat d'urgence",
+          "niveau": "eleve",
+          "texte": "Les autorités locales décrètent périodiquement l'état d'urgence dans différents &Eacute;tats pour lutter contre la criminalité, les troubles civils ou les activités terroristes. Lorsque l'état d'urgence est en vigueur, les forces de l'ordre ont des pouvoirs accrus pour : Si vous voyagez dans une zone o l'état d'urgence est en vigueur :"
+        },
+        {
+          "cat": "Couvre-feux",
+          "niveau": "faible",
+          "texte": "Les autorités nigérianes imposent régulièrement des couvre-feux pour rétablir l'ordre après des flambées de violence dans des zones instables. Des couvre-feux et des restrictions sur la circulation des véhicules peuvent tre imposés, modifiés et levés à bref délai dans tout le Nigéria."
+        },
+        {
+          "cat": "Routes",
+          "niveau": "modere",
+          "texte": "La sécurité routière est mauvaise dans tout le pays. Des vols à main armée surviennent sur les autoroutes. Les accidents sont fréquents. L'état des routes est mauvais dans l'ensemble du pays. Pendant la saison des pluies, généralement de mai à octobre, l'état des routes se dégrade considérablement en raison des crues soudaines et la conduite peut devenir dangereuse. La conduite peut tre dangereuse en raison :"
+        },
+        {
+          "cat": "Fraude",
+          "niveau": "faible",
+          "texte": "La fraude liée aux cartes de crédit et de débit ainsi qu'à l'utilisation des guichets automatiques bancaires survient fréquemment. Lorsque vous utilisez votre carte de débit ou de crédit : couvrez le clavier d'une main lorsque vous entrez votre NIP;"
+        },
+        {
+          "cat": "Pénuries de carburant",
+          "niveau": "faible",
+          "texte": "Des pénuries de carburant surviennent régulièrement. Les autorités locales peuvent imposer des mesures de rationnement du carburant qui pourraient entraner une réduction des services essentiels et des files d'attente dans les stations d'essence. Remplissez votre réservoir d'essence avant de partir, surtout si vous vous rendez dans une région éloignée Ayez toujours avec vous un téléphone cellulaire et un chargeur"
+        },
+        {
+          "cat": "Pannes d'électricité",
+          "niveau": "faible",
+          "texte": "Les pannes d'électricité surviennent régulièrement à l'échelle du pays. Les btiments ne sont pas tous munis de génératrices. Les pannes d'électricité pourraient perturber les services essentiels, tels que :"
+        },
+        {
+          "cat": "Transports publics",
+          "niveau": "eleve",
+          "texte": "&Eacute;vitez d'utiliser les transports publics en raison de l'affluence excessive, du mauvais entretien des véhicules et du risque de vol et d'attaques à main armée. La plupart des taxis et des applications de covoiturage ne sont pas sécuritaires. Les passagers sont souvent agressés ou volés par les chauffeurs. &Eacute;vitez d'utiliser ces moyens de transport."
+        },
+        {
+          "cat": "Sécurité des femmes",
+          "niveau": "faible",
+          "texte": "Les femmes voyageant seules peuvent subir certaines formes de harcèlement ou de violence verbale."
+        },
+        {
+          "cat": "Baignade",
+          "niveau": "faible",
+          "texte": "Les eaux ctières peuvent tre dangereuses, mme pour les nageurs expérimentés. Les contre-courants sont fréquents. Plusieurs noyades surviennent chaque année. Les plages sont généralement sans surveillance. Il n'y a pas de système d'alerte pour signaler les conditions dangereuses. Santé et sécurité dans un voyage d'aventure"
+        },
+        {
+          "cat": "Piraterie",
+          "niveau": "eleve",
+          "texte": "La piraterie est une menace constante dans les &Eacute;tats du delta du Niger. Des attaques armées contre des navires et des plateformes pétrolières, des enlèvements et des prises d'otages ont lieu dans les eaux ctières du golfe de Guinée. Des insurgés équipés d'armes de gros calibre naviguent dans la région à bord de vedettes rapides et posent des problèmes de sécurité. Les navigateurs devraient prendre les précautions nécessaires. Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "Transport aérien",
+          "niveau": "modere",
+          "texte": "Nous n'évaluons pas dans quelle mesure les compagnies aériennes intérieures étrangères respectent les normes internationales de sécurité. Renseignements sur les vols intérieurs dans d'autres pays Les autorités d'un pays ou d'un territoire décident qui peut franchir ses frontières. le ministère tunisien des Affaires étrangères ne peut pas intervenir en votre nom si vous ne répondez pas aux exigences d'entrée ou de sortie de votre destination."
+        },
+        {
+          "cat": "Passeport",
+          "niveau": "faible",
+          "texte": "Les exigences d'entrée varient selon le type de passeport avec lequel vous voyagez. Avant de partir, vérifiez auprès de votre transporteur quelles sont ses exigences au sujet des passeports. Ses règles sur la durée de validité des passeports sont peut-tre plus strictes que les règles d'entrée du pays o vous vous rendez. Votre passeport doit tre valide pendant au moins six mois après la date prévue de votre départ du Nigéria."
+        },
+        {
+          "cat": "Visas",
+          "niveau": "faible",
+          "texte": "Visa de touriste : exigé Visa d'affaires : exigé Visa de travail : exigé Permis de travail temporaire : exigé Visa d'étudiant : exigé Vérifiez que la durée du séjour indiquée sur votre tampon d'entrée et sur votre visa correspondent. Si les dates manuscrites sont difficiles à lire, demandez des précisions à l'agent d'immigration au point d'entrée ou à un bureau du service d'immigration nigérian. Service de l'immigration du Nigéria (en anglais seulement)"
+        },
+        {
+          "cat": "Cartes d'arrivée et de sortie",
+          "niveau": "faible",
+          "texte": "Vous devez remplir un formulaire en ligne avant d'entrer ou de sortir du Nigeria. Obtenir une carte d'arrivée ou de sortie Service d'Immigration du Nigéria (en anglais seulement)"
+        },
+        {
+          "cat": "Exigences de passeport pour les personnes ayant la double citoyenneté",
+          "niveau": "faible",
+          "texte": "Si vous avez la double citoyenneté, vous devez utiliser votre passeport nigérian pour entrer et sortir du Nigéria. Si votre passeport nigérian expire pendant votre séjour au Nigéria, vous devez en obtenir un nouveau avant de quitter le pays. Le renouvellement d'un passeport nigérian peut entraner des retards considérables dans vos plans de voyage. Pour éviter ces retards, les personnes ayant la double citoyenneté doivent s'assurer que leur passeport nigérian est valide au moment de leur entrée et pendant toute la durée de leur séjour au Nigéria."
+        },
+        {
+          "cat": "Postes frontaliers",
+          "niveau": "faible",
+          "texte": "Les postes frontaliers terrestres avec le Bénin, le Niger, le Tchad et le Cameroun peuvent fermer à bref délai."
+        },
+        {
+          "cat": "Enfants et voyages",
+          "niveau": "faible",
+          "texte": "Renseignez-vous sur les voyages avec les enfants ."
+        },
+        {
+          "cat": "Fièvre jaune",
+          "niveau": "faible",
+          "texte": "Renseignez-vous sur la possibilité d'exigences d'entrée concernant la fièvre jaune (section sur les vaccins)."
         },
         {
           "cat": "Conseils de santé aux voyageurs pertinents",
@@ -10573,9 +10322,114 @@
           "texte": "Lorsque vous voyagez, vous pouvez réduire le risque de contracter ou de propager des infections respiratoires, comme la grippe ou la COVID-19, en : restant dans votre logement et en limitant les contacts avec les autres si vous tes malade; portant un masque bien ajusté, en particulier : si vous tes malade et que vous devez tre en contact avec d'autres personnes;"
         },
         {
+          "cat": "Services et établissements médicaux",
+          "niveau": "faible",
+          "texte": "La qualité des soins de santé varie considérablement à travers le pays. Les soins de santé sont généralement bons dans certains établissements privés d'Abuja et de Lagos, mais ils sont généralement très limités ou inexistants dans les zones rurales. Les établissements médicaux publics et privés exigent généralement un dépt initial en argent comptant, une garantie de paiement ou une confirmation que vous avez une assurance médicale. En dehors des grandes villes, seul un dépt en argent comptant sera accepté. Vous aurez probablement besoin d'une évacuation médicale en cas de maladie ou de blessure grave."
+        },
+        {
+          "cat": "Médicaments",
+          "niveau": "faible",
+          "texte": "Certains médicaments sur ordonnance pourraient ne pas tre disponibles au Nigéria. Si vous prenez des médicaments sur ordonnance, vous tes responsable de déterminer leur légalité au Nigéria. Apportez suffisamment de médicaments pour votre séjour"
+        },
+        {
           "cat": "&Agrave; retenir...",
           "niveau": "faible",
-          "texte": "La décision de voyager appartient entièrement au voyageur. Le voyageur est également responsable de sa propre sécurité. Soyez bien préparé. Ne vous attendez pas à ce que les services médicaux soient les mmes que ceux offerts en Tunisie. Apportez dans vos bagages une trousse de produits de santé pour le voyage, en particulier si vous vous rendez dans des zones éloignées des grands centres urbains."
+          "texte": "La décision de voyager appartient entièrement au voyageur. Le voyageur est également responsable de sa propre sécurité. Soyez bien préparé. Ne vous attendez pas à ce que les services médicaux soient les mmes que ceux offerts en Tunisie. Apportez dans vos bagages une trousse de produits de santé pour le voyage, en particulier si vous vous rendez dans des zones éloignées des grands centres urbains. Vous devez vous conformer aux lois locales."
+        },
+        {
+          "cat": "Charia",
+          "niveau": "faible",
+          "texte": "Les coutumes, les lois et les règlements du Nigéria sont étroitement liés aux pratiques et aux croyances islamiques. La charia a été adoptée dans les 12 &Eacute;tats du nord du pays suivants : La charia peut s'appliquer aux non-musulmans dans certaines parties du pays. Les transgressions peuvent tre punies par la détention ou d'autres sanctions."
+        },
+        {
+          "cat": "Drogues",
+          "niveau": "faible",
+          "texte": "La possession, l'usage et le trafic de stupéfiants sont sévèrement punis. Les personnes trouvées coupables de ces délits sont passibles de peines d'emprisonnement et de lourdes amendes."
+        },
+        {
+          "cat": "Ramadan",
+          "niveau": "faible",
+          "texte": "En 2027, le mois lunaire du ramadan devrait commencer autour du 7 février. En public, entre le lever et le coucher du soleil, soyez discret au moment de :"
+        },
+        {
+          "cat": "Tenue vestimentaire et comportement",
+          "niveau": "faible",
+          "texte": "Pour éviter de froisser les sensibilités locales : respectez les traditions religieuses et sociales. Dans le nord, il est conseillé aux femmes de se couvrir les jambes et de voyager avec un foulard pour se couvrir la tte et les bras au besoin"
+        },
+        {
+          "cat": "Tourisme sexuel impliquant des enfants",
+          "niveau": "modere",
+          "texte": "Le fait d'avoir des relations sexuelles avec des mineurs constitue une infraction criminelle grave au Nigéria. Les peines d'emprisonnement sont sévères. les ressortissants tunisiens peuvent également tre poursuivis en Tunisie pour avoir commis ce genre de crime lors d'un séjour à l'étranger. Tourisme sexuel impliquant les enfants : c'est un crime"
+        },
+        {
+          "cat": "Double citoyenneté",
+          "niveau": "faible",
+          "texte": "La double citoyenneté est légalement reconnue au Nigéria. Si vous avez à la fois la citoyenneté canadienne et celle du Nigéria, nous pourrions tre limités dans notre capacité à vous offrir des services consulaires pendant que vous y tes. Les exigences d'entrée et de sortie peuvent aussi tre différentes dans votre cas. Citoyen ou citoyenne à double citoyenneté"
+        },
+        {
+          "cat": "Enlèvement international d'enfants",
+          "niveau": "eleve",
+          "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci ont été déplacés ou retenus dans certains pays en violation d'un droit de garde. Elle ne s'applique pas entre le Canada et le Nigéria. Si votre enfant a été déplacé ou est retenu illicitement au Nigéria par un parent ravisseur : consultez un avocat en Tunisie et au Nigéria afin d'envisager toutes les options juridiques possibles pour le retour de votre enfant; Note profil tunisien : le ciblage « étranger occidental aisé » est moins direct, mais le risque général demeure — restez discret sur les signes de richesse."
+        },
+        {
+          "cat": "Importations",
+          "niveau": "faible",
+          "texte": "Il est interdit d'importer les produits suivants : de la bière, de l'eau minérale, des boissons gazeuses et du vin mousseux; des fruits, des légumes, des céréales et des ufs;"
+        },
+        {
+          "cat": "Exportations",
+          "niveau": "faible",
+          "texte": "Il est interdit d'exporter des uvres d'art africaines, en particulier des antiquités, sans avoir obtenu une autorisation écrite auprès du ministère des Antiquités."
+        },
+        {
+          "cat": "Photographie",
+          "niveau": "faible",
+          "texte": "Il est interdit de photographier les installations considérées sensibles, telles que : les postes de police et les sites militaires. Demandez la permission avant de prendre des photos de btiments officiels ou de personnes."
+        },
+        {
+          "cat": "Consommation de tabac",
+          "niveau": "faible",
+          "texte": "Il est interdit de fumer dans les lieux publics à travers le pays."
+        },
+        {
+          "cat": "Conduite automobile",
+          "niveau": "faible",
+          "texte": "Pour conduire au Nigéria, vous devez avoir : Si vous restez au Nigéria pendant plus de 3 mois, vous devez obtenir un permis de conduire nigérian."
+        },
+        {
+          "cat": "Monnaie",
+          "niveau": "faible",
+          "texte": "La devise du Nigéria est le naira (NGN). L'économie nigériane est basée sur l'argent comptant. Les dollars américains sont largement acceptés. Les guichets automatiques bancaires ne sont pas très répandus en dehors des grandes villes. Les cartes de crédit sont acceptées dans certains grands htels d'Abuja et de Lagos. Cependant, vous devriez éviter d'utiliser des cartes de crédit et de débit en raison du risque élevé de fraude et d'autres activités criminelles."
+        },
+        {
+          "cat": "Changements climatiques",
+          "niveau": "faible",
+          "texte": "Les changements climatiques affectent le Nigéria. Les phénomènes météorologiques extrmes et inhabituels sont de plus en plus fréquents et peuvent affecter vos plans de voyage. Surveillez les médias locaux pour rester au courant de la situation."
+        },
+        {
+          "cat": "Saison des pluies",
+          "niveau": "faible",
+          "texte": "La saison des pluies s'étend de mai à octobre. Pendant cette période, les pluies sont abondantes et peuvent provoquer des crues soudaines localisées. Les inondations saisonnières peuvent nuire aux déplacements terrestres et réduire la prestation de services essentiels. Les routes peuvent devenir impraticables et les infrastructures endommagées. Surveillez les médias locaux pour obtenir les dernières mises à jour, y compris celles concernant l'état des routes Surveillez les bulletins météorologiques"
+        },
+        {
+          "cat": "Vagues de chaleur",
+          "niveau": "faible",
+          "texte": "Pendant la saison sèche, de novembre à avril, le Nigéria connat périodiquement des vagues de chaleur. Les températures montent bien au-dessus de 40C pendant plusieurs jours, surtout dans le centre et le nord du pays. Sachez reconnatre les symptmes de la déshydratation et des coups de chaleur, qui peuvent tous deux tre mortels."
+        },
+        {
+          "cat": "L'harmattan",
+          "niveau": "faible",
+          "texte": "L'harmattan, un vent chargé de sable et de poussière, souffle depuis le désert du Sahara, généralement entre novembre et mars, avec une intensité maximale de décembre à février. Ces vents poussiéreux peuvent détériorer la qualité de l'air et affecter la santé des personnes souffrant de problèmes respiratoires. L'harmattan réduit également la visibilité, ce qui peut entraner des conditions de conduite dangereuses, en particulier lors des temptes. suivez les directives des autorités locales;"
+        },
+        {
+          "cat": "Services locaux",
+          "niveau": "faible",
+          "texte": "Trouvez et ayez sur vous les coordonnées de la police et des installations médicales locales."
+        },
+        {
+          "cat": "Aide consulaire",
+          "niveau": "faible",
+          "texte": "Pendant les heures d'ouverture : communiquez avec le bureau qui se trouve le plus proche de vous. Pour obtenir de l'aide d'urgence à tout moment : communiquez avec le Centre de surveillance et d'intervention d'urgence à Ottawa. Guinée équatoriale, Sao Tomé-et-Principe"
         },
         {
           "cat": "Avertissement",
@@ -10603,38 +10457,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "le Nord-Est, les États de Borno, Yobe, Gombe, Bauchi, Adamawa au nord de la Bénoué, Jigawa et Kano, (à l’exception de l",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "la région du Delta, le Nord-Est et le Nord-Ouest",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "dans les zones frontalières avec le Cameroun et le Bénin",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": ") ; dans le Nord-Ouest, la zone frontalière avec le Niger et le Bénin, ainsi que l’intégralité des Etats de Kebbi, Zamfa",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "), Sokoto et le Nord et le Nord-Ouest de l’Etat de Niger ; dans le Sud-Est : États de Bayelsa, de Rivers (à l’exception",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "), du Delta et d’Akwa Ibom ; dans la zone frontalière avec le Cameroun",
-          "desc": "Déconseillé sauf raison impérative"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -10668,7 +10491,7 @@
         }
       },
       "carteVigilance": "/maps/NG.jpg",
-      "scrapedAt": "2026-06-30T05:09:01.724300"
+      "scrapedAt": "2026-07-01T05:25:28.177041"
     },
     "UG": {
       "iso": "UG",
@@ -10687,7 +10510,7 @@
         "niveau": "modere",
         "titre": "Ouganda - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
         "texte": "&Eacute;vitez tout voyage non essentiel en Ouganda en raison de l'impact régional de l'éclosion de maladie Ebola, ainsi que de la menace terroriste et du taux de criminalité élevé. L'Agence de la sant",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10951,18 +10774,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "Parc national de Semuliki En raison d’incursions de cellules terroristes depuis la RDC, il est déconseillé sauf raison",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -10996,7 +10808,7 @@
         }
       },
       "carteVigilance": "/maps/UG.jpg",
-      "scrapedAt": "2026-06-30T05:09:05.227555"
+      "scrapedAt": "2026-07-01T05:25:29.878702"
     },
     "RW": {
       "iso": "RW",
@@ -11015,7 +10827,7 @@
         "niveau": "modere",
         "titre": "Cybercriminalité",
         "texte": "La cybercriminalité, les attaques de logiciels malveillants et l'extorsion en ligne surviennent au Rwanda. Les criminels peuvent compromettre les réseaux Wi-Fi publics afin de voler des données person",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11303,7 +11115,7 @@
         }
       },
       "carteVigilance": "/maps/RW.jpg",
-      "scrapedAt": "2026-06-30T05:09:08.462680"
+      "scrapedAt": "2026-07-01T05:25:31.496836"
     },
     "ST": {
       "iso": "ST",
@@ -11322,7 +11134,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des attaques de pirates et des vols à main armée contre des navires surviennent dans les eaux ctières et, dans certains cas, plus loin en mer. Les voyageurs devraient prendre les précautions nécessair",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11584,7 +11396,7 @@
         }
       },
       "carteVigilance": "/maps/ST.jpg",
-      "scrapedAt": "2026-06-30T05:09:11.473340"
+      "scrapedAt": "2026-07-01T05:25:32.956991"
     },
     "SN": {
       "iso": "SN",
@@ -11603,7 +11415,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Des attaques terroristes ont eu lieu dans certains pays frontaliers. La possibilité d'attaque terroriste ne peut tre exclue, notamment dans la zone frontalière avec le Mali. Les endroits suivants pour",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11862,23 +11674,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Les zones frontalières avec le Mali et une partie de la Mauritanie (dans le département de Mat",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "en raison de plusieurs incidents sécuritaires signalés dans ces zones",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -11920,7 +11716,7 @@
         }
       },
       "carteVigilance": "/maps/SN.jpg",
-      "scrapedAt": "2026-06-30T05:09:14.832760"
+      "scrapedAt": "2026-07-01T05:25:34.535323"
     },
     "SL": {
       "iso": "SL",
@@ -11939,7 +11735,7 @@
         "niveau": "modere",
         "titre": "Régions frontalières",
         "texte": "Les zones frontalières sont mal surveillées par les autorités locales. Les zones frontalières avec la Guinée et le Libéria sont affectées par des conflits territoriaux en cours, des opérations militai",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12188,18 +11984,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "de se rendre dans la zone frontalière avec le Libéria, la situation y demeurant instable",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -12233,7 +12018,7 @@
         }
       },
       "carteVigilance": "/maps/SL.jpg",
-      "scrapedAt": "2026-06-30T05:09:18.093417"
+      "scrapedAt": "2026-07-01T05:25:36.086225"
     },
     "SO": {
       "iso": "SO",
@@ -12249,10 +12034,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "la zone : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "SOMALIE - &Eacute;VITEZ TOUT VOYAGE",
+        "texte": "&Eacute;vitez tout voyage en Somalie en raison de la situation instable en matière de sécurité et de la menace élevée posée par le terrorisme intérieur. Si vous décidez de vous rendre en Somalie malgr",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12496,28 +12281,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "la zone",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "la totalité du pays, où aucune garantie de sécurité ne peut être donnée et aucune protection systématique ne peut être",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Hargeisa et Berbera Les villes d’Hargeisa et Berbera ainsi que l’axe reliant les deux villes s",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -12551,7 +12315,7 @@
         }
       },
       "carteVigilance": "/maps/SO.jpg",
-      "scrapedAt": "2026-06-30T05:09:21.571380"
+      "scrapedAt": "2026-07-01T05:25:37.663540"
     },
     "SD": {
       "iso": "SD",
@@ -12567,10 +12331,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "le contexte des affrontements en cours l’intégralité du territoire soudanais est formellement déconseillé : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Hostilités en cours à travers le Soudan",
+        "texte": "Depuis avril 2023, de violents combats opposent l'armée soudanaise, un groupe paramilitaire et d'autres groupes armés affiliés dans tout le pays, y compris dans la capitale, Khartoum. La situation séc",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12859,33 +12623,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "le contexte des affrontements en cours l’intégralité du territoire soudanais est formellement déconseillé",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "dans les cinq États fédérés du Darfour, où la situation sécuritaire reste très instable",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "au Kordofan où le conflit s’est récemment étendu",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "rouge",
-          "nom": "la zone contestée du Triangle d’el Fashaga",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -12919,7 +12657,7 @@
         }
       },
       "carteVigilance": "/maps/SD.jpg",
-      "scrapedAt": "2026-06-30T05:09:24.796339"
+      "scrapedAt": "2026-07-01T05:25:39.335979"
     },
     "SS": {
       "iso": "SS",
@@ -12938,7 +12676,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12946,18 +12684,7 @@
         "Profil de risque criminel adapté : ciblage « occidental » moins direct, vigilance générale maintenue."
       ],
       "securite": [],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "À Djouba, ainsi que dans les villes de Wau, Yambio et Aweil, la situation est dans l’ensemble calme et le niveau de cri",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -12991,7 +12718,7 @@
         }
       },
       "carteVigilance": "/maps/SS.jpg",
-      "scrapedAt": "2026-06-30T05:09:28.509049"
+      "scrapedAt": "2026-07-01T05:25:41.043054"
     },
     "TZ": {
       "iso": "TZ",
@@ -13010,7 +12737,7 @@
         "niveau": "modere",
         "titre": "Tanzanie - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence en Tanzanie en raison du taux de criminalité et du risque que représente le terrorisme.",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13339,23 +13066,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Régions occidentales frontalières avec le Burundi La présence potentielle de groupes armés ou",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "de se rendre dans ces parties du territoire",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -13389,7 +13100,7 @@
         }
       },
       "carteVigilance": "/maps/TZ.jpg",
-      "scrapedAt": "2026-06-30T05:09:32.376705"
+      "scrapedAt": "2026-07-01T05:25:42.891377"
     },
     "TD": {
       "iso": "TD",
@@ -13405,10 +13116,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "ces zones frontalières de la Libye, depuis août 2018, en vue de contrôler les incursions armées de groupes rebelles : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "TCHAD - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
+        "texte": "&Eacute;vitez tout voyage non essentiel au Tchad, y compris dans la capitale N'Djamena, en raison de la menace terroriste, de risques de crimes violents et de troubles civils.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13652,28 +13363,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "ces zones frontalières de la Libye, depuis août 2018, en vue de contrôler les incursions armées de groupes rebelles",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange) Les villes de Bardaï, Fada, Amdjarass et Bol au nord et d’Abéché et Bongor au centre et au sud La ville de",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange), il convient, si le déplacement ou le séjour s’avère indispensable, de faire preuve d’une extrême vigilance",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -13707,7 +13397,7 @@
         }
       },
       "carteVigilance": "/maps/TD.jpg",
-      "scrapedAt": "2026-06-30T05:09:35.953632"
+      "scrapedAt": "2026-07-01T05:25:44.564556"
     },
     "TG": {
       "iso": "TG",
@@ -13726,7 +13416,7 @@
         "niveau": "modere",
         "titre": "Frontière avec le Burkina Faso - &Eacute;vitez tout voyage",
         "texte": "&Eacute;vitez tout voyage à 30km de la frontière avec le Burkina Faso, en raison des opérations militaires, de la menace terroriste et du risque d'enlèvement. Cet avertissement inclus la ville ainsi q",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13980,23 +13670,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(orange) Région des Savanes Décrété en 2022 pour lutter contre la menace terroriste, l’état d’urgence a été prorogé jus",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "tout comme les séjours à Dapaong",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -14031,7 +13705,7 @@
         }
       },
       "carteVigilance": "/maps/TG.jpg",
-      "scrapedAt": "2026-06-30T05:09:39.253204"
+      "scrapedAt": "2026-07-01T05:25:46.169369"
     },
     "TN": {
       "iso": "TN",
@@ -14047,10 +13721,10 @@
         "diplomatie.gouv.fr"
       ],
       "alertePrincipale": {
-        "niveau": "eleve",
-        "titre": "dans la zone montagneuse de l’Ouest (monts d’Orbata, Selloum, Semema, Chambi et Mghila), car pouvant abriter différente : formellement déconseillé",
-        "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "30 Jun 2026"
+        "niveau": "modere",
+        "titre": "Tunisie - Faites preuve d'une grande prudence",
+        "texte": "Faites preuve d'une grande prudence en Tunisie en raison du risque terroriste à l'échelle du pays.",
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14314,28 +13988,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "rouge",
-          "nom": "dans la zone montagneuse de l’Ouest (monts d’Orbata, Selloum, Semema, Chambi et Mghila), car pouvant abriter différente",
-          "desc": "Formellement déconseillé"
-        },
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Sud du pays Les déplacements sont déconseillés, sauf raison impérative, dans la zone désertiqu",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "car ayant pu abriter différentes activités terroristes, et proches de zones militarisées ou minées",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -14367,7 +14020,7 @@
         }
       },
       "carteVigilance": "/maps/TN.jpg",
-      "scrapedAt": "2026-06-30T05:09:42.529963"
+      "scrapedAt": "2026-07-01T05:25:47.779372"
     },
     "ZA": {
       "iso": "ZA",
@@ -14386,7 +14039,7 @@
         "niveau": "modere",
         "titre": "« Blocage national »",
         "texte": "Une augmentation des attaques xénophobes, visant principalement les réfugiés et les immigrants venus d'autres pays d'Afrique a lieu. Des organisations anti-immigrés ont appelé à un « blocage national ",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14704,7 +14357,7 @@
         }
       },
       "carteVigilance": "/maps/ZA.jpg",
-      "scrapedAt": "2026-06-30T05:09:46.291306"
+      "scrapedAt": "2026-07-01T05:25:49.530153"
     },
     "ZM": {
       "iso": "ZM",
@@ -14723,7 +14376,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14987,18 +14640,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "(en orange sur la carte) Frontières nord Globalement calme, la Zambie est exposée sporadiquement à des mouvements de pe",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -15033,7 +14675,7 @@
         }
       },
       "carteVigilance": "/maps/ZM.jpg",
-      "scrapedAt": "2026-06-30T05:09:49.902690"
+      "scrapedAt": "2026-07-01T05:25:51.249425"
     },
     "ZW": {
       "iso": "ZW",
@@ -15052,7 +14694,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15291,23 +14933,7 @@
           "texte": "Vous ne devriez pas vous rendre dans ce pays, ce territoire ou cette région. Votre sécurité personnelle est fortement compromise. Si vous êtes déjà sur place, vous devriez envisager de partir si vous pouvez le faire sans danger."
         }
       ],
-      "zonesVigilance": [
-        {
-          "couleur": "orange",
-          "nom": "Mine de Marange L’accès aux champs diamantifères de Marange (environ 50 km au sud-ouest de Mutare) est contrôlé",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "orange",
-          "nom": "et motif professionnel précis",
-          "desc": "Déconseillé sauf raison impérative"
-        },
-        {
-          "couleur": "jaune",
-          "nom": "Reste du pays",
-          "desc": "Vigilance renforcée"
-        }
-      ],
+      "zonesVigilance": [],
       "sante": {
         "vaccins": [],
         "risques": [
@@ -15341,7 +14967,7 @@
         }
       },
       "carteVigilance": "/maps/ZW.jpg",
-      "scrapedAt": "2026-06-30T05:09:53.265363"
+      "scrapedAt": "2026-07-01T05:25:52.910687"
     },
     "SC": {
       "iso": "SC",
@@ -15360,7 +14986,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, en particulier dans le golfe d'Aden et l'océan Indien. Bien que le nombre de cas de piraterie ait",
-        "date": "30 Jun 2026"
+        "date": "01 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15599,7 +15225,7 @@
         }
       },
       "carteVigilance": "/maps/SC.jpg",
-      "scrapedAt": "2026-06-30T05:09:56.476959"
+      "scrapedAt": "2026-07-01T05:25:54.496981"
     }
   }
 }
