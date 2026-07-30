@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-07-29T04:17:48.186713",
-  "totalChanged": 1,
+  "generatedAt": "2026-07-30T04:10:17.104710",
+  "totalChanged": 49,
   "countries": {
     "DZ": {
       "iso": "DZ",
       "name": "Algérie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-001-DZ-V7",
-      "sourceDateStr": "14 Jul 2026",
-      "dateMAJInterne": "15 Jul 2026",
+      "version": 8,
+      "ref": "FRP-001-DZ-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -19,7 +19,7 @@
         "niveau": "eleve",
         "titre": "certains pays voisins : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -365,17 +365,17 @@
         }
       },
       "carteVigilance": "/maps/DZ.jpg",
-      "scrapedAt": "2026-07-29T04:14:05.227061"
+      "scrapedAt": "2026-07-30T04:07:36.676316"
     },
     "AO": {
       "iso": "AO",
       "name": "Angola",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-002-AO-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-002-AO-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -384,7 +384,7 @@
         "niveau": "modere",
         "titre": "Province de Cabinda",
         "texte": "Des groupes militants revendiquant l'indépendance sont actifs dans la province de Cabinda, et des affrontements avec les forces de sécurité peuvent se produire. Des meurtres, des enlèvements et des ag",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -515,7 +515,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La COVID-19 est une maladie infectieuse virale. La plupart du temps, elle se propage lorsque des gens sont en contact étroit avec des personnes infectées par le virus. Elle se propage par les particules respiratoires ou par une surface ou un objet infecté."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -658,17 +658,17 @@
         }
       },
       "carteVigilance": "/maps/AO.jpg",
-      "scrapedAt": "2026-07-29T04:14:10.095885"
+      "scrapedAt": "2026-07-30T04:07:39.935898"
     },
     "BJ": {
       "iso": "BJ",
       "name": "Bénin",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-003-BJ-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-003-BJ-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -677,7 +677,7 @@
         "niveau": "eleve",
         "titre": "dans : les zones frontalières du Burkina Faso et du Niger ; la totalité des parcs nationaux de la Pendjari et du W, les : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -808,7 +808,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Cette destination se trouve dans la ceinture africaine de la méningite , une région qui présente les taux de méningococcie les plus élevés au monde. La méningococcie est une infection grave et parfois mortelle."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -981,17 +981,17 @@
         }
       },
       "carteVigilance": "/maps/BJ.jpg",
-      "scrapedAt": "2026-07-29T04:14:14.618610"
+      "scrapedAt": "2026-07-30T04:07:43.256490"
     },
     "BW": {
       "iso": "BW",
       "name": "Botswana",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-004-BW-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-004-BW-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1000,7 +1000,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1233,17 +1233,17 @@
         }
       },
       "carteVigilance": "/maps/BW.jpg",
-      "scrapedAt": "2026-07-29T04:14:18.685404"
+      "scrapedAt": "2026-07-30T04:07:46.487117"
     },
     "BF": {
       "iso": "BF",
       "name": "Burkina Faso",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-005-BF-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-005-BF-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1252,7 +1252,7 @@
         "niveau": "eleve",
         "titre": "le contexte actuel de fortes tensions régionales, tout déplacement au Burkina Faso est formellement déconseillé : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1512,17 +1512,17 @@
         }
       },
       "carteVigilance": "/maps/BF.jpg",
-      "scrapedAt": "2026-07-29T04:14:23.261447"
+      "scrapedAt": "2026-07-30T04:07:50.119794"
     },
     "BI": {
       "iso": "BI",
       "name": "Burundi",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-006-BI-V5",
-      "sourceDateStr": "24 Jun 2026",
-      "dateMAJInterne": "25 Jun 2026",
+      "version": 6,
+      "ref": "FRP-006-BI-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1531,7 +1531,7 @@
         "niveau": "modere",
         "titre": "Provinces de Bubanza et de Cibitoke",
         "texte": "La sécurité à la frontière est toujours source de préoccupation dans les provinces de Bubanza et de Cibitoke étant donné les affrontements violents dans l'est de la RDC et les mouvements transfrontali",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -1835,17 +1835,17 @@
         }
       },
       "carteVigilance": "/maps/BI.jpg",
-      "scrapedAt": "2026-07-29T04:14:27.345972"
+      "scrapedAt": "2026-07-30T04:07:53.142146"
     },
     "CM": {
       "iso": "CM",
       "name": "Cameroun",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-007-CM-V7",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 8,
+      "ref": "FRP-007-CM-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -1854,7 +1854,7 @@
         "niveau": "eleve",
         "titre": "dans une bande de 30 km le long de la frontière du Cameroun, du lac Tchad jusqu’au sud de la RCA en raison de la situat : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2015,7 +2015,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Cette destination se trouve dans la ceinture africaine de la méningite , une région qui présente les taux de méningococcie les plus élevés au monde. La méningococcie est une infection grave et parfois mortelle."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -2199,7 +2199,7 @@
         }
       },
       "carteVigilance": "/maps/CM.jpg",
-      "scrapedAt": "2026-07-29T04:14:31.731482"
+      "scrapedAt": "2026-07-30T04:07:56.187272"
     },
     "CV": {
       "iso": "CV",
@@ -2218,7 +2218,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2263,17 +2263,17 @@
         }
       },
       "carteVigilance": "/maps/CV.jpg",
-      "scrapedAt": "2026-07-29T04:14:36.045807"
+      "scrapedAt": "2026-07-30T04:07:59.118593"
     },
     "CF": {
       "iso": "CF",
       "name": "Centrafrique",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-009-CF-V5",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 6,
+      "ref": "FRP-009-CF-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -2282,7 +2282,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des groupes armés et des criminels ciblent des étrangers, des employés d'organisations internationales, ainsi que des ressortissants centrafricains. Le risque est particulièrement élevé en dehors de B",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2388,7 +2388,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Cette destination se trouve dans la ceinture africaine de la méningite , une région qui présente les taux de méningococcie les plus élevés au monde. La méningococcie est une infection grave et parfois mortelle."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -2556,17 +2556,17 @@
         }
       },
       "carteVigilance": "/maps/CF.jpg",
-      "scrapedAt": "2026-07-29T04:14:40.461311"
+      "scrapedAt": "2026-07-30T04:08:02.087152"
     },
     "KM": {
       "iso": "KM",
       "name": "Comores",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-010-KM-V6",
-      "sourceDateStr": "24 Jun 2026",
-      "dateMAJInterne": "25 Jun 2026",
+      "version": 7,
+      "ref": "FRP-010-KM-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -2575,7 +2575,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières comoriennes et parfois plus loin au large. On recommande aux navigateurs de prendre les précautions qui s'imposent. Carte en direct sur la p",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2833,7 +2833,7 @@
         }
       },
       "carteVigilance": "/maps/KM.jpg",
-      "scrapedAt": "2026-07-29T04:14:43.989494"
+      "scrapedAt": "2026-07-30T04:08:04.788159"
     },
     "CG": {
       "iso": "CG",
@@ -2852,7 +2852,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2905,7 +2905,7 @@
         }
       },
       "carteVigilance": "/maps/CG.jpg",
-      "scrapedAt": "2026-07-29T04:14:48.514437"
+      "scrapedAt": "2026-07-30T04:08:08.326597"
     },
     "CD": {
       "iso": "CD",
@@ -2924,7 +2924,7 @@
         "niveau": "eleve",
         "titre": "dans le parc national des Virunga, le parc de Kahuzi-Biega et le parc de la Garamba, des enlèvements étant régulièremen : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -2997,7 +2997,7 @@
         }
       },
       "carteVigilance": "/maps/CD.jpg",
-      "scrapedAt": "2026-07-29T04:14:53.075827"
+      "scrapedAt": "2026-07-30T04:08:11.764474"
     },
     "CI": {
       "iso": "CI",
@@ -3016,7 +3016,7 @@
         "niveau": "eleve",
         "titre": "quel que soit le motif dans le nord du district du Zanzan et l’est du district des Savanes ainsi que dans le parc natio : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3079,17 +3079,17 @@
         }
       },
       "carteVigilance": "/maps/CI.jpg",
-      "scrapedAt": "2026-07-29T04:14:57.502737"
+      "scrapedAt": "2026-07-30T04:08:15.114816"
     },
     "DJ": {
       "iso": "DJ",
       "name": "Djibouti",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-014-DJ-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-014-DJ-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3098,7 +3098,7 @@
         "niveau": "eleve",
         "titre": "le pays mais les frontières terrestres et maritimes sont à éviter : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3367,17 +3367,17 @@
         }
       },
       "carteVigilance": "/maps/DJ.jpg",
-      "scrapedAt": "2026-07-29T04:15:01.460306"
+      "scrapedAt": "2026-07-30T04:08:18.030609"
     },
     "EG": {
       "iso": "EG",
       "name": "Égypte",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-015-EG-V5",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 6,
+      "ref": "FRP-015-EG-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3386,7 +3386,7 @@
         "niveau": "eleve",
         "titre": "la zone désertique, en direction de la frontière libyenne sont formellement déconseillés, à l’exception de ceux dans la : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -3745,17 +3745,17 @@
         }
       },
       "carteVigilance": "/maps/EG.jpg",
-      "scrapedAt": "2026-07-29T04:15:05.936702"
+      "scrapedAt": "2026-07-30T04:08:21.095855"
     },
     "ER": {
       "iso": "ER",
       "name": "Érythrée",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-016-ER-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-016-ER-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -3764,7 +3764,7 @@
         "niveau": "eleve",
         "titre": "dans ces régions : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4088,17 +4088,17 @@
         }
       },
       "carteVigilance": "/maps/ER.jpg",
-      "scrapedAt": "2026-07-29T04:15:10.132175"
+      "scrapedAt": "2026-07-30T04:08:24.023775"
     },
     "SZ": {
       "iso": "SZ",
       "name": "Eswatini",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-017-SZ-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-017-SZ-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4107,7 +4107,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Bien qu'aucun attentat n'ait été perpétré récemment en Eswatini, il existe une menace terroriste.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4355,17 +4355,17 @@
         }
       },
       "carteVigilance": "/maps/SZ.jpg",
-      "scrapedAt": "2026-07-29T04:15:13.909750"
+      "scrapedAt": "2026-07-30T04:08:26.862821"
     },
     "ET": {
       "iso": "ET",
       "name": "Éthiopie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-018-ET-V6",
-      "sourceDateStr": "13 Jul 2026",
-      "dateMAJInterne": "14 Jul 2026",
+      "version": 7,
+      "ref": "FRP-018-ET-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4374,7 +4374,7 @@
         "niveau": "eleve",
         "titre": "la région de la vallée de l’Omo, à l’exception du territoire des Mursi (les voyageurs sont toutefois invités à organise : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4798,17 +4798,17 @@
         }
       },
       "carteVigilance": "/maps/ET.jpg",
-      "scrapedAt": "2026-07-29T04:15:18.375752"
+      "scrapedAt": "2026-07-30T04:08:30.333735"
     },
     "GA": {
       "iso": "GA",
       "name": "Gabon",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-019-GA-V5",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 6,
+      "ref": "FRP-019-GA-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -4817,7 +4817,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates se livrent à des attaques dans les eaux ctières et parfois aussi plus loin au large. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie Intern",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -4903,7 +4903,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La vaccination contre l'hépatite B est recommandée à tous les voyageurs. Prévenez l'infection par l'hépatite B en pratiquant des relations sexuelles protégées, en utilisant uniquement du matériel médical neuf et stérile et en vous faisant tatouer et percer uniquement dans des environnements qui respectent les réglementations et normes de santé publique."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -5040,17 +5040,17 @@
         }
       },
       "carteVigilance": "/maps/GA.jpg",
-      "scrapedAt": "2026-07-29T04:15:22.383109"
+      "scrapedAt": "2026-07-30T04:08:33.195139"
     },
     "GM": {
       "iso": "GM",
       "name": "Gambie",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-020-GM-V5",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 6,
+      "ref": "FRP-020-GM-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5059,7 +5059,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5287,17 +5287,17 @@
         }
       },
       "carteVigilance": "/maps/GM.jpg",
-      "scrapedAt": "2026-07-29T04:15:26.462559"
+      "scrapedAt": "2026-07-30T04:08:35.932884"
     },
     "GH": {
       "iso": "GH",
       "name": "Ghana",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-021-GH-V5",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 6,
+      "ref": "FRP-021-GH-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5306,7 +5306,7 @@
         "niveau": "modere",
         "titre": "Zone frontalière avec le Burkina Faso - &Eacute;vitez tout voyage non essentiel",
         "texte": "&Eacute;vitez tout voyage non essentiel à moins de 25 km de la frontière avec le Burkina Faso en raison du risque de conflit intercommunautaire et de l'activité terroriste.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5630,17 +5630,17 @@
         }
       },
       "carteVigilance": "/maps/GH.jpg",
-      "scrapedAt": "2026-07-29T04:15:30.717990"
+      "scrapedAt": "2026-07-30T04:08:38.935117"
     },
     "GN": {
       "iso": "GN",
       "name": "Guinée",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-022-GN-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-022-GN-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5649,7 +5649,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Il existe une menace terroriste. Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de tr",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -5785,7 +5785,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La vaccination contre l'hépatite B est recommandée à tous les voyageurs. Prévenez l'infection par l'hépatite B en pratiquant des relations sexuelles protégées, en utilisant uniquement du matériel médical neuf et stérile et en vous faisant tatouer et percer uniquement dans des environnements qui respectent les réglementations et normes de santé publique."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La fièvre jaune est une maladie causée par un flavivirus qui se transmet par la piqre d'un moustique infecté."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -5944,17 +5944,17 @@
         }
       },
       "carteVigilance": "/maps/GN.jpg",
-      "scrapedAt": "2026-07-29T04:15:34.810086"
+      "scrapedAt": "2026-07-30T04:08:41.884950"
     },
     "GQ": {
       "iso": "GQ",
       "name": "Guinée Éq.",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-023-GQ-V6",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 7,
+      "ref": "FRP-023-GQ-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -5963,7 +5963,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, et dans certains cas, plus loin dans la mer. Les navigateurs doivent prendre les précautions qui ",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6217,17 +6217,17 @@
         }
       },
       "carteVigilance": "/maps/GQ.jpg",
-      "scrapedAt": "2026-07-29T04:15:38.879955"
+      "scrapedAt": "2026-07-30T04:08:44.776785"
     },
     "GW": {
       "iso": "GW",
       "name": "Guinée-Bissau",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-024-GW-V4",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 5,
+      "ref": "FRP-024-GW-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -6236,7 +6236,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6332,7 +6332,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La vaccination contre l'hépatite B est recommandée à tous les voyageurs. Prévenez l'infection par l'hépatite B en pratiquant des relations sexuelles protégées, en utilisant uniquement du matériel médical neuf et stérile et en vous faisant tatouer et percer uniquement dans des environnements qui respectent les réglementations et normes de santé publique."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -6448,17 +6448,17 @@
         }
       },
       "carteVigilance": "/maps/GW.jpg",
-      "scrapedAt": "2026-07-29T04:15:42.077000"
+      "scrapedAt": "2026-07-30T04:08:47.052366"
     },
     "KE": {
       "iso": "KE",
       "name": "Kenya",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-025-KE-V7",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 8,
+      "ref": "FRP-025-KE-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -6467,7 +6467,7 @@
         "niveau": "eleve",
         "titre": "l’ensemble de la zone, les navires bas et lents sur l’eau étant les plus vulnérables à des actions d’abordage hostiles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -6866,17 +6866,17 @@
         }
       },
       "carteVigilance": "/maps/KE.jpg",
-      "scrapedAt": "2026-07-29T04:15:46.673146"
+      "scrapedAt": "2026-07-30T04:08:50.660778"
     },
     "LS": {
       "iso": "LS",
       "name": "Lesotho",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-026-LS-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-026-LS-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -6885,7 +6885,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7089,17 +7089,17 @@
         }
       },
       "carteVigilance": "/maps/LS.jpg",
-      "scrapedAt": "2026-07-29T04:15:50.782347"
+      "scrapedAt": "2026-07-30T04:08:53.475452"
     },
     "LR": {
       "iso": "LR",
       "name": "Libéria",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-027-LR-V6",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 7,
+      "ref": "FRP-027-LR-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7108,7 +7108,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Les endroits suivants pourraient tre ciblés : les édifices gouvernementaux, y compris les écoles; les aéroports, ainsi que d'autres plaques tournantes et réseaux de transport;",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7388,17 +7388,17 @@
         }
       },
       "carteVigilance": "/maps/LR.jpg",
-      "scrapedAt": "2026-07-29T04:15:54.774150"
+      "scrapedAt": "2026-07-30T04:08:56.520391"
     },
     "LY": {
       "iso": "LY",
       "name": "Libye",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-028-LY-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-028-LY-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7407,7 +7407,7 @@
         "niveau": "eleve",
         "titre": "en Libye : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -7513,7 +7513,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La vaccination contre l'hépatite B est recommandée à tous les voyageurs. Prévenez l'infection par l'hépatite B en pratiquant des relations sexuelles protégées, en utilisant uniquement du matériel médical neuf et stérile et en vous faisant tatouer et percer uniquement dans des environnements qui respectent les réglementations et normes de santé publique."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La fièvre jaune est une maladie causée par un flavivirus que se transmet par la piqre d'un moustique infecté."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -7733,17 +7733,17 @@
         }
       },
       "carteVigilance": "/maps/LY.jpg",
-      "scrapedAt": "2026-07-29T04:15:58.725166"
+      "scrapedAt": "2026-07-30T04:08:59.364527"
     },
     "MG": {
       "iso": "MG",
       "name": "Madagascar",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-029-MG-V5",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 6,
+      "ref": "FRP-029-MG-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -7752,7 +7752,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie ",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8020,17 +8020,17 @@
         }
       },
       "carteVigilance": "/maps/MG.jpg",
-      "scrapedAt": "2026-07-29T04:16:03.060628"
+      "scrapedAt": "2026-07-30T04:09:02.387755"
     },
     "MW": {
       "iso": "MW",
       "name": "Malawi",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-030-MW-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-030-MW-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8039,7 +8039,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8302,17 +8302,17 @@
         }
       },
       "carteVigilance": "/maps/MW.jpg",
-      "scrapedAt": "2026-07-29T04:16:06.770801"
+      "scrapedAt": "2026-07-30T04:09:05.415444"
     },
     "ML": {
       "iso": "ML",
       "name": "Mali",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-031-ML-V7",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 8,
+      "ref": "FRP-031-ML-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8321,7 +8321,7 @@
         "niveau": "modere",
         "titre": "MALI - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Mali en raison du risque de terrorisme, d'enlèvement, de banditisme et des pénuries de carburant. Si la situation en matière de sécurité au Mali se détériore, la capacité ",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8590,17 +8590,17 @@
         }
       },
       "carteVigilance": "/maps/ML.jpg",
-      "scrapedAt": "2026-07-29T04:16:10.884019"
+      "scrapedAt": "2026-07-30T04:09:08.187826"
     },
     "MA": {
       "iso": "MA",
       "name": "Maroc",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-032-MA-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-032-MA-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8609,7 +8609,7 @@
         "niveau": "modere",
         "titre": "Maroc - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence au Maroc en raison de la menace que pose le terrorisme.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -8917,17 +8917,17 @@
         }
       },
       "carteVigilance": "/maps/MA.jpg",
-      "scrapedAt": "2026-07-29T04:16:15.525332"
+      "scrapedAt": "2026-07-30T04:09:11.104574"
     },
     "MR": {
       "iso": "MR",
       "name": "Mauritanie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 8,
-      "ref": "FRP-033-MR-V8",
-      "sourceDateStr": "28 Jul 2026",
-      "dateMAJInterne": "29 Jul 2026",
+      "version": 9,
+      "ref": "FRP-033-MR-V9",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -8936,7 +8936,7 @@
         "niveau": "eleve",
         "titre": "dans les zones situées : au nord de la ville de Zouérate ; à l’est d’une ligne Ghallaouia – Akhrejit ; au nord-est d’un : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9047,7 +9047,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Cette destination se trouve dans la ceinture africaine de la méningite , une région qui présente les taux de méningococcie les plus élevés au monde. La méningococcie est une infection grave et parfois mortelle."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La fièvre jaune est une maladie causée par un flavivirus qui se transmet par la piqre d'un moustique infecté."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -9225,17 +9225,17 @@
         }
       },
       "carteVigilance": "/maps/MR.jpg",
-      "scrapedAt": "2026-07-29T04:16:19.824923"
+      "scrapedAt": "2026-07-30T04:09:13.964229"
     },
     "MU": {
       "iso": "MU",
       "name": "Maurice",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-034-MU-V5",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 6,
+      "ref": "FRP-034-MU-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9244,7 +9244,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans l'Océan indien. Les navigateurs doivent prendre les précautions qui s'imposent. Carte en direct sur la piraterie In",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9499,17 +9499,17 @@
         }
       },
       "carteVigilance": "/maps/MU.jpg",
-      "scrapedAt": "2026-07-29T04:16:23.599862"
+      "scrapedAt": "2026-07-30T04:09:16.844876"
     },
     "MZ": {
       "iso": "MZ",
       "name": "Mozambique",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-035-MZ-V7",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 8,
+      "ref": "FRP-035-MZ-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9518,7 +9518,7 @@
         "niveau": "eleve",
         "titre": "dans l’ensemble de la province du Cabo Delgado, y compris son chef-lieu Pemba, ainsi que dans le tiers Est de la provin : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -9866,17 +9866,17 @@
         }
       },
       "carteVigilance": "/maps/MZ.jpg",
-      "scrapedAt": "2026-07-29T04:16:28.951174"
+      "scrapedAt": "2026-07-30T04:09:20.060831"
     },
     "NA": {
       "iso": "NA",
       "name": "Namibie",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-036-NA-V5",
-      "sourceDateStr": "13 Jul 2026",
-      "dateMAJInterne": "14 Jul 2026",
+      "version": 6,
+      "ref": "FRP-036-NA-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -9885,7 +9885,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10188,17 +10188,17 @@
         }
       },
       "carteVigilance": "/maps/NA.jpg",
-      "scrapedAt": "2026-07-29T04:16:33.238825"
+      "scrapedAt": "2026-07-30T04:09:22.915539"
     },
     "NE": {
       "iso": "NE",
       "name": "Niger",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-037-NE-V5",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 6,
+      "ref": "FRP-037-NE-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10207,7 +10207,7 @@
         "niveau": "modere",
         "titre": "NIGER - &Eacute;VITEZ TOUT VOYAGE",
         "texte": "&Eacute;vitez tout voyage au Niger en raison de l'instabilité politique et des risques de terrorisme et d'enlèvement. La situation politique et sécuritaire au Niger demeure imprévisible. Vous devriez ",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10500,17 +10500,17 @@
         }
       },
       "carteVigilance": "/maps/NE.jpg",
-      "scrapedAt": "2026-07-29T04:16:37.168532"
+      "scrapedAt": "2026-07-30T04:09:25.879120"
     },
     "NG": {
       "iso": "NG",
       "name": "Nigéria",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 8,
-      "ref": "FRP-038-NG-V8",
-      "sourceDateStr": "14 Jul 2026",
-      "dateMAJInterne": "15 Jul 2026",
+      "version": 9,
+      "ref": "FRP-038-NG-V9",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10519,7 +10519,7 @@
         "niveau": "eleve",
         "titre": "le Nord-Est, les États de Borno, Yobe, Gombe, Bauchi, Adamawa au nord de la Bénoué, Jigawa et Kano, (à l’exception de l : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -10918,17 +10918,17 @@
         }
       },
       "carteVigilance": "/maps/NG.jpg",
-      "scrapedAt": "2026-07-29T04:16:42.149787"
+      "scrapedAt": "2026-07-30T04:09:29.106838"
     },
     "UG": {
       "iso": "UG",
       "name": "Ouganda",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 9,
-      "ref": "FRP-039-UG-V9",
-      "sourceDateStr": "23 Jul 2026",
-      "dateMAJInterne": "24 Jul 2026",
+      "version": 10,
+      "ref": "FRP-039-UG-V10",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -10937,7 +10937,7 @@
         "niveau": "modere",
         "titre": "Ouganda - &Eacute;VITEZ TOUT VOYAGE NON ESSENTIEL",
         "texte": "&Eacute;vitez tout voyage non essentiel en Ouganda en raison de l'impact régional de l'éclosion de maladie Ebola, ainsi que de la menace terroriste et du taux de criminalité élevé.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11256,17 +11256,17 @@
         }
       },
       "carteVigilance": "/maps/UG.jpg",
-      "scrapedAt": "2026-07-29T04:16:46.378488"
+      "scrapedAt": "2026-07-30T04:09:32.100162"
     },
     "RW": {
       "iso": "RW",
       "name": "Rwanda",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-040-RW-V5",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 6,
+      "ref": "FRP-040-RW-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11275,7 +11275,7 @@
         "niveau": "modere",
         "titre": "Cybercriminalité",
         "texte": "La cybercriminalité, les attaques de logiciels malveillants et l'extorsion en ligne surviennent au Rwanda. Les criminels peuvent compromettre les réseaux Wi-Fi publics afin de voler des données person",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11563,17 +11563,17 @@
         }
       },
       "carteVigilance": "/maps/RW.jpg",
-      "scrapedAt": "2026-07-29T04:16:50.444591"
+      "scrapedAt": "2026-07-30T04:09:35.000353"
     },
     "ST": {
       "iso": "ST",
       "name": "São Tomé",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-041-ST-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-041-ST-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11582,7 +11582,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des attaques de pirates et des vols à main armée contre des navires surviennent dans les eaux ctières et, dans certains cas, plus loin en mer. Les voyageurs devraient prendre les précautions nécessair",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -11844,17 +11844,17 @@
         }
       },
       "carteVigilance": "/maps/ST.jpg",
-      "scrapedAt": "2026-07-29T04:16:54.063714"
+      "scrapedAt": "2026-07-30T04:09:37.780479"
     },
     "SN": {
       "iso": "SN",
       "name": "Sénégal",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 5,
-      "ref": "FRP-042-SN-V5",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 6,
+      "ref": "FRP-042-SN-V6",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -11863,7 +11863,7 @@
         "niveau": "modere",
         "titre": "Terrorisme",
         "texte": "Des attaques terroristes ont eu lieu dans certains pays frontaliers. La possibilité d'attaque terroriste ne peut tre exclue, notamment dans la zone frontalière avec le Mali. Les endroits suivants pour",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12180,17 +12180,17 @@
         }
       },
       "carteVigilance": "/maps/SN.jpg",
-      "scrapedAt": "2026-07-29T04:16:58.116444"
+      "scrapedAt": "2026-07-30T04:09:40.695396"
     },
     "SL": {
       "iso": "SL",
       "name": "Sierra Leone",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-043-SL-V7",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 8,
+      "ref": "FRP-043-SL-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -12199,7 +12199,7 @@
         "niveau": "modere",
         "titre": "Régions frontalières",
         "texte": "Les zones frontalières sont mal surveillées par les autorités locales. Les zones frontalières avec la Guinée et le Libéria sont affectées par des conflits territoriaux en cours, des opérations militai",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12493,17 +12493,17 @@
         }
       },
       "carteVigilance": "/maps/SL.jpg",
-      "scrapedAt": "2026-07-29T04:17:01.876850"
+      "scrapedAt": "2026-07-30T04:09:43.834356"
     },
     "SO": {
       "iso": "SO",
       "name": "Somalie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-044-SO-V7",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 8,
+      "ref": "FRP-044-SO-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -12512,7 +12512,7 @@
         "niveau": "eleve",
         "titre": "la zone : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -12811,17 +12811,17 @@
         }
       },
       "carteVigilance": "/maps/SO.jpg",
-      "scrapedAt": "2026-07-29T04:17:05.766213"
+      "scrapedAt": "2026-07-30T04:09:46.924902"
     },
     "SD": {
       "iso": "SD",
       "name": "Soudan",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-045-SD-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-045-SD-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -12830,7 +12830,7 @@
         "niveau": "eleve",
         "titre": "dans l’ensemble du territoire soudanais, y compris à Khartoum et à Port-Soudan : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13179,7 +13179,7 @@
         }
       },
       "carteVigilance": "/maps/SD.jpg",
-      "scrapedAt": "2026-07-29T04:17:09.848745"
+      "scrapedAt": "2026-07-30T04:09:49.859319"
     },
     "SS": {
       "iso": "SS",
@@ -13198,7 +13198,7 @@
         "niveau": "faible",
         "titre": "Aucune alerte majeure en cours",
         "texte": "Aucun événement de sécurité majeur signalé récemment par les sources officielles. Vigilance habituelle recommandée.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13251,17 +13251,17 @@
         }
       },
       "carteVigilance": "/maps/SS.jpg",
-      "scrapedAt": "2026-07-29T04:17:14.213524"
+      "scrapedAt": "2026-07-30T04:09:52.977309"
     },
     "TZ": {
       "iso": "TZ",
       "name": "Tanzanie",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 9,
-      "ref": "FRP-047-TZ-V9",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 10,
+      "ref": "FRP-047-TZ-V10",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13270,7 +13270,7 @@
         "niveau": "modere",
         "titre": "Tanzanie - Faites preuve d'une grande prudence",
         "texte": "Faites preuve d'une grande prudence en Tanzanie en raison du taux de criminalité et du risque que représente le terrorisme.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13446,7 +13446,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La polio (poliomyélite) est une maladie infectieuse qui peut tre prévenue par la vaccination. Elle est causée par le poliovirus de type 1, 2 ou 3. Le poliovirus circulant dérivé d'une souche vaccinale 2 (cVDPV2) est présent dans ce pays. La polio se transmet d'une personne à l'autre et par l'intermédiaire d'aliments et d'eau contaminés. L'infection par le poliovirus peut provoquer la paralysie et la mort chez les personnes de tout ge qui ne sont pas immunisées. Recommandations :"
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Il existe un risque d' hépatite A dans cette destination. C'est une maladie du foie. Les gens peuvent contracter l'hépatite A s'ils ingèrent des aliments ou de l'eau contaminés, mangent des aliments préparés par une personne infectieuse ou s'ils ont un contact physique étroit (comme des relations sexuelles orales ou anales) avec une personne infectieuse, bien qu'un contact occasionnel entre les personnes ne propage pas l'hépatite A virus."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -13649,17 +13649,17 @@
         }
       },
       "carteVigilance": "/maps/TZ.jpg",
-      "scrapedAt": "2026-07-29T04:17:18.957206"
+      "scrapedAt": "2026-07-30T04:09:56.216822"
     },
     "TD": {
       "iso": "TD",
       "name": "Tchad",
       "region": "Afrique Centrale",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-048-TD-V6",
-      "sourceDateStr": "08 Jul 2026",
-      "dateMAJInterne": "10 Jul 2026",
+      "version": 7,
+      "ref": "FRP-048-TD-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13668,7 +13668,7 @@
         "niveau": "eleve",
         "titre": "ces zones frontalières de la Libye, depuis août 2018, en vue de contrôler les incursions armées de groupes rebelles : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -13804,7 +13804,7 @@
         {
           "cat": "Vaccins et médicaments pré-voyage",
           "niveau": "faible",
-          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. Cette destination se trouve dans la ceinture africaine de la méningite , une région qui présente les taux de méningococcie les plus élevés au monde. La méningococcie est une infection grave et parfois mortelle."
+          "texte": "Lorsque vous voyagez vers cette destination, vous risquez de contracter des maladies que peuvent tre évitées grce à des vaccins ou des médicaments. Consultez un fournisseur de soins de santé en voyage pour savoir quels sont ceux qui vous conviennent en fonction de vos projets de voyage. Les points forts ci-dessous vous indiqueront également si votre destination peut exiger ce vaccin à l'entrée ou à la sortie. La fièvre jaune est une maladie causée par un flavivirus qui se transmet par la piqre d'un moustique infecté."
         },
         {
           "cat": "Précautions pour la nourriture et l'eau",
@@ -13967,17 +13967,17 @@
         }
       },
       "carteVigilance": "/maps/TD.jpg",
-      "scrapedAt": "2026-07-29T04:17:23.296514"
+      "scrapedAt": "2026-07-30T04:09:59.270122"
     },
     "TG": {
       "iso": "TG",
       "name": "Togo",
       "region": "Afrique de l'Ouest",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-049-TG-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-049-TG-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -13986,7 +13986,7 @@
         "niveau": "modere",
         "titre": "Frontière avec le Burkina Faso - &Eacute;vitez tout voyage",
         "texte": "&Eacute;vitez tout voyage à 30km de la frontière avec le Burkina Faso, en raison des opérations militaires, de la menace terroriste et du risque d'enlèvement. Cet avertissement inclus la ville ainsi q",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14291,17 +14291,17 @@
         }
       },
       "carteVigilance": "/maps/TG.jpg",
-      "scrapedAt": "2026-07-29T04:17:27.407564"
+      "scrapedAt": "2026-07-30T04:10:02.233575"
     },
     "TN": {
       "iso": "TN",
       "name": "Tunisie",
       "region": "Afrique du Nord",
       "risk": "eleve",
-      "version": 4,
-      "ref": "FRP-050-TN-V4",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 5,
+      "ref": "FRP-050-TN-V5",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14310,7 +14310,7 @@
         "niveau": "eleve",
         "titre": "dans la zone montagneuse de l’Ouest (monts d’Orbata, Selloum, Semema, Chambi et Mghila), car pouvant abriter différente : formellement déconseillé",
         "texte": "Zone à risque majeur identifiée par les sources officielles. Déplacement à proscrire dans cette zone.",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14627,17 +14627,17 @@
         }
       },
       "carteVigilance": "/maps/TN.jpg",
-      "scrapedAt": "2026-07-29T04:17:31.470757"
+      "scrapedAt": "2026-07-30T04:10:05.185142"
     },
     "ZA": {
       "iso": "ZA",
       "name": "Afrique du Sud",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 9,
-      "ref": "FRP-051-ZA-V9",
-      "sourceDateStr": "13 Jul 2026",
-      "dateMAJInterne": "14 Jul 2026",
+      "version": 10,
+      "ref": "FRP-051-ZA-V10",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14646,7 +14646,7 @@
         "niveau": "modere",
         "titre": "Enlèvements",
         "texte": "Des enlèvements pour ranons surviennent fréquemment et des ressortissants étrangers ont été enlevés par le passé. Dans certains cas, les victimes ont été attirées via des applications de rencontres en",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -14964,17 +14964,17 @@
         }
       },
       "carteVigilance": "/maps/ZA.jpg",
-      "scrapedAt": "2026-07-29T04:17:35.930078"
+      "scrapedAt": "2026-07-30T04:10:08.396126"
     },
     "ZM": {
       "iso": "ZM",
       "name": "Zambie",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 7,
-      "ref": "FRP-052-ZM-V7",
-      "sourceDateStr": "27 Jul 2026",
-      "dateMAJInterne": "28 Jul 2026",
+      "version": 8,
+      "ref": "FRP-052-ZM-V8",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -14983,7 +14983,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15293,17 +15293,17 @@
         }
       },
       "carteVigilance": "/maps/ZM.jpg",
-      "scrapedAt": "2026-07-29T04:17:40.337923"
+      "scrapedAt": "2026-07-30T04:10:11.347656"
     },
     "ZW": {
       "iso": "ZW",
       "name": "Zimbabwe",
       "region": "Afrique Australe",
       "risk": "eleve",
-      "version": 6,
-      "ref": "FRP-053-ZW-V6",
-      "sourceDateStr": "22 Jul 2026",
-      "dateMAJInterne": "23 Jul 2026",
+      "version": 7,
+      "ref": "FRP-053-ZW-V7",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -15312,7 +15312,7 @@
         "niveau": "modere",
         "titre": "Enlèvement international d'enfants",
         "texte": "La Convention de La Haye sur les aspects civils de l'enlèvement international d'enfants est un traité international. Elle peut aider les parents à obtenir le retour de leurs enfants lorsque ceux-ci on",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15601,17 +15601,17 @@
         }
       },
       "carteVigilance": "/maps/ZW.jpg",
-      "scrapedAt": "2026-07-29T04:17:44.402120"
+      "scrapedAt": "2026-07-30T04:10:14.258828"
     },
     "SC": {
       "iso": "SC",
       "name": "Seychelles",
       "region": "Afrique de l'Est",
       "risk": "eleve",
-      "version": 2,
-      "ref": "FRP-054-SC-V2",
-      "sourceDateStr": "23 Jun 2026",
-      "dateMAJInterne": "24 Jun 2026",
+      "version": 3,
+      "ref": "FRP-054-SC-V3",
+      "sourceDateStr": "29 Jul 2026",
+      "dateMAJInterne": "30 Jul 2026",
       "sources": [
         "voyage.gc.ca",
         "diplomatie.gouv.fr"
@@ -15620,7 +15620,7 @@
         "niveau": "modere",
         "titre": "Piraterie",
         "texte": "Des pirates commettent des attaques et des vols à main armée contre des navires dans les eaux ctières, en particulier dans le golfe d'Aden et l'océan Indien. Bien que le nombre de cas de piraterie ait",
-        "date": "29 Jul 2026"
+        "date": "30 Jul 2026"
       },
       "autresAlertes": [],
       "angleTN": [
@@ -15859,7 +15859,7 @@
         }
       },
       "carteVigilance": "/maps/SC.jpg",
-      "scrapedAt": "2026-07-29T04:17:48.186669"
+      "scrapedAt": "2026-07-30T04:10:17.104663"
     }
   }
 }
